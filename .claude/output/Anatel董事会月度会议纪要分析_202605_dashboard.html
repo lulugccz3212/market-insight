@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatel董事会月度会议纪要分析 2026 5月 by 战略助理 with Claude Code + DeepSeek V4 Pro</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-dim: #64748b;
+            --border: #e8ecf1;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --radius: 14px;
+            --blue: #2563eb;
+            --blue-light: #eff6ff;
+            --green: #059669;
+            --green-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --purple: #7c3aed;
+            --purple-light: #f5f3ff;
+            --red: #dc2626;
+            --red-light: #fef2f2;
+            --teal: #0d9488;
+            --teal-light: #f0fdfa;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 15px;
+        }
+
+        .app { display: flex; min-height: 100vh; }
+
+        /* Sidebar */
+        .sidebar {
+            width: 260px; flex-shrink: 0;
+            background: var(--white); border-right: 1px solid var(--border);
+            padding: 32px 20px; display: flex; flex-direction: column;
+            position: sticky; top: 0; height: 100vh; overflow-y: auto;
+        }
+        .sidebar .logo-area { margin-bottom: 36px; }
+        .sidebar .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 18px; margin-bottom: 10px;
+        }
+        .sidebar .logo-text { font-size: 14px; font-weight: 600; color: var(--text); }
+        .sidebar .logo-sub { font-size: 11px; color: var(--text-dim); }
+
+        .sidebar nav { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .sidebar nav a {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px; border-radius: 8px;
+            text-decoration: none; color: var(--text-dim);
+            font-size: 13px; font-weight: 500; transition: all 0.15s;
+        }
+        .sidebar nav a:hover { background: var(--bg); color: var(--text); }
+        .sidebar nav a.active { background: var(--blue-light); color: var(--blue); }
+        .sidebar nav a .badge {
+            margin-left: auto; font-size: 10px; background: var(--border);
+            color: var(--text-dim); padding: 2px 6px; border-radius: 10px; font-weight: 600;
+        }
+        .sidebar nav a.active .badge { background: var(--blue); color: #fff; }
+        .sidebar .footer-meta { font-size: 11px; color: var(--text-dim); padding-top: 16px; border-top: 1px solid var(--border); }
+
+        /* Main */
+        .main { flex: 1; min-width: 0; padding: 36px 40px; }
+
+        /* Header */
+        .page-header {
+            display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 32px;
+        }
+        .page-header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: var(--blue); font-weight: 600; margin-bottom: 8px;
+        }
+        .page-header h1 {
+            font-size: 28px; font-weight: 700; color: var(--text);
+            letter-spacing: -0.5px; line-height: 1.2;
+        }
+        .page-header .subtitle { font-size: 14px; color: var(--text-dim); margin-top: 6px; }
+
+        /* KPI */
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 36px;
+        }
+        .kpi {
+            background: var(--white); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: var(--shadow); border: 1px solid var(--border);
+        }
+        .kpi .kpi-icon { font-size: 22px; margin-bottom: 8px; }
+        .kpi .kpi-val { font-size: 32px; font-weight: 700; color: var(--text); line-height: 1; }
+        .kpi .kpi-label { font-size: 13px; color: var(--text-dim); margin-top: 6px; }
+        .kpi .kpi-change { font-size: 12px; margin-top: 4px; font-weight: 500; }
+
+        /* Section */
+        .section { margin-bottom: 32px; }
+        .section-title {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+        }
+        .section-title .marker {
+            width: 4px; height: 20px; border-radius: 2px; flex-shrink: 0;
+        }
+        .section-title .marker.blue { background: var(--blue); }
+        .section-title .marker.green { background: var(--green); }
+        .section-title .marker.amber { background: var(--amber); }
+        .section-title .marker.purple { background: var(--purple); }
+        .section-title .marker.red { background: var(--red); }
+        .section-title .marker.teal { background: var(--teal); }
+        .section-title h2 { font-size: 16px; font-weight: 600; color: var(--text); }
+        .section-title .sub { font-size: 13px; color: var(--text-dim); }
+
+        /* Card list */
+        .card-list { display: grid; grid-template-columns: 1fr; gap: 12px; }
+
+        .card {
+            background: var(--white); border-radius: 10px;
+            padding: 20px 24px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: #c4d0e0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .card .card-header { margin-bottom: 12px; }
+        .card .card-header .item-num {
+            font-size: 12px; font-weight: 600; color: var(--blue); margin-bottom: 4px;
+        }
+        .card .card-header .headline {
+            font-size: 16px; font-weight: 600; color: var(--text); line-height: 1.4;
+        }
+        .card .card-body .desc {
+            font-size: 14px; color: var(--text-dim); line-height: 1.6; margin-bottom: 12px;
+        }
+        .card .card-body .meta-row {
+            display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center;
+        }
+        .card .card-body .meta-item {
+            font-size: 12px; color: var(--text-dim); display: flex; align-items: center; gap: 4px;
+        }
+        .card .card-body .meta-label { font-weight: 500; color: var(--text); }
+        .card .card-body .conclusion {
+            background: var(--blue-light); border-left: 3px solid var(--blue);
+            padding: 10px 14px; border-radius: 6px; font-size: 13px; color: var(--text); line-height: 1.5;
+        }
+        .card .card-body .conclusion.green { background: var(--green-light); border-left-color: var(--green); }
+        .card .card-body .conclusion.amber { background: var(--amber-light); border-left-color: var(--amber); }
+        .card .card-body .conclusion.purple { background: var(--purple-light); border-left-color: var(--purple); }
+
+        /* Chips */
+        .chip {
+            font-size: 11px; padding: 3px 10px; border-radius: 4px;
+            font-weight: 500; display: inline-block;
+        }
+        .chip.approval { background: var(--green-light); color: var(--green); }
+        .chip.consultation { background: var(--purple-light); color: var(--purple); }
+        .chip.study { background: var(--blue-light); color: var(--blue); }
+        .chip.other { background: #f1f5f9; color: #475569; }
+        .chip.spectrum { background: #e0f2fe; color: #0369a1; }
+        .chip.network { background: #fce7f3; color: #be185d; }
+        .chip.policy { background: #fef3c7; color: #92400e; }
+        .chip.market { background: var(--green-light); color: #047857; }
+        .chip.compliance { background: #fee2e2; color: #b91c1c; }
+        .chip.consumer { background: var(--purple-light); color: #6d28d9; }
+        .chip.security { background: var(--amber-light); color: #b45309; }
+
+        .chip.extrapauta {
+            background: #fff7ed; color: #c2410c; border: 1px solid #fdba74;
+        }
+
+        /* Conselheiro header */
+        .conselheiro-header {
+            background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+            border: 1px solid var(--border); border-radius: var(--radius);
+            padding: 16px 20px; margin-bottom: 12px;
+            display: flex; align-items: center; gap: 12px;
+        }
+        .conselheiro-header .avatar {
+            width: 42px; height: 42px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--blue), var(--purple));
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 16px; flex-shrink: 0;
+        }
+        .conselheiro-header .info .name { font-weight: 600; color: var(--text); }
+        .conselheiro-header .info .role { font-size: 12px; color: var(--text-dim); }
+
+        /* Meeting info banner */
+        .meeting-banner {
+            background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+            border-radius: var(--radius); padding: 24px 28px; margin-bottom: 28px;
+            color: #fff;
+        }
+        .meeting-banner .meeting-num { font-size: 13px; opacity: 0.85; margin-bottom: 4px; }
+        .meeting-banner .meeting-title { font-size: 22px; font-weight: 700; }
+        .meeting-banner .meeting-meta { font-size: 13px; opacity: 0.8; margin-top: 8px; display: flex; gap: 20px; flex-wrap: wrap; }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .main { padding: 24px 20px; }
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+<div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">⧩</div>
+            <div class="logo-text">Market Insight</div>
+            <div class="logo-sub">巴西电信市场情报</div>
+        </div>
+        <nav>
+            <a href="#overview" class="active">会议总览 <span class="badge">21</span></a>
+            <a href="#extrapauta">临时议题 (Extra-Pauta) <span class="badge">3</span></a>
+            <a href="#alexandre-freire">Cons. Alexandre Freire <span class="badge">6</span></a>
+            <a href="#otavio-pieranti">Cons. Otávio Pieranti <span class="badge">3</span></a>
+            <a href="#edson-holanda">Cons. Edson Holanda <span class="badge">10</span></a>
+            <a href="#nilo-pasquale">Cons. Nilo Pasquale <span class="badge">8</span></a>
+        </nav>
+        <div class="footer-meta">
+            战略助理<br>Claude Code · DeepSeek V4 Pro
+        </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <div class="eyebrow">Board Meeting Intelligence · 巴西 · by 战略助理 with Claude Code + DeepSeek V4 Pro</div>
+                <h1>Anatel董事会月度会议纪要分析</h1>
+                <div class="subtitle">2026年5月 · 953ª Reunião Ordinária do Conselho Diretor · 2026年5月7日</div>
+            </div>
+        </div>
+
+        <!-- Meeting Banner -->
+        <div class="meeting-banner">
+            <div class="meeting-num">953ª Reunião Ordinária do Conselho Diretor</div>
+            <div class="meeting-title">Anatel董事会第953次例行会议</div>
+            <div class="meeting-meta">
+                <span>📅 2026年5月7日</span>
+                <span>⏱ 会议时长约98分钟</span>
+                <span>👨‍⚖️ 主席: Carlos Manuel Baigorri</span>
+                <span>📋 21项议题</span>
+                <span>🏛️ 巴西利亚</span>
+            </div>
+        </div>
+
+        <!-- KPI Overview -->
+        <div class="kpi-grid" id="overview">
+            <div class="kpi">
+                <div class="kpi-icon">📋</div>
+                <div class="kpi-val">21</div>
+                <div class="kpi-label">议题总数</div>
+                <div class="kpi-change">临时议题 3 · 例行议题 18</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">✅</div>
+                <div class="kpi-val">15</div>
+                <div class="kpi-label">一致性通过</div>
+                <div class="kpi-change">Approval 15 · Study 1</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">🔍</div>
+                <div class="kpi-val">6</div>
+                <div class="kpi-label">重点讨论/转调查</div>
+                <div class="kpi-change">Vista/Diligência · Consulta Pública</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">👨‍⚖️</div>
+                <div class="kpi-val">4</div>
+                <div class="kpi-label">出席董事</div>
+                <div class="kpi-change">Freire · Pieranti · Holanda · Pasquale</div>
+            </div>
+        </div>
+
+        <!-- ===== 临时议题 Extra-Pauta ===== -->
+        <div class="section" id="extrapauta">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>临时议题 (Extra-Pauta)</h2>
+                <span class="sub">3 项</span>
+            </div>
+            <div class="card-list">
+
+                <!-- Extra-Pauta 1: White Paper -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">Extra-Pauta 1 · Cons. Alexandre Freire</div>
+                        <div class="headline">频谱与轨道资源可持续利用白皮书 (White Paper sobre Uso Sustentável de Recursos de Espectro e Órbita)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            该白皮书针对低轨道卫星星座快速扩张带来的轨道可持续性挑战，系统梳理了频谱与轨道资源治理的国内外框架。议题涵盖：
+                            (1) Starlink、SpaceSail等大型NGSO星座授权对巴西连通性的影响；
+                            (2) 空间碎片减缓（约54,000个&gt;10cm物体已编目, 约130万个1-10cm碎片）；
+                            (3) 国际治理框架（ITU、UN COPUOS、Space 2030 Agenda）；
+                            (4) 巴西国内法规框架（LGT、空间活动法、监管警示Acórdão 91/2025）；
+                            (5) ESG原则在航天领域的应用。
+                            截至2025年12月，巴西卫星宽带用户约75.8万，占固定宽带的1.4%。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip study">Study</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip policy">Policy</span>
+                            <span class="chip extrapauta">Extra-Pauta</span>
+                        </div>
+                        <div class="conclusion amber">
+                            <strong>结论：</strong>白皮书由C-INT和CEO委员会联合编写，经Alexandre Freire呈报。文件将公开发布，作为Anatel对空间可持续性议题的立场文件。议会一致认可该议题的战略重要性。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra-Pauta 2: Accessibility Award -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">Extra-Pauta 2 · Cons. Alexandre Freire</div>
+                        <div class="headline">Anatel无障碍奖表彰及SPR团队工作致意 (Prêmio Anatel de Acessibilidade)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            5月6日（会议前夕）举行了Anatel无障碍奖颁奖典礼，适逢世界无障碍意识月。Vivo和Algar两家运营商获奖。Alexandre Freire对SPR（监管规划局）和SFI（监管检查局）团队在无障碍和包容性方面的工作表示赞赏。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip other">Other</span>
+                            <span class="chip consumer">Consumer</span>
+                            <span class="chip extrapauta">Extra-Pauta</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>主席Baigorri和多位董事随附表彰致辞。会议认可Anatel在推动电信服务无障碍化方面的持续努力。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra-Pauta 3: GT IPP & GIRED Report -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">Extra-Pauta 3 · Cons. Otávio Pieranti</div>
+                        <div class="headline">公共政策实施工作组(GT IPP)及频谱经济组(GIRED)月度活动报告</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            Otávio Pieranti报告了其主持的GT IPP和GIRED在2026年4月至5月初的活动进展：
+                            (1) 反向拍卖（Leilões Reversos）：三轮拍卖覆盖235个地区，231个已安装4G基站，98%完成率，第四轮拍卖正在筹备中；
+                            (2) TV 3.0：持续推进，接近在巴西正式启动运营；
+                            (3) 抛物面天线迁移：已交付超过500万套Ku波段迁移套件（GAPE项目）；
+                            (4) 安全手机项目（Celular Seguro）：2023年以来完成66,939次封锁；
+                            (5) 监管简化：2022年以来废除216项决议；
+                            (6) 民防预警：2024年以来发送2,337条灾害预警；
+                            (7) 公众参与：2026年完成274项公众咨询和意见征集；
+                            (8) 开放数据：到2026年底将开放105个数据库。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip other">Other</span>
+                            <span class="chip network">Network</span>
+                            <span class="chip policy">Policy</span>
+                            <span class="chip extrapauta">Extra-Pauta</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>报告得到会议一致认可。第四轮反向拍卖预计将在2026年上半年内举行。TV 3.0启动日期待联邦政府确定。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Alexandre Freire ===== -->
+        <div class="section" id="alexandre-freire">
+            <div class="conselheiro-header">
+                <div class="avatar">AF</div>
+                <div class="info">
+                    <div class="name">Alexandre Freire</div>
+                    <div class="role">Conselheiro · Gabinete AF</div>
+                </div>
+            </div>
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>Conselheiro Alexandre Freire 议题</h2>
+                <span class="sub">6 项（2项一致性通过 + 4项重点讨论）</span>
+            </div>
+            <div class="card-list">
+
+                <!-- AF Item 1: RSAC & Cost Model -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 1-2 · Cons. Alexandre Freire · 一致性通过</div>
+                        <div class="headline">账户分离与分配规则(RSAC)及成本模型规范修订 (Reavaliação do RSAC e Norma de Modelo de Custos)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            对RSAC和成本模型规范进行修订。涉及：
+                            (1) RSAC简化与监管合理化——排除不再必要的监管要求，提高账户分离与分配规则的清晰度；
+                            (2) 确立长期增量成本法(CILP)加公共成本分摊作为固定网络使用费上限和移动网络参考值的计算规则；
+                            (3) 成本模型(Bottom-Up)技术经济参数由竞争监管局(SCP)通过行政令确定，确保利益相关方参与；
+                            (4) 经历了完整的监管流程：监管影响分析(RIA)、第24/2024号公众咨询、PFE法律审查；
+                            (5) 与正在审议的《竞争总体规划》(PGMC)修订版协调一致。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip market">Market</span>
+                            <span class="chip policy">Policy</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>一致性通过。修订后的法规强化了法律确定性、透明度和监管效率，对齐2030可持续发展议程及国际最佳实践。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AF PV1 & PV2: PPD cases -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 PV1 & PV2 · Cons. Alexandre Freire (Vista) · 转调查</div>
+                        <div class="headline">MCI TV / MC Televisão 无线电频率使用权延期PPD收费争议 — 行政决定撤销请求</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            两起类似案件，涉及TVA（付费电视服务）转型为SEAC（条件接入服务）过程中无线电频率使用权延期的公共价格(PPD)收费。PV1由Cristiana Camarate报告（Processo 5350063997/27，MCI TV do Brasil），PV2由Otávio Pieranti报告（Processo 535003992/27，MC Televisão SA）。争议焦点为PPD收费的时效适用及起算点认定。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="conclusion amber">
+                            <strong>结论：</strong>Alexandre Freire提请将两项案件转调查(diligência)，移交联邦专门检察院(PFE)进行为期60天的补充法律意见。获会议一致同意。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AF PV3: PGMC Revision -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 PV3 · Cons. Alexandre Freire (Vista) · 转调查</div>
+                        <div class="headline">竞争总体规划(PGMC)修订 — Acórdão 247/2025复议请求 (Revisão do PGMC)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            由Telcomp、ARONET、Internet Sul、RoTelesul和Abrind五家行业协会/运营商针对第247/2025号裁决（PGMC修订版）提交复议请求。原裁决由Vicente Aquino（VA）报告。Alexandre Freire重点关注《PGMC》第666条第5款规定的"永久漫游"(Roaming Permanente)渐进式处罚制度：
+                            (1) 第一阶段：最长90天整改期（无处罚）；
+                            (2) 第二阶段：第91天起按季度递增罚款；
+                            (3) 第三阶段：9个月后可能解除合同；
+                            (4) 第四阶段：1年内禁止新签约（需Anatel批准）。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip market">Market</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="conclusion amber">
+                            <strong>结论：</strong>转调查60天。SCP联合SCO需完成：(1) 梳理近5年行政投诉和调解结果（合同类型、违规模式、再犯率等）；(2) 评估渐进式处罚的经济激励效应（罚款、解约、禁约期限的实证分析和国际对标）。Freire另提及将就IoT漫游问题单独提出调查提案。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AF PV4: Spectrum Auction CP -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 PV4 · Cons. Alexandre Freire (Vista) · 提交公众咨询</div>
+                        <div class="headline">850 MHz / 2.3 GHz / 2.5 GHz / 3.5 GHz 频段频谱拍卖招标草案 — 提交公众咨询</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            原由Vicente Aquino（VA）报告（Processo 5350025212025，监管议程第6项），涉及多项无线电频率使用权的拍卖授权招标。频段包括：
+                            (1) 850 MHz — 覆盖扩展与农村连接；
+                            (2) 2.3 GHz — 容量补充；
+                            (3) 2.5 GHz — 5G增强；
+                            (4) 3.5 GHz — 5G核心频段。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip consultation">Public Consultation</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip network">Network</span>
+                        </div>
+                        <div class="conclusion purple">
+                            <strong>结论：</strong>会议决定将拍卖招标草案提交公众咨询(Consulta Pública)，征求行业和社会各界意见。这是巴西2026年频谱管理的重要举措。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Otávio Pieranti ===== -->
+        <div class="section" id="otavio-pieranti">
+            <div class="conselheiro-header">
+                <div class="avatar">OP</div>
+                <div class="info">
+                    <div class="name">Otávio Penna Pieranti</div>
+                    <div class="role">Conselheiro · Gabinete OP</div>
+                </div>
+            </div>
+            <div class="section-title">
+                <span class="marker green"></span>
+                <h2>Conselheiro Otávio Pieranti 议题</h2>
+                <span class="sub">3 项（1项临时议题 + 2项一致性通过）</span>
+            </div>
+            <div class="card-list">
+
+                <!-- OP Items 4-5: ODF for Universities -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 4-5 · Cons. Otávio Pieranti · 一致性通过</div>
+                        <div class="headline">第五项"建设义务"(ODF) — R$600,000用于公立大学和联邦研究所互联网连接</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            批准一项新的Obrigação de Fazer（建设义务），金额为R$600,000，为面临连接问题的联邦、州、市公立大学和联邦研究所提供高质量互联网连接。这是Anatel董事会就同一主题批准的第五项ODF，体现了Anatel对巴西教育、研究和推广的承诺。该倡议得到通信部(MCom)和教育部(MEC)的支持。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip network">Network</span>
+                            <span class="chip consumer">Consumer</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>一致性通过。Pieranti强调此举体现了董事会对巴西教育的坚定承诺，期望电信运营商积极配合该举措。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OP Item 3: Destacado by AF -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 3 · Cons. Otávio Pieranti · 重点讨论 (Alexandre Freire标记)</div>
+                        <div class="headline">Otávio Pieranti议题3 — 由Alexandre Freire标记讨论</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            该议题被Alexandre Freire标记为重点讨论项。具体内容在视频转录中未能完整捕获，但会议记录显示Alexander Freire就该议题提出了意见。议题涉及Otávio Pieranti报告中的一项特定决策。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip policy">Policy</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>经讨论后通过。具体决议内容将在Anatel官网发布。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Edson Holanda ===== -->
+        <div class="section" id="edson-holanda">
+            <div class="conselheiro-header">
+                <div class="avatar">EH</div>
+                <div class="info">
+                    <div class="name">Edson Victor Eugenio de Holanda</div>
+                    <div class="role">Conselheiro · Gabinete EH</div>
+                </div>
+            </div>
+            <div class="section-title">
+                <span class="marker red"></span>
+                <h2>Conselheiro Edson Holanda 议题</h2>
+                <span class="sub">10 项（8项一致性通过 + 2项重点讨论）</span>
+            </div>
+            <div class="card-list">
+
+                <!-- EH Items 6, 8-13: Unanimity -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 6, 8-13 · Cons. Edson Holanda · 一致性通过</div>
+                        <div class="headline">多样性议题包 — 多项监管事项一致性通过</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            Edson Holanda名下的议题6及8至13号，共7项，未有任何董事标记讨论，全部获得一致性通过。这些议题涉及SCO（义务控制局）日常监管执法事项，包括运营商合规审查、处罚确认等常规监管决定。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>一致性通过。具体决议内容已在Anatel官网发布。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EH Item 7: City 10 Telecom FUST -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 7 · Cons. Edson Holanda · 重点讨论</div>
+                        <div class="headline">City 10 Telecom 普惠服务基金(FUST)税收上诉案 (Recurso Administrativo FUST)</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            City 10 Telecom对SCO第436/2025号裁决提起行政上诉，该裁决确认了2018年度FUST税收债权的合法性。核心争议：
+                            (1) 公司将部分电信收入不当分类为增值服务(SVA)收入，构成收入人为拆分(segregação artificial de receitas)；
+                            (2) 公司未提供有效证明文件；
+                            (3) 公司在复审中重复已被技术部门驳斥的抗辩理由；
+                            (4) 存在罚款计算错误（有利于公司）。
+                            Processo: 5352400175/2020.
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="conclusion amber">
+                            <strong>结论：</strong>Edson Holanda投票：部分支持——维持税金本金确认，仅更正罚款计算错误。Alexandre Freire请求Vista（审阅），会议同意。最终裁决待后续会议。
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EH Item 7 Vista: Winit Telecom -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 7 (Vista) · Cons. Edson Holanda · 重点讨论</div>
+                        <div class="headline">Winit Telecom 第1/2021号招标违规处罚上诉案</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            Winit Telecom就SCO第23/2025号裁决提起上诉，原裁决因其违反第1/2021号招标（4G/5G频率拍卖）附件4第10.1条款而处以警告处分，并要求通知保险公司启动保单索赔。该议题于2025年11月4日由原报告人Vicente Aquino（VA）提交讨论，Edson Holanda当时请求Vista审阅并提出第26号函调。Processo: 535004732/2024.
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip spectrum">Spectrum</span>
+                        </div>
+                        <div class="conclusion amber">
+                            <strong>结论：</strong>Edson Holanda继续报告其Vista结论，讨论中（受会议音乐提示限制，Holanda以幽默方式应对）。最终裁决待后续确认。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Nilo Pasquale ===== -->
+        <div class="section" id="nilo-pasquale">
+            <div class="conselheiro-header">
+                <div class="avatar">NP</div>
+                <div class="info">
+                    <div class="name">Nilo Pasquali</div>
+                    <div class="role">Conselheiro · Gabinete NP</div>
+                </div>
+            </div>
+            <div class="section-title">
+                <span class="marker purple"></span>
+                <h2>Conselheiro Nilo Pasquali 议题</h2>
+                <span class="sub">8 项（全部一致性通过）</span>
+            </div>
+            <div class="card-list">
+
+                <!-- NP Items 14-21 -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">议题 14-21 · Cons. Nilo Pasquale · 一致性通过</div>
+                        <div class="headline">Nilo Pasquale议题包 — 8项全部一致性通过</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            Nilo Pasquale名下的14至21号议题未有任何董事标记讨论，全部一致性通过。Nilo Pasquale曾在Alexandre Freire提交White Paper时因其此前担任C-INT执行秘书协调频谱与轨道治理工作而受到特别致谢。此外，Nilo在会议开场未作额外发言，显示其名下议题主要为无争议的常规监管事项。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip policy">Policy</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>全部一致性通过。具体决议内容已在Anatel官网发布。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Additional: Vista Extensions & Meeting Close ===== -->
+        <div class="section" id="vista-extensions">
+            <div class="section-title">
+                <span class="marker teal"></span>
+                <h2>其他议程事项</h2>
+                <span class="sub">4 项</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">会议程序</div>
+                        <div class="headline">第952次会议纪要（2026年4月9日）批准</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>一致通过，无修改意见。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">Vista 5 & 6 · 审阅延期</div>
+                        <div class="headline">第5号和第6号审阅(Vista)事项延期120天</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            两项在审阅中的议题申请延期120天，获得会议一致批准。
+                        </div>
+                        <div class="meta-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip other">Other</span>
+                        </div>
+                        <div class="conclusion green">
+                            <strong>结论：</strong>一致通过120天Vista延期。
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="item-num">会议闭幕</div>
+                        <div class="headline">主席Carlos Baigorri宣布会议闭幕</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="desc">
+                            在完成所有议程事项后，主席Carlos Manuel Baigorri宣布第953次董事会例行会议闭幕。会议总时长约98分钟（含前导视频）。下次董事会会议（第954次）预计将于2026年6月举行。
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+<script>
+(function() {
+    const navLinks = document.querySelectorAll('.sidebar nav a');
+    const sections = {};
+    navLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = document.querySelector(href);
+            if (target) sections[href] = target;
+        }
+    });
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || !href.startsWith('#')) return;
+            const target = document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            navLinks.forEach(function(l) { l.classList.remove('active'); });
+            this.classList.add('active');
+        });
+    });
+
+    if (window.IntersectionObserver) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('active');
+                        if (l.getAttribute('href') === '#' + entry.target.id) {
+                            l.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+
+        Object.values(sections).forEach(function(el) { observer.observe(el); });
+    }
+})();
+</script>
+</html>

@@ -1,0 +1,2142 @@
+0:00
+entadas no site [música] e na infraestrutura da agência. Ao percorrer os espaços, tanto interno quanto externo
+0:06
+da Natel, eu pude perceber que eles têm uma acessibilidade realmente efetiva. Não tive dificuldade em chegar em nenhum
+0:13
+espaço e isso [música] realmente faz a diferença pra gente. Não é só uma reforma de acessibilidade, mas que a
+0:19
+gente ganhe realmente mobilidade. [roncando] O Regulamento geral de acessibilidade implementado pela NATEL estabelece
+0:27
+normas e padrões para que as prestadoras de serviços de telecomunicações garantam atendimento acessível [música]
+0:34
+e planos que atendam as necessidades e particularidades de pessoas com deficiência. [música]
+0:40
+O site da Anatel oferece recursos de acessibilidade, como interpretação de
+0:46
+textos em Libras e opções de autocraste para facilitar a navegação. Além disso,
+0:52
+desde 2022, a Anatel incluiu a interpretação em Libras reuniões do
+0:57
+Conselho Diretor, promovendo ainda mais a inclusão e a participação de todos.
+1:04
+Acessibilidade e inclusão são valores fundamentais aqui na Natel. Precisamos
+1:09
+garantir
+1:21
+Edson Holanda, conselheiro Nilo Pascoale, ouvidou Felipe Esmeraldo, a procuradora Beatriz, a Procuradoria
+1:27
+Federal Especializada junto à Natel e a secretária do Conselho Diretor, Dra. Letícia Seabro. Declaro aberta a reunião
+1:35
+ordinária número 952 de 9 de abril de 2026 do conselho diretor da Anatel.
+1:41
+Indago se algum dos conselheiros tem item extra pauta a ser considerados.
+1:50
+Apelheiro Perante. OK. Muito boa tarde a todas e todos que
+1:57
+nos acompanham. Boa tarde, presidente exercício Alexandre Frei, conselheiro Zedson Holando, Nilo Pasquale,
+2:03
+procuradora Dra. Beatriz, senhor ouvidor, senhora secretária do conselho, demais presentes e a todas e todos que
+2:09
+nos acompanham. Desejo desde já, desde já um pronto restabelecimento ao nosso presidente da Anatel, o Carlos Baigorre,
+2:15
+na próxima reunião estará de volta aqui conosco. Quero começar meus extrautas de hoje dando boas-vindas ao conselheiro
+2:21
+Nilo Pascoale, convocado para compor este conselho diretor em março. Nilo é uma referência técnica da agência já
+2:27
+quase ou há cerca de 20 anos e fortalece este nosso colegiado. Contamos com a dedicação do Nilo nos próximos meses
+2:34
+para promover os avanços que cabem aqui à agência. Também quero registrar que na semana passada o conselho diretor da
+2:40
+cancelou por unanimidade em sede de circuito deliberativo a previsão de licitação da faixa de 450 MHz no curto
+2:48
+prazo, retirando também este item da agenda regulatória. Propus esse encaminhamento com base em estudo da
+2:53
+área técnica que informou ainda existirem poucos dispositivos móveis em nível global compatíveis com a operação
+3:00
+nessa faixa de frequências. Essa limitação técnica impede na prática a licitação. Além disso, a decisão que
+3:06
+tomamos abre possibilidade para novos investimentos e confere estabilidade regulatória ao setor. Quero destacar
+3:12
+ainda um outro aspecto desse processo. Na mesma linha da área técnica, empresas e entidades representativas dos setores
+3:18
+de telecomunicações e de energia elétrica que têm utilizado essa faixa para aplicações específicas vinham se
+3:24
+manifestando contrariamente a essa licitação. Portanto, a decisão que tomamos no Conselho Diretor traduz uma
+3:30
+agência que escuta, reflete e dialoga. Essa postura é fundamental para
+3:35
+construir avanços e garantir direitos. Por isso, aproveito para reforçar meu compromisso em manter nosso gabinete
+3:40
+sempre aberto ao diálogo, recebendo e ouvindo todos que quiserem se manifestar sobre temas relacionados às atividades
+3:46
+da Natel e ao setor regulado. Eh, solicito a a secretaria do Conselho
+3:52
+que prepare a apresentação que foi encaminhada ou se quiser eu posso apresentá-la daqui também,
+3:58
+compartilhá-la daqui também. Já estamos se colocando, tá bom?
+4:08
+Então, ela já tá na tela. Eh, eu tenho procurado trazer aqui paraas reuniões do conselho eh um balanço das atividades,
+4:14
+um balanço rápido das atividades do mês de dois grupos que eu presido, do GT de implementação de políticas públicas e
+4:20
+também do Gired, assim farei isso também nessa reunião. Presido também o CEDUST, comitê de defesa dos usuários e serviço
+4:26
+de telecomunicações, que se reúne de três em três meses e por isso eu não trago eh todo mês, né, a o balanço das
+4:32
+atividades. Mas falando, começando aí pelo GTIP, se puder passar, por favor.
+4:38
+H, o GT se propõe neste momento, neste primeiro momento do seu trabalho, a fazer um levantamento das políticas
+4:44
+públicas implementadas pela Agência Nacional de Telecomunicações total ou parcialmente, né, e trazer e aí
+4:50
+começamos a consolidar resultados dessas políticas públicas. Sempre lembrando que aqui estamos falando no dessas políticas
+4:56
+no que se referem implementação pela Natel, ou seja, atos concretos da Natel, eh mecanismos que a Natel cria para
+5:03
+gerar recursos para essas políticas públicas, a gestão dessas da implementação dessas políticas públicas,
+5:09
+enfim, estou falando de resultados específicos eh dessa atividade de implementação de políticas públicas pela
+5:15
+Natel. Esse GT hoje integrado por todas as áreas da agência. chegamos, e aí citei isso na reunião passada, a uma
+5:21
+lista de 38 políticas públicas implementadas por meio de mais de 70 instrumentos e ações, eh, normalmente
+5:28
+leis, decretos, portarias e outros instrumentos legais que têm condicionado
+5:33
+as políticas públicas. Eh, lembrando que a Natel não as formula, a Natel é responsável por implementar no todo ou
+5:40
+em parte essas políticas já levantadas. E aí trago hoje cinco cinco resultados
+5:45
+eh já mapeados dessas políticas públicas. Um primeiro deles é o de 14.664
+5:52
+localidades com cobertura de rede móvel até 2035, graças eh à ação da Natel. Eh,
+5:58
+nesse caso a ação parcial da Natel, né, envolve, claro, outros outros outras entidades e outros órgãos eh no que se
+6:05
+refere a implementação. Mas graças à atuação da Anatel, teremos aí 14.664 1664 localidades com cobertura de rede
+6:12
+móvel até 2035, 7400 km de rodovias também com rede móvel até 2034
+6:20
+eh isso de uma forma escalonada ao longo dos próximos anos e 1032 localidades com backhall implantado até 2035 ou seja
+6:28
+números bastante expressivos que refletem a atuação da Natel no que se refere à expansão da infraestrutura de
+6:34
+serviços de telecomunicações no país. Também mais dois indicadores, pode passar por favor 21. 163 canais de
+6:41
+televisão digital incluídos no plano básico de rádiodifusão. Vale lembrar que estamos numa fase de implementação da
+6:47
+TV3.0 no país e daqui a pouco também a Anatel avançará neste sentido, eh,
+6:53
+prevendo canais para exploração da TV3.0. Mas aqui eu sempre gosto de lembrar que no caso da televisão
+7:00
+analógica existiam cerca de 14.000 1 canais previstos no plano básico. E o
+7:05
+que a Natel fez ao longo desses últimos anos foi eh chegar a um número de 21.163, ou seja, um número bastante
+7:12
+expressivo e bem maior do que aquele total de canais que existiam paraa TV analógica. Além disso, a Anatel também
+7:17
+implantou diretamente 600 6 estações de TV digital, aí uma atividade
+7:24
+do Gired, né, e da Seja Digital. Essas estações de TV digital, elas são
+7:29
+reflexo, são fruto de duas políticas públicas coordenadas pelo Ministério das Comunicações, implementadas em parte
+7:35
+aqui pela agência, que são o programa Digitaliza Brasil e o programa Brasil Digital, sendo que o primeiro já com
+7:41
+todas as estações implementadas e o segundo numa fase inicial de implementação, ou seja, também uma atuação bastante decisiva da Agência
+7:47
+Nacional de Telecomunicações no que se refere à expansão da rádiodifusão e especificamente da televisão digital no
+7:54
+Brasil. Pode passar, por favor. Quero destacar também que neste último mês eh recebemos um ofício do
+8:02
+conselheiro diretor Alexandre Freire sobre o plano de conectividade significativa e sustentabilidade
+8:07
+socioambiental. Eh, por meio desse ofício, o conselheiro pediu a manifestação do GT de implementação de
+8:13
+políticas públicas sobre o plano em desenvolvimento. Quero agradecer, conselheiro, a oportunidade eh do GT
+8:19
+poder se manifestar sobre esse tema. em breve estaremos nos posicionando. Eh, quero ressaltar a importância desse
+8:25
+plano de conectividade e, além disso, ressaltar a importância do tema conectividade significativa para essa
+8:30
+agência. Eh, toda a área técnica, em especial a superintendência de relações consumidores tem se dedicado ao tema da
+8:38
+conectividade significativa. Cito src, inclusive recentemente, no fim de março,
+8:44
+promoveu um evento bastante relevante sobre a conectividade significativa no âmbito da das festividades relacionadas
+8:50
+ao mês do consumidor. E este tema também é muito caro, especialmente para mim,
+8:55
+que tenho lidado com ele ao longo dos últimos meses, eh, na verdade anos. Eh,
+9:01
+então precisamos avançar e avançaremos e grande parte desse avanço estará ancorado no plano de conectividade
+9:07
+significativa, com o qual teremos o prazer de contribuir em breve. Passo agora eh as um breve informe sobre as
+9:15
+atividades do Jired, grupo que também presido. Pode passar. Bom, estamos chegando ao fim eh
+9:23
+caminhando pro fim dos leilões de dos leilões que visaram a implantação de
+9:29
+estações de de vamos eh traduzindo, que estão levando 4G para pequenas
+9:35
+localidades do país. Eh, então esses dailões totalizam, né, foram realizados
+9:40
+aí ao longo dos últimos meses, desde o ano passado, eh, totalizam 235
+9:46
+municípios, ou melhor, 235 localidades que passarão a ter também acesso à tecnologia 4G. O primeiro leilão já foi
+9:53
+totalmente concluído, a implantação das estações já foi concluída. No segundo leilão, eh, já temos 78% das estações
+10:00
+instaladas, eh, 78% das localidades e eh atendidas. E no terceiro leilão já
+10:06
+estamos chegando a 98%. Então, logo esse projeto seja concluído, eh esse
+10:11
+resultado será encaminhado ao conselho diretor como de prae no que se refere aos projetos adicionais no âmbito do
+10:18
+diret. Então já temos hoje 218 localidades das 235 eh atendidas,
+10:24
+conforme a previsão eh conforme previsto quando da Constituição ou da definição desses leilões. Pode passar.
+10:33
+Estamos também numa fase decisiva da implantação da TV 3.0 em Brasília. A expectativa é que essa plataforma comece
+10:41
+a operar nos próximos meses. E para isso estamos em vias de inaugurar a estação de testes aqui eh em Brasília, né? A
+10:49
+plataforma vai começar a operar eh no Brasil de forma escalonada em diferentes municípios, mas estamos concluindo a
+10:55
+implantação da estação experimental de teste em Brasília, que será a primeira estação de TV3.0 aqui do Distrito
+11:01
+Federal. Então, foi feita a avaliação do local de operação, definido o canal de operação, foi instalada a antena eh em
+11:08
+fevereiro desse ano. Ã, e também foram foi instalado o core e agora aguardamos
+11:14
+a chegada do transmissor e a integração e o teste dos equipamentos para que essa estação comece a operar já nas próximas
+11:21
+já nas próximas semanas. Pode passar aí. Agora me refiro ao programa Brasil
+11:28
+Digital, também implantado pelo implementado eh em parte pela Natel, pelo GED, né, e pela SEJA Digital. Eh,
+11:35
+neste mês de março, ou melhor, no mês de março que terminou, passamos ou chegamos
+11:41
+a sete eh tivemos sete novas estações implantadas, eh,
+11:46
+desculpa, eh, totalizando 10 ao longo desde dezembro, né, desde dezembro, então,
+11:52
+tivemos Sapezal e assistatubrian. E no mês de março, os municípios de Santa Inês, Bacabau, Iguatu, Lagarto e
+11:58
+Mineiros, eh, passaram a contar com uma estação da rede nacional de comunicação Pública e aí onde aparecem duas torres
+12:04
+também com uma estação da rede legislativa, né? Então esse é um programa que leva um programa coordenado, como eu disse, pelo
+12:10
+Ministério das Comunicações e que leva à programação da Rede Nacional de Comunicação Pública com a programação da
+12:16
+TV Brasil com parceiro local, Canal GO, Canal Saúde e Canal Educação, e da rede legislativa, Câmara dos Deputados,
+12:21
+Senado Federal Federal, Assembleia Legislativa e Câmara de Vereadores, aos mais diversos municípios selecionados
+12:27
+por meio de editais. Eh, chegamos apenas no que se refere às estações implantadas pela Natel e pelo Gired, chegamos a 38
+12:34
+municípios cobertos, alcançando 1.200.000 pessoas que podem assistir eh
+12:40
+à televisão, podem assistir às programações da Rede Nacional de Comunicação Pública e da Rede Legislativa. E no mês de abril, pode
+12:47
+passar, por favor, teremos a inauguração, estão, está prevista a inauguração de 26 novas
+12:53
+estações de TV Digital em 13 municípios. Laranjal do Jari no Amapá, Caxias no Maranhão, Catalão em Goiás, eh, e aí 10
+13:02
+municípios no estado do Amazonas. E aí uma notícia importante, eh, presidente, demais conselheiros, eh, o Amazonas será
+13:10
+o primeiro estado a contar com uma comunicação pública universal e gratuita para todos os seus cidadãos. Então, em
+13:16
+todos os municípios do Amazonas, todos os cidadãos residentes no Amazonas poderão assistir a programação da Rede
+13:22
+Nacional de Comunicação Pública. Eh, e além disso também a rede legislativa avança. Esse é um passo extremamente
+13:28
+importante paraa história da comunicação pública brasileira. Então, atingiremos a
+13:34
+universalização eh em um estado brasileiro, no estado do Amazonas, muito em breve, nas próximas semanas. Eh, e
+13:40
+graças em parte à atuação da Natel. obviamente, não apenas a atuação da Natel, mas a coordenação do Ministério
+13:46
+das Comunicações, as parcerias com a Câmara dos Deputados, com a EBC e também, nesse caso específico, com os
+13:52
+parceiros locais, né, a Fundação Emcontro das Águas, parceira da rede nacional de comunicação pública e as
+13:57
+câmaras de vereadoras de vereadores dos municípios listados. Então, em breve estaremos também inaugurando essas 10
+14:04
+estações, atingindo a universalização da comunicação pública no estado do Amazonas. Costumo dizer que esta é uma
+14:11
+agência preocupada com a diversidade e o pluralismo nas comunicações. E aí com essa medida garantimos pluralidade e
+14:19
+pluralismo e diversidade nas comunicações do estado do Amazonas. Também pode passar. Eram essas minhas
+14:25
+considerações para o extrapauta. Muito obrigado, presidente. Demais conselheiros.
+14:32
+Conselheiro Otávio Pierante, eu tenho que registrar que é digno de nota eh as
+14:38
+suas atividades do âmbito do Gired. Isso reflete muito a boa governança que tem
+14:44
+sido implementada historicamente nesse GT. E gostaria também de fazer um comentário a respeito dos primeiros
+14:50
+trabalhos que foram apresentados pelo seu GT de políticas públicas. Aqui me vem uma ideia que muito propagada pelo
+14:59
+ministro Aires Brito, porque a transparência nas políticas públicas, quando nós refletimos a respeito do
+15:04
+papel do GT, ela principalmente das políticas públicas implementadas pela
+15:10
+Natel, é essencial para fortalecer a confiança da sociedade, garantir a legitimidade
+15:17
+das decisões regulatórias da nossa agência e ampliar sobretudo o controle social sobre temas que afetam
+15:23
+diretamente milhões de usuários. Como mencionei e muito bem expressa a
+15:28
+respeito desses temas relacionados à transparência, o ministro Oris Brigito costuma dizer que nas coisas do poder,
+15:34
+conselheiro, o conselheiro Pierante, o melhor desinfetante sempre é a luz do
+15:39
+sol. E esse tipo de comportamento de sempre
+15:44
+expressar publicamente o que nós estamos realizando no âmbito da agência, como nós estamos eh implementando nossas
+15:51
+políticas públicas, eh quais níveis nós alcançamos, quais dimensões, é muito
+15:56
+importante para combater aquilo que se tem discutido como uma espécie de cultura do bastidor.
+16:02
+Então isso exige uma atuação institucional muito clara e me parece que o GT de políticas públicas já vem
+16:08
+cumprindo esse propósito, porque exige uma atuação institucional muito consistente, claro, acessível e aberto
+16:14
+sobretudo ao escrutínio público. É nesse contexto, conselheiro Perante, que eu entendo que a transparência não é apenas
+16:20
+um valor administrativo, mas um dever democrático que assegura maior responsabilidade para todos nós.
+16:27
+Então, são todas muito bem-vindas essas atividades que o você tem desenvolvido no âmbito do GT de políticas públicas.
+16:34
+Eu fiquei bastante impressionado com os primeiros números e veja que sou conselheiro diretor da agência e
+16:41
+acompanho as atividades da agência com muito interesse e esses números são verdadeiras, são eloquentes para
+16:48
+demonstrar o quanto a agência ela tem participado efetivamente na implementação de políticas públicas no
+16:55
+país. Vou passar agora a palavra para o ilustre conselheiro Edson Holanda para
+17:00
+os seus extrapa. Boa tarde, conselheiro. A palavra estar com o senhor.
+17:05
+Boa tarde, conselheiro presidente. Alexandre Freire. Boa tarde, conselheiro Otávio.
+17:11
+Niro Pascoale, o nosso Felipe já, Letícia, todos presentes. Acho que o procurador Cáro
+17:17
+acabou de chegar. Festejar também o o nosso conselho substituto Nilo Pascoal, que tem um
+17:24
+histórico, apesar de eu não ser da casa, Nilo, mas quando cheguei à casa todo mundo fala extremamente bem de você,
+17:30
+positivamente. Você é um cara extremamente técnico, né? Uma postura muito reta. E aí eu acho que isso aqui
+17:36
+vem a premiar toda a sua história dentro da Anatel. Eu já te falei isso, né, pessoalmente, mas quero fazer aqui ao
+17:44
+público, né, já que estamos aqui numa entidade pública no tocante, e peço
+17:49
+perdão, eu estou no interior do Rio de Janeiro, então assim, se tiverem tiver barulho, tiver alguma interferência, a
+17:54
+gente aqui conseguiu um local, mas tá próximo da de alguma avenida e às vezes
+17:59
+vão ter algum barulho aqui, pode ser que interfira. Extra pauta é simples.
+18:06
+um assunto que o nosso conselheiro Otávio, como sempre
+18:12
+muito aguerrido, preparado, pontuou, mas eu gostaria de fazer algumas
+18:17
+considerações, até pegando um pouco do gancho que o nosso conselheiro Alexandre Feiro falou,
+18:26
+no sentido de que, eh, vivemos um tempo muito de circulação rápida de
+18:31
+informações, né? E essa questão do controle social é é extremamente relevante quando a gente tá falando aqui
+18:37
+de atividade pública, que era sobre essa questão do 450 MHz, né, daquela previsão
+18:44
+que foi decidida aqui. E aí pontuar aqui primeiro, eh, esse processo. Eu tinha
+18:49
+tinha pedido que esse processo viesse aqui paraa RCD para que a gente tivesse o debate público adequado, na minha
+18:55
+visão, de esclarecer, porque quando a gente tá aquele momento, a unanimidade aqui, a propositura foi minha, não só do
+19:02
+450, mas de todas as faixas, mas de que naquele momento que a gente propôs e aprovou a unanimidade no conselho, isso
+19:08
+gerou um ruído muito forte no mercado, né, os fabricantes e principalmente setor elétrico. Então, naquele momento e
+19:16
+que a gente se vê toda a reação do setor, acho que naquele na hora que a gente decide daquela forma e tem toda
+19:21
+essa reação, acho que era necessário a gente vir aqui também esclarecer de forma pública e respeitei a decisão da
+19:28
+do de fazer via circuito, mas eu acho que fiz fazer esclarecimento. Eh, aquela primeira proposta
+19:34
+que foi dada, um ponto relevante a se esclarecer, é de que não existia uma
+19:41
+tava escrito na pedra, isso aqui é muito mais o esclarecimento do mercado e que deveria ser feito a, né, o o 450 deveria
+19:48
+ser feito, na verdade, uma avaliação, né, e tinham prazos, períodos e a gente, isso aí foi muito claro, a gente
+19:53
+discutiu aqui internamente com algumas pessoas até externas de que veja, é uma avaliação naquele no momento apropriado,
+20:00
+a gente vai dizer se faz ou não. Então eu concordo com a decisão. Isso já
+20:05
+externei pro relator, nosso conselheiro Otávio Pier também com o presidente Baigor a época que concordava com a
+20:12
+decisão, mas principalmente depois do da análise do setor técnico e principalmente por conta de todo esse
+20:17
+ruído que gerou, né, no setor, no mercado. E me veio uma outra reflexão é de que
+20:23
+isso também é preciso pontuar, essa proposta de inclusão do 451 MHz foi uma proposta inclusive que veio da
+20:29
+presidência, né, da agência. É porque eu era o relator. Essa proposta veio de inclusão 450 MHz. a gente fez algumas
+20:35
+ponderações, mas se decidiu incluir e isso foi aprovado unanimidade. Acredito
+20:40
+que seja, conversei isso com o nosso conselheiro Nilo Pascoal, porque, enfim, tava até pouco tempo atrás como
+20:46
+superintendente, de que esse é um assunto que precisa ser endereçado, veja, seja na verdade pelo Rui, né, que
+20:53
+tá na relatoria do nosso conselheiro Alexandre, porque precisa se definir algum tipo de estabilidade do setor,
+20:58
+principalmente autorização até a título primário, como a gente conversou, Sandro Nilo, e não colocar o setor, seja o de
+21:06
+energia ou qualquer outro setor. tive em na Vale lá nos Carajás e vi o quão importante. Isso foi um assunto falado,
+21:13
+repetido, mais do que falado por toda a diretoria que estava ali presente do quão eles usam a faixa de 450 MHz, usam
+21:20
+uma parte de 700 e querem usar 450, mas precisam, na verdade, de uma estabilidade. E hoje o nosso marco
+21:26
+regulatório não existe. Fica na verdade numa decisão a vamos fazer um leilão ou
+21:32
+não vamos. a gente a gente precisa, na verdade, construir um marco que dê essa proteção, seja um uso secundário e,
+21:38
+posteriormente um direito de preferência, pode ser uma modelagem, até conversei sobre essa modelagem com conselheiro Nilo ou até uma autorização
+21:46
+a título primário. Então era essa consideração, só para esclarecer, porque a gente fica escutando muito ruído no
+21:52
+setor. E aí, como nós estamos aqui, né, numa entidade pública, como bem pontuou
+21:57
+o conselho Alexandre, a gente nesse mundo velões rápidos a gente precisa estar esclarecendo quase que par e passo
+22:04
+tudo que nós fazemos. Esse é um ponto. O segundo ponto é de que essa discussão também, né, a
+22:12
+autoridade pública não é não é mais presumida, né, ela é constantemente testada. Isso nos impõe uma
+22:17
+responsabilidade adicional que é não apenas decidir bem, a gente precisa explicar com clareza as decisões que
+22:24
+tomamos. Então, quis trazer também, assim como já trouxe outras vezes, as questões
+22:31
+relacionadas ao GAISP, que a ali nós estamos tratando de um projeto extremamente complexo, com múltiplos
+22:37
+atores, grande impacto no país. É tanto que você vê a a dizer assim, a importância disso paraa presidência da
+22:44
+República, né, pro governo federal tem também atuado bastante. E aí trazer aqui
+22:49
+um marco histórico, n falando muito de GAISPAF, é de que nós no mesmo de fevereiro, o
+22:57
+último antes, agora de março, fevereiro de 2026, nós batemos o recorde de
+23:02
+entregas de antenas parabólicas no Brasil antenado. Nós entregamos no mês
+23:07
+de fevereiro de 2026 33.200 antenas parabólicas. Foi um recorde
+23:13
+desde que se criou, né, a entidade GAISPAF. E essa política pública que tá
+23:19
+sendo implementada nunca tinha tido um número tão relevante. Então era trazer esse marco. A média tem sido entre 30,
+23:28
+29, mas esse mês de fevereiro foi um mês marcante. Então, pra gente trazer também aqui a luz do sol e sobre o norte
+23:35
+conectado, trazer também alguns dados que são importantes para que a população, né, o formulador de política
+23:41
+pública do Ministério das Comunicações, as entidades reguladoras ou as entidades fiscalizadoras, né, do seja interna ou
+23:49
+externa, também fiquem cientes. Então, dentro dos projetos envolvidos no Gaisp, as enfovias 2, 3 e 4 do projeto Paz,
+23:57
+elas completaram as fases de lançamento dos cabos com mais de 2600 km de cabos
+24:02
+implantados, conectando 22 localidades em três estados. dessas enfovias aqui
+24:09
+que nós estamos falando, são três, a tr e qu já estão em uso antecipado para a
+24:15
+prestação de serviço, com potencial para beneficiar mais de 2 milhões de cidadãos,
+24:22
+manda larga de qualidade. E com a entrega está por via a Infovia 2,
+24:27
+prevista ainda para esse semestre desse ano, serão somados a esse total mais de
+24:32
+400.000 cidadãos brasileiros. Um outro ponto, esse projeto também
+24:39
+poderá beneficiar mais de 300 instituições públicas com acesso a manda larga também de qualidade, onde nós
+24:46
+teremos 28 unidades de saúde, 16 unidades do Poder Judiciário, 20
+24:51
+prefeituras, 14 unidades das Forças Armadas, 206
+24:58
+escolas, nove universidades e três instituições federais de ensino superior. Então veja
+25:04
+a relevância e o impacto na ponta de que esse projeto já está começando e vai ter
+25:10
+ainda por vir. Ainda tem que destacar um ponto se conecta também de
+25:16
+desenvolvimento sustentável, conselheiro Alexandre, que é a maior aldeia indígena do país, Belém dos Solimões, com cerca
+25:23
+de 5.000 indígenas, é uma das localidades que será beneficiada por esse importante projeto. Então, mais um
+25:30
+outro ponto, a gente já recentemente teve uma tradução de para línguas indígenas no Brasil antenado e agora
+25:36
+mais uma vez, agora com Norte Conectado, a gente tá atendendo a comunidade indígena. e essa localidade que será beneficiada
+25:43
+por esse porto projeto. Então, importante citar também que a Infovia 2 está em fase de patrimonialização,
+25:51
+uma fase que antecede a entrega efetiva pro Ministério das Comunicações em 11 das três localidades que serão
+25:56
+atendidas. Então, até o meio do ano, a gente vai ter essas três infovias com a
+26:03
+dois entrando em efetiva entrega. Então, nós estamos falando aqui do Garp, e
+26:09
+todos os projetos CAF que estão no seu guarda-chuva de um projeto de conectividade do país que tem voltouosos
+26:16
+investimentos. O foco, na verdade, que a gente quer dar aqui e o mais importante é é garantir que os compromissos do 5G
+26:23
+sejam entregues à população. Ficou demonstrado que já estão sentindo
+26:28
+isso na realidade com agilidade, porque o tempo da sociedade, eu tenho falado
+26:33
+muito pra gestão da EAF e para inclusive os integrantes do Gaíp em todos os
+26:39
+assuntos que passam lá. O tempo da sociedade é hoje, é o agora. ele não pode ser atrapalhado por ruídos externos
+26:46
+ou internos. Então, no tocante ao GISPF, era essa prestação
+26:51
+de informações à sociedade que queria também aqui transparecer e deixar todos
+26:56
+à par. São essas duas extrautas, conselheiro Alexandre, conselheiro Otávio e conselheiro Nilo.
+27:03
+Muito obrigado, conselheiro Edson Lano. Queria lhe parabenizar pelos resultados expressivos
+27:10
+do Gaíp, resultados expressivos da EF. Eh,
+27:16
+esse é um projeto de fato estratégico e aqui eu tenho que fazer também um
+27:21
+registro muito importante. Eh, Vossa Excelência teve essa virtude de dar
+27:28
+continuidade a um legado muito expressivo de dois importantes conselheiros dessa agência, conselheiro
+27:34
+Moisés Moreira, o conselheiro e o presidente Carlos Baigor. Então, é muita responsabilidade levar adiante uma pauta
+27:43
+como essa de um projeto que foi muito bem pensado, consolidado e estruturado pelo conselheiro Moisés Moreira e que
+27:50
+teve na passagem do bastão uma estabilidade para que você tivesse a a
+27:56
+serenidade e sobretudo o tirocínio de um excelente gestor para fazer essas
+28:03
+entregas tão expressivas no início do seu mandato à frente do Gaíspe. Então, meus parabéns. Eu tenho convicção que
+28:10
+sobre a sua batuta, nós vamos ter mais adiante inúmeras outras importantes
+28:16
+entregas paraa sociedade brasileira. Meus parabéns. Eu queria também aqui passar a palavra para o conselheiro Nilo
+28:23
+Pascoali, caso deseje fazer algum extra pauta. Conselheiro Nilo Pascoal.
+28:29
+Obrigado, presidente. Não, muito rapidamente só agradecer, dizer que é uma honra fazer parte aqui desse colegiado, principalmente agradecer as
+28:36
+palavras gentis do conselheiro Otávio e do conselheiro Edson a minha minha pessoa. O senhor presidente já falou
+28:43
+isso de forma mais particular. Eh, então eu fico muito agradecido e deslongeado e espero poder ajudar o máximo esse
+28:50
+colegiado e os conselheiros. É só isso. Muito obrigado. Muito obrigado mais uma vez, eh,
+28:56
+conselheiro Nilo, seja muito bem-vindo. Eh, eu gostaria de fazer aqui um registro memorialístico de quando eu
+29:03
+tive a honra de sindicato para essa agência, eh, o sucessor do conselheiro Emanuel no conselho foi justamente o
+29:10
+conselheiro Nilo Pasquali. Então, quando eu cheguei ao conselho, o Nilo estava no gabinete, foi muito atencioso comigo, me
+29:17
+deu um overview a respeito da dinâmica deliberativa, eu nunca esqueci disso. E ao longo desse período da nossa eh
+29:24
+convivência, em nome da agência, sempre se mostrou um técnico apurado. Eu
+29:29
+registrava recentemente com a minha chefe de gabinete, Marina, que fizemos uma missão no ano passado para a Suíça,
+29:37
+para para participar do WCS e a época do AI for Goods. Participamos de uma reunião bilateral com representantes
+29:43
+[roncando] do governo indiano. Eu fiquei muito impressionado com sua capacidade técnica de apresentar a a os avanços do
+29:52
+Brasil sobre temas complexos como espectro, como harmonização. E aquilo
+29:58
+foi muito importante para a minha curva de aprendizado como diretor da agência.
+30:03
+tive uma um grande aprendizado naquele momento e sempre tenho tido ao longo das
+30:08
+interações que nós realizamos eh do Conselho Diretor do Centro de Aos Estudos e você que é um grande parceiro
+30:14
+meu no Comitê de Infraestrutura. Então, Nilo, seja muito bem-vindo ao Conselho
+30:20
+Diretor da Agência. aqui na no Conselho Diretor, eu tenho convicção, como já tive no passado, de que você lançará
+30:27
+luzes com o seu saber, com a sua prudência, com a sua capacidade de agregar a no âmbito da nossa
+30:33
+colegialidade. Então, mais uma vez, seja muito bem-vindo. Eh, finalizando os
+30:39
+extrapautas dos meus pares, eu iniciarei o meu. E aqui, como já como a audiência
+30:44
+deve ter percebido, eu estou excepcionalmente substituindo o meu amigo presidente Carlos Baigor, que está
+30:50
+de licença médica, mas eh na próxima semana nós
+30:56
+vivenciaríamos vivenciaríamos, se tivéssemos marcada essa essa reunião para a semana subsequente momento único
+31:03
+na agência, que é o momento em que o presidente Carlos Baigor alcança seu quarto ano na presidência da agência. Eu
+31:11
+queria muito ter feito essa homenagem que eu farei agora como meu primeiro extrapauta ao presidente Carlos Baigor
+31:17
+na presença dele, mas como na próxima semana eu estarei em missão, ele estará licenciado e todos nós estaremos
+31:23
+desenvolvendo outras atividades, eu vou fazer essa homenagem nesta ocasião, até
+31:29
+porque e eh como todos sabem, há algo de especialmente verdadeiro nas homenagens
+31:35
+prestadas na ausência do homenageado. Quando alguém não está presente, cessam
+31:41
+os impulsos da mera cortesia e se revela com mais nitidez a medida real da
+31:47
+consideração que lhe é dedicada. E baigor sabe da consideração que eu lhe dedico desde
+31:54
+quando na agência, para ser mais claro, desde quando eu fui indicado, porque o Byigor
+32:00
+me recebeu na agência antes mesmo da minha sabatina, foi um gentleman comigo, eh colocou toda a estrutura da agência
+32:07
+para que eu pudesse eh me inteirar a respeito dos grandes desafios da agência para que eu pudesse igualmente me
+32:13
+preparar para minha sabatina no Senado Federal. Então esse é um traço característico da personalidade do
+32:19
+Carlos Baigor. Então quando alguém não está presente, continuou, cessam os
+32:25
+impulsos da mera cortesia e se revela com mais nitidez a medida real da consideração que lhe é dedicada. E nesse
+32:31
+silêncio de interesses imediatos, nessa distância entre a presença e a palavra,
+32:37
+que o apreço se torna mais autêntico, porque já não busca agradar, mas apenas reconhecer o legado e as virtudes da
+32:46
+pessoa. Talvez por isso as homenagens mais sinceras sejam quase sempre aquelas feitas quando o homenageado não se
+32:52
+encontra no recinto, porque é justamente nesses momentos que se torna visível a
+32:58
+marca que uma pessoa efetivamente deixa. Não a impressão passageira de sua
+33:03
+presença, mas a permanência de seu exemplo. Não a força circunstancial do
+33:08
+cargo, mas a autoridade moral que permanece mesmo quando a pessoa não está
+33:14
+diante de nós. E é neste espírito que registro hoje esta homenagem aos 4 anos
+33:19
+do presidente Baigor como nosso líder e nosso dirigente na Agência Nacional de
+33:25
+Telecomunicações. Uma homenagem que não se faz por mera formalidade, ele sabe muito bem disso,
+33:32
+mas se faz por justiça. Ao reconhecer sua trajetória e sua atuação, reconhecemos, antes de tudo, qualidades
+33:39
+que no serviço público são tão valiosas quanto raras. retidão de caráter, senso
+33:45
+de responsabilidade, liderança, visão de futuro e sobretudo uma característica
+33:50
+que é muito importante para todo líder, equilíbrio emocional.
+33:55
+Fala, em primeiro lugar de retidão de caráter. Em funções públicas de elevada responsabilidade, caráter não é adorno,
+34:03
+é fundamento. E é o que sustenta a decisão correta quando ela não é mais simples. É o que
+34:09
+inspira a confiança, porque demonstra que a autoridade está apoiada em princípios e não em meras
+34:16
+circunstâncias. Carlos Baigor construiu esse respeito de forma muito discreta, mas inequívoca,
+34:23
+com correção, firmeza e sobretudo contraste a sua personalidade reconhecida por todos os servidores
+34:28
+dessa agência, sua integridade e seu senso de respeito por todos os servidores da casa, com uma postura que
+34:36
+não precisa se afirmar em palavras altas, porque confirma-se nos seus
+34:41
+próprios atos, no equilíbrio das suas decisões e na seriedade com que exerce suas funções.
+34:47
+Baigorre, como líder dessa agência, é um líder firme, mas sobretudo gentil. É um
+34:54
+líder que tem visão e essa visão quando implementada, ela é compartilhada com
+35:00
+muita responsabilidade e com muito respeito com todos nós no
+35:05
+lado da sua retidão, destaca-se seu notável senso de responsabilidade. Responsabilidade para compreender que
+35:12
+cada decisão institucional tem peso, alcance e consequência. responsabilidade para exercer a
+35:17
+autoridade como dever, nunca como privilégio. Responsabilidade para saber que em uma
+35:24
+agência como Anatel deliberar é sempre mais do que decidir, equilibrar interesses legítimos, proteger o
+35:31
+interesse público, estimular a inovação e preservar sobretudo a confiança na
+35:37
+instituição. Essa compreensão elevada do cargo público é um dos traços mais marcantes
+35:43
+de sua atuação também. Por isso merece destaque sua liderança. Não a liderança
+35:49
+do gesto ruidoso, conselheiro perante, não a liderança da imposição, mas a
+35:54
+liderança verdadeira, aquela que orienta, aquela que agrega, aquela que
+35:59
+organiza, aquela que escuta e aquela que decide. A liderança que fortalece a
+36:05
+instituição em vez de se sobrepor a ela. A liderança que sabe lidar com a divergência sem transformar diferenças.
+36:14
+conselheiro Edson Holanda em conflito, em beligerância
+36:20
+e sobretudo em confronto. A liderança que exerce a autoridade com serenidade, sem perder firmeza, com convicção e sem
+36:28
+perder sobretudo a medida. Conselheiro Nilo Pascoal. E talvez seja justamente
+36:34
+nesse ponto que se encontra uma de suas qualidades mais admiráveis, como eu já ressaltei nosso querido procurador geral
+36:41
+Csio Andrade, Cavalcante, e talvez seja justamente essa o equilíbrio emocional
+36:49
+nas suas ações. Em ambientes de grande exigência, de elevada indagação, de
+36:54
+pressões múltiplas e desafios complexos, como é a agência, o equilíbrio emocional não é um traço secundário, é uma virtude
+37:02
+central, é o que permite conservar lucidez e subpressão. É o que permite lidar bem com as
+37:09
+pessoas, inclusive nos momentos mais desafiadores, mais difíceis. é o que
+37:14
+permite enfrentar obstáculos sem perder a serenidade, sustentar posições sem endurecer o trato e conduzir situações
+37:22
+complexas com respeito, clareza, senso de proporção e sobretudo o respeito à
+37:28
+dignidade das pessoas. Essa forma de agir não apenas qualifica o dirigente, ela engrandece a
+37:35
+instituição. E a Anatel é uma instituição com mais de 28 anos e que o
+37:40
+Byor nesse auge é um exemplo notável porque é um servidor da agência.
+37:48
+Porque as instituições públicas também são moldadas pelo tom de suas lideranças, pela forma como decidem, pela forma como
+37:55
+escutam e pela forma como enfrentam as suas dificuldades. E é nesse aspecto que é justo reconhecer em Carlos Baigor uma
+38:03
+presença institucional marcada pela compostura, pela maturidade e pela
+38:08
+estabilidade que os grandes cargos exigem. Ao mesmo tempo, a sua atuação revela
+38:15
+também uma clara visão de futuro. Visão de futuro não é apenas falar sobre o amanhã, é preparar o amanhã com
+38:22
+responsabilidade no presente. É compreender a centralidade da Natel no desenvolvimento do país, na expansão da
+38:29
+conectividade, na modernização das comunicações e na construção de um Brasil mais eficiente, mais integrado e
+38:37
+mais preparado para os desafios de seu tempo. ver longe, Dra. a Letícia Seara,
+38:44
+sem perder o senso de realidade, avançar sem abrir mão da prudência, inovar sem
+38:51
+perder de vista o interesse público. Essa combinação entre visão e responsabilidade é parte importante do
+38:56
+legado que se reconhece em sua liderança. Então, senhoras e senhores, há pessoas cuja presença se nota quando
+39:03
+entra em uma sala e há pessoas cuja estatura se percebe sobretudo quando não
+39:09
+estar nela. é o caso hoje de Carlos Baigor, porque deixam um padrão, deixam
+39:15
+uma referência, deixam um exemplo. E penso que essa homenagem prestada
+39:20
+justamente nos seus 10 anos, nos seus 4 anos como líder da nossa agência,
+39:27
+é justamente na sua ausência, que tem, por isso mesmo significado especial. Ela diz de forma talvez ainda
+39:35
+mais eloquente que o respeito que se dedica ao presidente Carlos Baigor não depende de sua presença. Ao contrário,
+39:42
+confirma-se precisamente quando ela não está diante de nós. Eu raras à vezes vou
+39:49
+para uma missão institucional e eu não encontro um grande dirigente, um
+39:55
+chairman de uma agência internacional ou membro de uma organização internacional
+40:00
+que não fale na bem e reconheça a importância de Carlos Baigorre na sua
+40:06
+ausência. Eu nunca tive essa experiência de ir a algum país como representado
+40:12
+Natel e não ser questionado e o Byorre e sempre as melhores referências, sempre
+40:19
+os maiores elogios à figura do nosso presidente. Então é o respeito devido a um homem público de caráter, a um
+40:26
+dirigente de responsabilidade, a uma liderança serena e alguém que soube unir
+40:32
+firmeza e equilíbrio, visão e prudência, autoridade e sobretudo humanidade. Por
+40:38
+isso, senhores conselheiros, registro essa homenagem com admiração sincera e o reconhecimento de que o
+40:45
+serviço público se fortalece quando encontra lideranças dessa estatura. Eu
+40:50
+costumo dizer na presença e na ausência de baigor, fico muito feliz no meu círculo, na agência eu ter a honra de
+40:59
+servir ao Brasil sobre a liderança de Carlos Baigor. É um, volto a dizer, um líder correto, é uma pessoa sobretudo
+41:07
+emocionalmente equilibrada, é sobretudo uma pessoa que tem eh um, como um dos
+41:13
+tralidade eh um senso de propósito paraa agência.
+41:18
+E isso eh nós podemos ouvir e reconhecer em todo o setor de telecomunicações.
+41:24
+Então esse seria o meu primeiro extraputa e eu passo agora para o meu segundo
+41:31
+extrapauta que é sobre o recente estudo publicado e divulgado
+41:38
+de habilidades digitais da agência. Eu gostaria de iniciar esse segundo extrauta destacando esse valioso
+41:46
+trabalho realizado pela superintendência de relações com consumidores sob a liderança da minha amiga, nossa querida
+41:53
+superintendente Cristiana Camarate, que como todos nós sabemos tudo que se propõe a fazer torna
+42:02
+simplesmente ouro, tem um toque de Midas para os grandes projetos da agência.
+42:07
+O estudo habilidades digitais no Brasil, uma nova abordagem recentemente publicado, atualiza o framework de
+42:13
+competências digitais utilizado pela agência para superar os desafios e promover a conectividade universal e
+42:20
+significativa. No passado, nossa atuação era quase exclusivamente voltada para a
+42:27
+infraestrutura física. Conselheiro Perante, hoje compreendemos que o sinal de telecomunicações é apenas um alicece,
+42:34
+como você em outras palavras muito bem disse no seu primeiro extrapaudo. Esse
+42:39
+recente estudo refina trabalhos anteriores e incorpora as melhores referências metodológicas e práticas
+42:45
+internacionais no assunto. Ele expande nossa análise de proeficiência de habilidades digitais de 9 para 20
+42:51
+indicadores como um mapeamento mais amplo e detalhado segmentado por região,
+42:56
+classe social e faixa etária.
+43:02
+Desse modo, temos um diagnóstico mais preciso sobre como o brasileiro lida com
+43:07
+a informação, comunicação, criação de conteúdo, segurança e resolução de
+43:12
+problemas do ambiente digital. É importante destacar destacar que esse estudo, assim como vários outros
+43:18
+projetos e iniciativas das nossas superintendências, comitês e grupos técnicos isolados em parcerias
+43:25
+qualificadas, faz parte de um processo maior de amadurecimento técnico, tecnológico, de transformação da
+43:31
+identidade institucional da agência, que já há alguns anos a envolve por completo, desde o planejamento
+43:38
+estratégico até a entrega final de seus produtos e resultados à sociedade brasileira.
+43:43
+Essa mudança é fruto de um intenso esforço coordenado de construção de inteligência regulatória e capacidades
+43:50
+institucionais, rigorosamente norteado por políticas públicas expedidas pelo governo federal e pelos pelas diretrizes
+43:57
+do próprio Ministério das Comunicações. E aqui quero fazer um registro muito importante aos grandes projetos que
+44:05
+foram liderados pelos ministros Jilino Filho e Frederico de Siqueira. Nesse
+44:11
+sentido, a missão institucional é a atuação regulatória da agência da agência foram redesenhadas para
+44:17
+enfrentar de forma coesa e sistemáticos diferentes estágios da exclusão digital.
+44:22
+Isso ainda limita o desenvolvimento das telecomunicações brasileiras e, por extensão, prejudica o crescimento
+44:30
+econômico do nosso país. Por quê? Primeiro vamos trabalhar por estágios. O
+44:35
+primeiro estágio é o economic divide ou exclusão digital econômica relacionada à disponibilidade aos custos dos serviços
+44:42
+e dispositivos. O segundo é o usability divide e a exclusão de usabilidade cerne
+44:49
+do mencionado estudo de habilidades digitais. Afinal, a efetiva inclusão digital é fruto não só do acesso, mas da
+44:57
+habilidade da população em saber usar tecnologias. Não adianta ter acesso e
+45:02
+não saber usar. Sem as competências digitais apropriadas, o cidadão permanece à margem das oportunidades e
+45:09
+totalmente, conselheiro desprotegido dos perigos do ambiente digital.
+45:17
+E por fim, o empowerment divide relacionado ao empoderamento do indivíduo e das comunidades, para que a
+45:24
+conectividade digital se concretize como uma ferramenta de exercício pleno da cidadania, permitindo que todos os
+45:30
+brasileiros utilizem um ambiente digital para inovação, para educação e proteção
+45:35
+de seus direitos. Nesse esforço colaborativo, todas as áreas da NATEL contribui contribuem com as suas
+45:42
+respectivas expertizes para vencer os desafios regulatórios. de um mundo em rápida transformação. Priorizamos a
+45:50
+expansão das redes e a massificação da oferta de serviço em todas as regiões,
+45:55
+garantindo que a infraestrutura seja o motor inicial da inclusão. Focamos assim
+46:00
+em um ambiente de negócios livre e competitivo, propício à inovação e na administração eficiente dos recursos de
+46:07
+telecomunicações e ainda na melhoria da qualidade dos serviços nos respeito dos direitos dos consumidores. É preciso
+46:14
+coordenação e sinergia. Não há toque mágico que acabe com exclusão digital.
+46:21
+Queremos que o Brasil alcance patamares de excelência internacional. É verdade, mas com uma população amplamente
+46:27
+alfabetizada em dados e protegida no ambiente virtual. Para isso, precisamos
+46:32
+somar e racionalizar esforço, agir de forma ordenada, eficiente e utilizar
+46:38
+sobretudo, conselheiro Pasquale, inteligência regulatória como um bússalo, uma bússola para a nossa
+46:44
+gestão, fornecendo o subsídio necessário para o monitoramento e os ajustes
+46:50
+contínuos da nossa atuação como órgão de implementação de políticas públicas aqui
+46:56
+em um período pré-eleitoral e hoje recebi uma cartilha de bons modos no
+47:02
+período eleitoral, encaminhada pelo nosso amigo Cássio Cavalcante. Nós precisamos evitar algum tipo de
+47:08
+demagogia regulatória. Ao reafirmar nosso compromisso com a evolução contínua da regulação e com a integração
+47:16
+de nossos esforços internos, a Natel demonstra que está pronta aos desafios da transformação digital, agindo como
+47:23
+uma agência técnica, sobretudo indutora da cidadania e a inclusão social para
+47:29
+todos os brasileiros. Então eu quero eh com esse meu segundo extrapa mais uma
+47:34
+vez parabenizar a Viva Voz a nossa superintendente Cristiana Camarate, toda
+47:39
+a sua equipe, todos os servidores da agência que estão comprometidos com a
+47:45
+educação digital. Esse é um projeto muito importante paraa agência e acredito que a o esse estudo pode ser
+47:54
+feito também de um grande benchmark para os nossos países vizinhos para que possam entender o grau de maturidade da
+48:02
+conectividade significativa no Brasil e do nosso eh grau de maturidade em termos
+48:07
+de habilidades digitais. Então, mais uma vez, meus parabéns à superintendente Cristiana Camarate e toda a sua equipe.
+48:15
+Passo agora, me permitam, para o meu terceiro extraputa. E aqui é um aqui é
+48:21
+um pauta muito importante. Eu queria muito que os conselheiros, o
+48:27
+Dr. Cásio Cavalcante, eh o Dr. Felipe Medrado. Eh, queria também os assessores de todo
+48:35
+o quadro técnico da agência e sobretudo toda a sociedade me acompanhasse nesse
+48:42
+terceiro extraputao. Ele é muito importante.
+48:48
+Senhores conselheiros, este conselho diretor, no exercício de sua missão regulatória institucional, delibera
+48:55
+cotidianamente sobre a alocação de recursos em iniciativas voltadas à
+49:00
+ampliação da conectividade, ao fortalecimento da capacidade técnica da agência e a preparação do Brasil para
+49:07
+os desafios da transformação digital. Entre essas iniciativas destaca-se os
+49:13
+termos de execução descentralizada, em sua maioria coordenados pelo Centro
+49:18
+de Altos Estudos, que tenho a honra de presidir no seu conselho superior, que é
+49:24
+uma instituição, no âmbito da agência, já presidida pelos históricos conselheiros Otávio Rodrigues Júnior,
+49:32
+Vicente Aquino e o nosso presidente Carlos Baigor.
+49:37
+Desde o início desta gestão, a condução desses instrumentos tem sido orientada por um compromisso permanente com a
+49:44
+transparência, com a integridade e a qualidade das entregas.
+49:49
+Sempre compreendemos que as parcerias dessa envergadura com a academia, tanto pela sua relevância estratégica, quanto
+49:55
+pelo volume de recursos públicos envolvidos, demandam, conselheiro
+50:00
+Holanda, um rigor na execução e robustez nos instrumentos de governança, bem como
+50:06
+uma clareza na comunicação com a sociedade. Eu tenho a convicção de que este não é
+50:12
+um tema meramente administrativo, mas uma discussão sobre a capacidade institucional,
+50:18
+a inteligência regulatória e a forma pela qual a Anatel se prepara com responsabilidade e visão estratégica
+50:25
+para responder aos desafios do futuro, a consonância com a competências definidas
+50:31
+no artigo 19 da Lei Geral de Telecomunicações. O que está em análise, portanto, é algo
+50:39
+maior. É a construção de uma agência que regula com base em conhecimento, que se aproxima da produção científica de
+50:46
+excelência e que reconhece em um ambiente descelharada a transformação
+50:52
+tecnológica, o regular bem exige prudência, o regular bem exige antecipação, método e sobretudo
+50:58
+evidência. Nesse contexto, embora já tenhamos há algum tempo uma página publicada na
+51:05
+internet com as informações, produtos, acompanhamentos atualizados dos TEDs para acesso de toda a sociedade e
+51:13
+solicitei ao secretário executivo do CADI, meu querido amigo João Marcelo, que gentilmente elaborasse essa
+51:19
+apresentação para maior publicidade dos instrumentos de transparência adotados.
+51:25
+Não posso deixar de agradecer ao meu colega, o ilustre colega de bancada, conselheiro Ed Solanda, que em recente
+51:32
+ofício encaminhado à presidência do CADI, questionou de forma muito diligente a respeito da forma de
+51:39
+acompanhamento e fiscalização de resultados dos nossos TEDs, que foi a
+51:44
+inspiração inicial para essa apresentação. para dar um contexto pra sociedade, é como se eu, como presidente
+51:49
+do Centro de Altos Estudos, oficiasse ao conselheiro Pierante para saber, por exemplo, eh a boa governança do Jiret ou
+51:57
+oficiasse ao próprio conselheiro, eh, Edson Landa para saber a respeito da
+52:02
+governança, reestruturação do Gaíp, da reestruturação da EAF. Então, é algo
+52:09
+muito salutar no âmbito do diálogo entre os conselheiros. Então, para dar essa
+52:14
+transparência, não apenas respondê-lo eh privadamente, eu achei por bem fazer e
+52:20
+conversei com o presidente, conversei com o conselheiro Pierante e achamos por bem fazer aqui uma apresentação pública
+52:28
+para que a sociedade entenda isso, não apenas uma troca de correspondência entre os gabinetes, mas uma
+52:34
+transparência pública como as coisas públicas exigem. Então eu peço agora que
+52:42
+nós passemos para o segundo slide que é muito importante, que é o papel do CADI e dos TEDs na integração das evidências
+52:49
+científicas à inovação em tecnolog em telecomunicações. O primeiro ponto que gostaria de
+52:55
+destacar é precisamente o papel institucional do Centro de Altos Estudos. O centro foi concebido para
+53:01
+fomentar pesquisa científica e debate acadêmico em temas centrais para a
+53:06
+agenda regulatória contemporânea, como inteligência artificial, cybersegurança,
+53:11
+ecossistemas digitais e conectividade. E essa missão, longe de ser abstrata,
+53:17
+revela um compromisso concreto da Anatel com uma regulação tecnicamente qualificada e intelectualmente preparada
+53:24
+para lidar com as complexidades do presente, sobretudo as complexidades do
+53:29
+futuro. É nesse contexto que os tédias assumem uma função particularmente relevante. Eles não são contratos
+53:37
+tradicionais, não se refere aqui a uma lógica convencional de aquisição. Trata
+53:42
+de parcerias institucionais que aproximam a agência do conhecimento de vanguarda produzido pelas universidades
+53:48
+e pelos centros de pesquisa. É essa aproximação que permite transformar a produção acadêmica em
+53:56
+inteligência regulatória e esta, por sua vez, em políticas públicas mais aderentes ao interesse público. E o
+54:02
+resultado dessa arquitetura institucional é claro, uma regulação baseada em evidências, uma agência com
+54:08
+maior capacidade de antecipar tendências tecnológicas e uma atuação pública mais preparada para responder as mudanças do
+54:15
+ecossistema digital. Aqui chegamos a um ponto central da apresentação. Eu queria que os colegas
+54:22
+prestassem atenção, por gentileza. Aqui eu endereço essa questão para a sociedade, mas para os meus colegas de
+54:28
+bancada. a necessidade de compreender corretamente a natureza jurídica do
+54:34
+instrumento condição necessária para uma melhor compreensão sobre as razões de
+54:40
+escolha desse instrumento. Isso beneficia o órgão, no caso TED, repassador de recursos e o órgão
+54:46
+recebedor e de forma dinâmica toda a administração pública. Para tanto, é preciso diferenciá-lo de um contrato
+54:53
+administrativo tradicional. Neste há obrigações recíprocas típicas
+54:58
+de uma relação contratual voltadas à compra de um produto ou um serviço prestado por terceiro. Já no TED de
+55:05
+pesquisa, o vínculo é outro. Estamos diante de delegação de competência, de compartilhamento da execução
+55:12
+orçamentária entre entes da União em todos de em torno de objetivos públicos
+55:17
+convergentes. Essa distinção não é mera é não mero adorno conceitual. Ela
+55:26
+produz consequências práticas e jurídicas relevantíssimas. Em razão dessas características
+55:32
+específicas, a lógica da liberação financeira é diferente. Enquanto no contrato clássico o pagamento se vincula
+55:38
+à entrega sucessiva e com descentralização se estrutura a
+55:44
+partir do cronograma de desembolso aprovado no plano de trabalho, nos termos do decreto 10.426/2020.
+55:52
+E isso se justifica porque o foco da execução em projeto de ciência, tecnologia e inovação não é o de um
+55:59
+objeto inteiramente fechado, rígido e previsível, mas sim o de um instrumento
+56:04
+de desenvolvimento contínuo, permeado por incerteza técnica, experimentação e construção progressiva de soluções. Não,
+56:12
+por acaso a própria orientação da da PGFN registra que no TED, veja, da PGFN
+56:19
+há efetivo desembolso a terceiros escolhidos para executar objeto contratual típico, mas sim delegação de
+56:27
+uma unidade para outra da atribuição de manejo de determinada programação
+56:32
+orçamentária. Em outras palavras, o TED de pesquisa não segue os delineamentos
+56:37
+do contrato administrativo tradicional, pois atende a finalidade distinta, opera sobre lógica diferente e responde a uma
+56:45
+realidade institucional específica. E vamos agora para o quarto ponto, que
+56:50
+me parece também muito importante da necessidade de descentralização inicial para a sustentabilidade da pesquisa
+56:55
+aplicada. aqueles que possuem alguma intimidade com a vida acadêmica, assim,
+57:01
+pesquisadores que fizeram mestrado, doutorado, principalmente os professores de de universidades públicas, federais,
+57:07
+estaduais, eh centros, universidade, think tanks, sabem como ocorre essa
+57:12
+dinâmica. Então, mas eu vou fazer uma explicação. O slide aprofunda essa
+57:19
+compreensão sobre a perspectiva da execução material dos projetos. É que é importante reconhecer, conselheiro
+57:25
+Perante, que a pesquisa aplicada, você é um grande pesquisador com mais de duas
+57:30
+dezenas de livros publicados, é desenvolvido de maneira não linear ou estanque, como em outras modalidades
+57:36
+administrativas. Ela demanda simultaneidade de frentes, interação entre equipes, prototipação, ajustes,
+57:44
+testes e correções. Em suma, existe continuidade. É justamente por isso que a fragmentação
+57:50
+excessiva do fluxo financeiro se mostra incompatível com a dinâmica própria dos projetos de PID. Esses projetos dependem
+57:58
+da contratação prévia de cientistas, bolsistas, profissionais altamente especializados da disponibilidade de
+58:05
+infraestrutura e da manutenção de ambientes técnicos adequados ao desenvolvimento de pesquisas. Isso
+58:10
+constitui um requisito essencial de viabilidade. A apresentação é precisa ao destacar o
+58:17
+papel das fundações de apoio. Por força normativa, essas fundações não
+58:23
+podem préfinanciar despesas, nem assumir riscos financeiros e fiscais. Assim, um
+58:30
+desempenho financeiro incompatível com a dinâmica do projeto compromete sua sustentabilidade,
+58:35
+especialmente ao demandar mobilização prévia de de equipes, bolsas e infraestrutura tecnológica. Eu sei muito
+58:42
+bem do que eu tô falando, conselheiro Enilo Pascoal, porque eu estudei numa universidade federal, eu fiz o mestrado
+58:49
+na Universidade Federal, fezado na PUC. Em todas essas e desses níveis, eu fui bolsista ou de iniciação científica duas
+58:58
+vezes, ou fui bolsista no mestrado com bolsa da CAPS ou desenvolvi pesquisa de
+59:03
+alto nível no doutorado, todas elas financiadas. Então, entendo muito bem como isso acontece. E quando eu tive a
+59:11
+honra de assumir o Centro de Altos Estudos, isso tudo aqui me foi passado com muita propriedade pelo presidente
+59:17
+Carlos Baigor. E a época nós conversávamos, presidente Carlos Baigor também com uma formação escolástica em
+59:23
+uma universidade de ponta, não aquelas que a gente tem que gugar para saber onde é. Aqui na Universidade de Brasília ele nos explicou muito bem como é que
+59:30
+isso acontece, não é, nas suas experiências no centro de no nos centros
+59:36
+de pesquisa da Universidade de Brasília. Então, creio se é oportuno ressaltar
+59:41
+que, apesar das especificidades dos TEDs de pesquisa, temos mantido todo o rigor
+59:46
+do controle. O que se tem aqui é um modelo de governança compatível com a natureza do objeto, sem qualquer
+59:53
+renúncia à supervisão, à integridade ou a responsabilização. A apresentação organiza esse ecossistema
+1:00:00
+de controle em três dimensões. Primeira, é a aprovação prévia, que compreende a
+1:00:05
+motivação técnica, vigor na análise do plano de trabalho, compatibilidade de custos e aprovação pelo Conselho Diretor
+1:00:12
+da Anatel. que é importante deixar claro, tudo do Centro de Autos Estudos
+1:00:17
+passa pelo Conselho Diretor. Eu faço questão, já houve ocasiões em que o
+1:00:23
+próprio Conselho Superior disse: "Isso aqui é dispensável passar aprovar. Nenhum ato do Conselho deixa de passar
+1:00:30
+pelo conselho diretor. Da mudança da governança, da escolha de um representante pro conselho, passa pelo
+1:00:37
+conselho diretor da Anatel. A aprovação dos projetos, dos tedes passa pelo conselho diretor da Natel. e sobretudo
+1:00:44
+toda parte de execução financeira. Eu conto com a diligente
+1:00:49
+parceria do meu amigo superintendente Daniel Dalbuquerque e toda a sua importante equipe. E nenhum desses
+1:00:57
+projetos jamais foi objeto de auditoria e sobretudo não há nenhuma notícia, nem
+1:01:03
+na minha gestão, nem no anterior, de algum tipo de acompanhamento do Tribunal de Contas da União. Ou seja, não existe
+1:01:10
+uma oposição. Vou voltar a esse ponto que é importante. Nessa apresentação, a nessa apresentação organiza esse
+1:01:17
+ecossistema de controle em três dimensões. Vou voltar porque isso aqui é importante para que a cidade possa compreender. A primeira é aprovação
+1:01:24
+prévia que compreende motivação técnica queigou na análise do plano de trabalho, compatibilidade de cursos e aprovação
+1:01:31
+pelo conselho diretor da Anatel. Segundo é o monitoramento ativo com acompanhamento da execução,
+1:01:39
+designação de fiscais, exigência de relatórios parciais e a possibilidade de vistoria em loco. E veja, temos um
+1:01:46
+gerente para cada TED desse, que faz a vistoria em loco.
+1:01:52
+A terceira é a autoridade final da administração com a suspensão imediata em caso de indícios de irregularidade,
+1:01:59
+rescisão unilateral, devolução de saldos e adoção das providências cabíveis. Ou seja, não existe uma oposição entre
+1:02:06
+flexibilidade e controle. A boa governança dos TEDs da Anatel demonstra justamente o contrário. É possível sim
+1:02:14
+compatibilizar a execução aderente à natureza dos projetos de ciência,
+1:02:20
+tecnologia e inovação com medidas firmes de acompanhamento e supervisão. A
+1:02:25
+presente apresentação procura registrar que até o momento todos os TEDs, todos
+1:02:30
+os TEDs respeitaram rigorosamente esses requisitos, atestando sua regularidade
+1:02:36
+formal e material. O próximo slide vai detalhar um pouco do
+1:02:41
+nosso portfólio. Isso, volto a dizer, é público, tá no site da agência e passa
+1:02:47
+por um rigoroso escrutínio da área técnica. O panorama atual do portfólio de PEDS
+1:02:54
+demonstra a amplitude da gcional da apoiada pelo Centro de Audos Estudos. Amplitude estratégica que reflete
+1:03:00
+investimentos em conhecimento aplicado sobre temas que modam o futuro das telecomunicações, conectividade e
+1:03:07
+transformação digital no Brasil. Ao detalhar esse portfólio, a apresentação reforça que estamos diante de
+1:03:13
+iniciativas conectadas entre si. consiste em um mosaico coerente de projetos que em conjunto expandem a
+1:03:20
+capacidade analítica prospectiva e regulatória da agência. As iniciativas voltadas às técnicas de IA em ambiente
+1:03:27
+de telecomunicações, a aplicação de técnicas de IA na gestão de espectro radioelétrico, de nos processos
+1:03:33
+administrativos sancionadores, mostram como a Anatel tem buscado incorporar metodologias contemporâneas à sua
+1:03:40
+atuação, sempre com foco na melhoria da qualidade decisória, da eficiência institucional e da aderência regulatória
+1:03:49
+a os propósitos da agência. Somam-se a elas estudos de web 3.0, metodologias de
+1:03:55
+precificação de espectro, redes futuras, novas tecnologias e rádiocomunicações, bem como o programa Nateles. Vejam que
+1:04:02
+isso aqui tudo tem ocorrido nos últimos 4 anos, voltado à sustentabilidade em
+1:04:08
+telecomunicações. O denominador comum entre esses projetos é muito evidente.
+1:04:14
+Todos contribuem para uma agência mais preparada para regular a mudança e não apenas reagir a elas.
+1:04:21
+No slide oitavo, vou falar um pouco da expansão das frentes estratégicas,
+1:04:28
+satélites, transformação digital, inclusão, liderança feminina,
+1:04:33
+modernização normativa e conectividade. A apresentação igualmente evidencia a expansão dessas frentes de atuação para
+1:04:40
+temas de grande relevância e geopolítica para agência. Entre elas, destaque-se os estudos sobre redes de satélites e
+1:04:47
+gestão de espectro e órbito, tema que se torna cada vez mais sensível em razão da
+1:04:52
+crescente centralidade das infraestruturas espaciais no ecossistema global de conectividade. Da mesma forma,
+1:04:58
+a estratégia de transformação digital da AATEL, as iniciativas de inclusão e desenvolvimento de competências digitais
+1:05:04
+e o curso Arquitéel para fortalecimento de lideranças femininas revelam uma
+1:05:09
+visão de futuro que combina modernização institucional, inclusão e formação de capacidades. E é essa uma mensagem
+1:05:16
+importante. Que mensagem é essa? Inovação regulatória se constrói com gente, com capacitação e sobretudo com
+1:05:24
+expansão de oportunidades para os nossos servidores. Nesse mesmo horizonte, a
+1:05:30
+modernização normativa das telecomunicações, a revisão do estudo da OCDE sobre conectividade no Brasil
+1:05:36
+revelam preocupações da agência com a atualização permanente seu acabouso regulatório e com a incorporação de
+1:05:42
+referências e referenciais comparados, sempre em benefícios de uma atuação mais consistente, mais informada e mais
+1:05:50
+conectada com as necessidades do Brasil. e já me encaminho para a parte final, as
+1:05:55
+parcerias, inovações e inclusão de políticas baseadas em evidências. Ao
+1:06:01
+final, a apresentação sintetiza também de forma muito clara a racionalidade que orienta esse conjunto de parcerias. Em
+1:06:07
+primeiro lugar, ela reafirma que a Natel trabalha com universidade de destaque,
+1:06:13
+UnB, ITA, UFRJ, Universidade Federal de Santa Catarina, Universidade Federal de Goiás, entre
+1:06:20
+outras importantes instituições, incorporando ao processo regulatório a expertise acadêmica de altíssimo nível.
+1:06:27
+Em segundo lugar, demonstra que os TEDs permitem ir além dos contratos tradicionais, viabilizando
+1:06:33
+experimentação científica e a flexibilidade necessária à inovação de alta tecnologia.
+1:06:39
+E por fim, em terceiro lugar, a apresentação sublinha o impacto dessas
+1:06:45
+parcerias sobre a inclusão digital, ao destacar que muito desses estudos se orientam à conectividade, ao
+1:06:51
+desenvolvimento de habilidades digitais como instrumento de redução de desigualdades. Isso é especialmente
+1:06:57
+relevante porque reafirma que a agenda tecnológica da agência não está
+1:07:03
+dissociada da agenda social. Ao contrário, ela deve servir a construção
+1:07:09
+de um país mais conectado, capacitado e sobretudo, conselheiro Pasquales,
+1:07:14
+inclusivo. Por fim, uma diretriz fundamental. Ao usar dados científicos para antecipar
+1:07:21
+tendências, a Anatel promove uma regulação alinhada à velocidade da tecnologia.
+1:07:27
+as necessidades sociais. Essa é a essência da regulação contemporânea, não apenas reagir ao fato consumado, mas
+1:07:35
+sobretudo antecipar-se, preparar-se e guiar-se para o conhecimento. Eu queria agora, senhores conselheiros,
+1:07:41
+à lisa de conclusão, dizer que os TEDs em andamento com suporte do CADI revelam
+1:07:47
+uma opção institucional clara da Anatel. Investir em conhecimento, aproximar-se da ciência, dialogar com a academia e
+1:07:54
+fortalecer a qualidade da regulação por meio de evidências, inovação e visão
+1:08:00
+estratégica. Mais do que instrumentos de execução, essas parcerias são instrumentos de futuro. Elas ampliam a
+1:08:06
+capacidade da agência de compreender e transformar tecnologia, de antecipar seus impactos e sobretudo de formular
+1:08:13
+respostas regulatórias mais qualificadas, modernas e aderentes ao interesse público. É assim que se
+1:08:18
+consolida uma Anatel preparada para os desafios do nosso tempo, uma agência que combina responsabilidade institucional,
+1:08:25
+sofisticação técnica e compromisso com a sociedade brasileira. Antes de finalizar, eu gostaria de apresentar
+1:08:32
+brevemente o portal do CAD, que é importante para evitar ruídos de fala decorrente muit das vezes
+1:08:39
+do desconhecimento a respeito da governança das coisas da agência. Então
+1:08:45
+é importante para a o público interno e pro público externo. Então eu gostaria
+1:08:51
+muito do secretário executivo do Centro de Altos Estudos, João Marcelo, para que
+1:08:56
+ele possa fazer a apresentação desses pontos.
+1:09:05
+Um momento, por gentileza.
+1:09:10
+Eu
+1:09:31
+vou passar com auxílio do João Marcelo e da minha querida amiga Letícia Seara.
+1:09:37
+Letícia, posso passando? É, pronto, a gente já colocou a a o
+1:09:43
+próximo slide que traz a página da internet eh do do CADI.
+1:09:50
+Ótimo. Esse aqui eu tô vou eh selecionei alguns highlights que dizem respeito
+1:09:56
+muito a pedido de informações do conselheiro Edson Holanda. Então eu vou
+1:10:01
+fazer as apresentações para que o conselheiro possa ter um overview juntamente com os colegas da agência e
+1:10:08
+evidentemente, como ainda h pouco mencionei em relação ao destaque do o extrapauta do conselheiro Perante, aqui
+1:10:15
+é um momento importante de se lançar luzes a respeito das das coisas da
+1:10:20
+agência. Então, a primeira tela de, por exemplo, tem o endereço do portal do CADI, é importante para podermos
+1:10:27
+consultar com todas as informações que disponibilizamos, incluindo depoimento
+1:10:32
+de especialistas, detalhes de governança, reuniões, etc.
+1:10:38
+Para acessar as informações sobre TEDs, temos que clicar no botão de destaque. Então, esse ponto aqui é o, vejam que
+1:10:45
+esse aqui é o é o é um roteiro muito simples, no meu modo de ver, muito autointuitivo. Então, termo de execução
+1:10:52
+descentralizada. Então, podemos já passar para outro ponto. No slide dois, aqui nós clicamos nessas
+1:11:00
+telas. A tela que se abre tem um breve explicativo do que são os TEDs, como
+1:11:06
+eles são aplicados na ATEL e as referências normativas, especialmente o
+1:11:11
+decreto 10.426/2020. No slide subsequente, que também é muito
+1:11:18
+intuitivo, colando para baixo, aparece a informação do quantitativo de projetos e a lista de
+1:11:25
+todos esses projetos, com a indicação da instituição parceira, a área dentro da NAPEL, responsável pela gestão e o prazo
+1:11:32
+de vigência. Por exemplo, no slide 4, é possível
+1:11:38
+selecionar um dos projetos, abrir uma nova tela com maiores detalhes sobre
+1:11:44
+aquele TED específico, resumo e objetivo.
+1:11:50
+No slide 5, descendo a tela, aparece o maior detalhamento do projeto, como o
+1:11:55
+número do termo firmado, a sua situação, o valor, a vigência, o ponto de controle
+1:12:03
+e os processos onde as informações estão incluídas. No subsequente, o slide seis aqui, para
+1:12:11
+que todos possam consultar a qualquer momento, em qualquer contexto, as informações sobre os TEDs. Mais abaixo
+1:12:18
+consta um quadro com todas as metas e produtos deste TED específico, destacando-se que os produtos podem ser
+1:12:24
+acessados diretamente pelo site, desde que não existe nenhuma restrição para publicação para o público externo. Mesmo
+1:12:31
+assim, todos estão disponíveis no sei interno da NATEL.
+1:12:36
+Eh, eu pedi inclusive para atender a para atender da melhor forma possível a
+1:12:43
+demanda do conselheiro Edson Landa, que o site ele fosse aperfeiçoado com um
+1:12:49
+ponto, todos os requerimentos eles fossem inclusive colocados no site, não
+1:12:55
+tivesse uma aba própria. Então, por exemplo, o requerimento do colega vai vai ficar vai constar nesse site, a
+1:13:02
+nossa resposta vai constar no site também. E assim, por exemplo, se nós tivermos algum pedido de acesso à
+1:13:09
+informação, se alguma algum meio de comunicação ou veículo de jornalismo
+1:13:15
+solicitar informações, elas estarão ali ostensivas para que se possa consultar.
+1:13:20
+Volto a dizer, todos os projetos da agência sobre a governança do Sandal dos
+1:13:25
+Estudos, eles são transparentes. A forma como os conselheiros são indicados, a
+1:13:32
+submissão dos seus nomes, seus respectivos nomes ao conselho diretor da agência, observando os princípios
+1:13:39
+constitucionais, sobretudo da impessoalidade. Eh, todos os a a os TEDs passam por esse
+1:13:46
+critério também. Eh, os eventos da agência passam no início do ano por um
+1:13:51
+debate no âmbito do Conselho Superior para definirmos as prioridades. E digo,
+1:13:57
+quando se trata de orçamento, eu atuo juntamente com a SAF. Tudo que
+1:14:05
+passa pelo Conselho de Centro de Auto estudos passa pela SAF. Nesse ponto eu tenho como um grande anjo da guarda meu
+1:14:11
+amigo superintendente Daniel Dalbuquer, que quando tem que dizer não, diz com muita firmeza e com muita propriedade.
+1:14:19
+Então esse eu acho que é um extrauto importante do ponto de vista das coisas públicas que eu gostaria de fazer. E eu
+1:14:27
+e encerrado essa extrauta, eh, justamente sobre o
+1:14:35
+Centro de Altos Estudos, eu queria fazer um breve comentário a respeito do extra
+1:14:41
+pauta do nosso Conselho Consultivo. E com isso nós já iniciamos
+1:14:47
+eh o presidente, eu podia só fazer um esclarecimento muito breve. Claro,
+1:14:53
+claro, conselheiro. Vou lhe passar a palavra, vou pausar aqui para vossa excelência se manifestar, por favor.
+1:14:59
+No tocante, no tocante é o pedido de informação, foi um pedido de informação entre gabinetes, por quê? Eh, a gente tá
+1:15:05
+analisando o regramento do CADI, né? O planejamento ele é aprovado pelo CADI e ele é submetido ao conselho diretor. Eu
+1:15:13
+entrei aqui na agência em setembro, né? como bem o senhor falou, né, conselheiro, de que esse assunto sempre
+1:15:19
+é debatido. Então, desde que eu vim a integrar o conselho em setembro até hoje, o planejamento do CADI não foi
+1:15:25
+aprovado no conselho. E aí, no momento que fosse aprovado ou se tivesse sido aprovado, eu iria tirar várias dúvidas.
+1:15:33
+Então, seja de que olha, esse valor foi pago, né, no nesse ano fiscal, mas a
+1:15:39
+entrega é no ano 2027, eh as dúvidas que surgiriam seriam discutidas ali. Mas a
+1:15:45
+gente, quando eu me vi ainda abril 2026, nós já estamos e o planejamento do do
+1:15:51
+CADI não passou, por isso que veio o questionamento. Foi um questionamento inclusive interno, né? Não foi público.
+1:15:57
+Em nenhum momento a gente trouxe qualquer questionamento público da condição do CADI. E naquele momento ou
+1:16:03
+no momento que vier, né, a gente ainda não aprovou aqui o planejamento do CAD 2026, a gente iria discutir vários
+1:16:09
+elementos, algumas sugestões, como eu tenho, por exemplo, acabou de ter um produto entregue pelo ITA falando de
+1:16:16
+cybersegurança. Eu sou representante do da no Conselho Nacional de CBegurança. Eu achava relevante, né, também integrar
+1:16:24
+pelo menos como ouvidor do naquele momento. Então esse debate realmente era para ter sido feito, já não foi feito e
+1:16:31
+na hora que a gente fez esse ofício para o CADI era para justamente iniciar, já que esse assunto até o presente momento
+1:16:38
+não não foi trazido até o conselho diretor sobre a discussão do planejamento do CADI, que é o
+1:16:43
+planejamento de 2026. Era só isso, tá? Só para esclarecer a motivação. Não, eu entendi. Sempre salutar suas
+1:16:49
+contribuições, conselheira Edson Nanda. Isso assim vem muito assim das suas passagens representativas por
+1:16:54
+importantes segmentos da vida pública e sempre somam muito quando nós falamos da
+1:17:00
+governança da agência. Então, eh, no âmbito do Centro de Altos Estudos, o planejamento ele já foi aprovado pelo
+1:17:07
+Conselho Superior do Centro de Autos Estudos e vai ser submetido em matéria administrativa pelo presidente. Então,
+1:17:14
+nós temos 6 meses, que é o período, vamos submeter já na sequência com retorno do presidente e evidentemente
+1:17:21
+que nós teremos espaço para que Vossa Excelência possa tirar todas suas importantes dúvidas, sempre assim muito
+1:17:27
+pautadas na impessoalidade, na transparência, na coisa pública. Então,
+1:17:32
+é uma excelente oportunidade para de fato nós tratarmos desses temas relevantes. a sua passagem eh nesse
+1:17:39
+momento no conselho diretor vai abrilhantar muito mais ainda o debate a
+1:17:44
+respeito desses importantes mecanismos de controle do conselho. Eu vou agora para o meu quarto extrapauto e e último.
+1:17:54
+Gostaria de destacar o avanço da Anatel no fortalecimento da participação social e da escuta ativa ao convidar o Conselho
+1:18:02
+Consultivo e ouvidoria para se manifestar em processos de grande relevância social. No caso da ouvidoria,
+1:18:09
+faz-se referência aos regulamentos de postes e acessibilidade. Em relação ao Conselho Consultivo, o
+1:18:15
+foco foi na política de governância de IA, no PCS, plano de conectividade
+1:18:21
+significativa e sustentabilidade socioambiental. e na revisão do RGA, o regulamento geral de acessibilidade.
+1:18:28
+A atuação do Conselho Consultivo ocorreu por minha provocação em iniciativa para ampliar o diálogo
+1:18:34
+institucional e qualificar tecnicamente as decisões regulatórias da agência. Eles já apresentaram contribuições
+1:18:41
+relevantes nos três temas, todas aprovadas por unanimidade por seu colegiado.
+1:18:47
+Na política de governança de ar, o conselho apresentou contribuições que reforçam o modelo baseado em princípios
+1:18:53
+como transparência, supervisão humana, explicabilidade e responsabilidade.
+1:19:00
+Cabe registrar que o documento da relatoria da conselheira Porto aponta
+1:19:05
+que a adoção de soluções de IA deve respeitar a proteção de direitos fundamentais, a segurança jurídica e a
+1:19:12
+preservação da autoridade decisória humana. Entre os principais avanços, destaco fortalecimento da supervisão
+1:19:18
+humana, a vedação da delegação decisória, incentivo a inovação responsável alinhada ao interesse
+1:19:24
+público, a inclusão dos princípios de explicabilidade e audatibilidade,
+1:19:29
+auditabilidade e sobretudo a promoção do letramento em Iar como política institucional contínua. As contribuições
+1:19:37
+foram incorporadas à minuta final do IALAB, evidenciando a convergência entre o Conselho Consultivo e as áreas
+1:19:44
+técnicas da agência na construção de uma governança de ética e segura. O processo
+1:19:50
+seguirá agora para a presidência e para a apreciação do Conselho Diretor nos próximos dias.
+1:19:56
+No plano de conectividade significativa e sustentabilidade socioambiental, o Conselho Consultivo reforçou a
+1:20:01
+necessidade de políticas públicas que vão além do acesso formal à internet. garantindo uma conectividade efetiva
+1:20:08
+para o pleno exercício da cidadania. O diagnóstico aponta que limitações de acesso e franquia de dados ainda impedem
+1:20:16
+uma parcela relevante da população de acessar serviços essenciais como saúde,
+1:20:22
+educação e serviços governamentais. Nesse contexto, o Conselho Consultivo
+1:20:27
+propôs medidas estruturantes alinhadas a referenciais internacionais, ampliação do acesso a serviços públicos
+1:20:34
+digitais essenciais, mesmo após o esgotamento da franquia, uso de obrigações de fazer para inclusão
+1:20:40
+digital, estudo sobre impacto da publicidade no consumo de dados e estímulos à economia circular,
+1:20:47
+aproveitando dispositivos para populações vulneráveis. Na revisão do Regulamento Geral de Acessibilidade, o
+1:20:54
+Conselho Consultivo contribuiu significativamente para aumentar o alcance da política, incorporando uma
+1:21:00
+visão mais abrangente de inclusão digital. A proposta expande a acessibilidade além das pessoas com
+1:21:06
+deficiência, abrangendo grupos vulneráveis como idosos, mulheres e população de baixa renda. Entre os
+1:21:13
+principais pontos apresentados estão apoio e ampliação do público alvo das políticas de acessibilidade,
+1:21:20
+incentivo à oferta de dispositivos acessíveis e de baixo custo, fortalecimento de instrumentos como SIC,
+1:21:26
+central de intermediação de comunicação e a promoção de comunicação em linguagem
+1:21:31
+simples. A atuação integrada entre Conselho Diretor e Conselho Consultivo revela o modelo regulatório mais aberto,
+1:21:38
+conselheiro Perante, colaborativo e voltado à construção de consensos. Essa
+1:21:44
+iniciativa reforça o papel estratégico do Conselho como instância qualificada de participação social,
+1:21:50
+resultando em decisões regulatórias mais robustas, legítimas e alinhadas à demandas da sociedade. Com isso,
+1:21:57
+finalizo meus extrapautos e passo a palavra ao nosso ouvidor, que fará um
+1:22:02
+breve apresentação sobre uma importante contribuição a ser apresentada ao regulamento de postes que está sob minha
+1:22:08
+relatoria. Bom, eh, muito obrigado, conselheiro
+1:22:15
+presidente em exercício, Alexandre Freire, cumprimento ao senhor e aos demais conselheiros da Berante, Ed
+1:22:22
+Holanda, nosso amigo Dr. Cáro Capalcante, Dra. Letícia e as equipes aqui presentes e nossos espectadores
+1:22:29
+também. Eh, eu desejo também, é claro, um pronto restabelecimento, né, pro
+1:22:34
+nosso presidente, eh, Carlos Paigó, ele tem uma boa convalescência, ele certamente tá fazendo, levando sorriso
+1:22:40
+lá pelos corredores dos do hospital onde ele, né, deve tá, deve ter feito seu procedimento. Eh, mas enfim, entrando
+1:22:48
+aqui no nosso no nosso assunto do compartilhamento de postes, eu queria agradecer, né, ao senhor pelo por esse
+1:22:55
+convite, eh, para na condição aí de relator desse assunto, revisão desse
+1:23:00
+assunto aqui no âmbito da Anatel, pra gente poder colaborar com esse tema, levando a opinião da ouvidoria e, é
+1:23:07
+claro, como porta de entrada das manifestações da sociedade. Esse tema ele é um tema caro para ouvidoria. a
+1:23:13
+gente já tá na terceira edição do relatório de compartilhamento de infraestrutura passiva. Em breve a gente
+1:23:18
+vai publicar, estamos lançando aqui em primeira mão esse esse documento. Eh,
+1:23:24
+esse estudo ele parte de um problema regulatório concreto, né, que tem um forte impacto econômico social, como todos sabemos. A desorganização dos
+1:23:31
+postes, ela não é só um problema visual ou operacional, mas ela também é um gargalo paraa conectividade,
+1:23:37
+eh, e, é claro, a inclusão digital e o crescimento econômico do nosso país. A
+1:23:42
+proposta dessa apresentação, então, é demonstrar na Ótica da Vavedoria que o tema do compartilhamento de poes
+1:23:47
+ultrapassa uma discussão estritamente regulatória entre setores, mas trata também de um tema estrutural paraa
+1:23:52
+expansão da banda larga no Brasil. Eh, e é claro, né, com impacto aí na
+1:23:58
+própria agenda de desenvolvimento econômico do nosso país, porque a gente sabe que cada real investido aqui gera
+1:24:03
+eh eh impacto no PIB. E partindo desse ponto, né, eh pode passar, por favor, eh
+1:24:11
+é importante a gente compreender a natureza do problema. E aí eu peço aqui eh as imagens eh vão ser um pouco
+1:24:18
+impactantes, mas fiquem tranquilos, tá? Eh, essa questão aí da tragédia dos
+1:24:25
+comuns, ela não, peço que não se assustem com a expressão, é é um conceito econômico e ambiental, né, que
+1:24:31
+a gente utiliza, foi popularizado por eh Garret Hardy em 1968,
+1:24:36
+no qual indivíduos agindo no interesse próprio acabam esgotando por um recurso compartilhado
+1:24:42
+como pastagens, água, ar ou no caso os postes. Isso prejudica, né, o coletivo
+1:24:48
+no longo prazo. Esse dilema ele acontece porque os benefícios do uso eles são privados, enquanto os custos do mesmo
+1:24:55
+são divididos por todos. A gente não tá falando aqui apenas de infraestrutura, mas da necessidade de um alinhamento de
+1:25:01
+interesses, tá? Eh, a gente não quer representar aqui uma guerra entre agências, tá? longe disso, mas sim que
+1:25:08
+existem ali interesses que que precisam convergir, precisam de um alinhamento. De um lado a gente tem o monopólio da
+1:25:14
+energia, né, que foca ali em segurança, e do outro as telecomunicações com a dependência absoluta dos postes,
+1:25:21
+praticamente absoluta, né, caso para poder expandir a banda larga. As distribuidoras de energia elétrica, elas
+1:25:27
+buscam a segurança, a modicidade tarifária e a preservação desses ativos. as tele as empresas de telecomunicações
+1:25:34
+eh em seu lugar, elas buscam expansão rápida e previsibilidade de custos, eh,
+1:25:40
+até por terem uma margem muito mais eh eh estreita. E aí, sem essa coordenação,
+1:25:46
+o sistema, eh, eh, acaba gerando ali uma ocupação, de certa forma caótica e um subinvestimento. Então, por isso é um
+1:25:53
+problema clássico ali de desalinhamento de incentivos. Eh, a próxima slide, por
+1:25:58
+favor. Trazendo aqui a visão da sociedade por meio dos das manifestações que nós
+1:26:04
+recebemos lá no Fala, aqui no Fala BR, na Ovidoria, que é a plataforma pela
+1:26:09
+qual a gente recebe as manifestações. Eh, a gente traz aqui esse histórico em 2023 e de 2023 para cá, a gente nota que
+1:26:18
+houve uma certa redução, mas agora em 2026 nós já tivemos nove manifestações a esse respeito, eh, até agora no mês de
+1:26:25
+março. Então, a gente proporcionalmente a gente entende aí que eh se o
+1:26:30
+continuarmos esse risco, nesse ritmo, a gente vai ter o risco de eh que esse número volte a crescer. Então, a
+1:26:37
+ouvidoria ela registra eh esses essas manifestações, seja ali de fios caídos,
+1:26:43
+de cabos abandonados, eh enfim, acidentes com caminhões, poluição visual, falta de manutenção, furto de
+1:26:49
+cabos. esses problemas impactam ali diretamente a o usuário final, né, o cidadão. No próximo slide, por favor.
+1:26:57
+Eh, por conta do horário aí a gente só trouxe uma manifestação aqui como exemplo. Eh, vocês desculpem aí, a gente
+1:27:05
+tirou ali alguns trechos que foram não censurados, mas conta aí do do horário das damas que estão aqui presentes, a
+1:27:11
+gente retirou, mas nas manifestações os cidadãos acabam se exaltando e às vezes com razão, né? Então a gente vê que ali
+1:27:19
+eh eh a pessoa tá vendo aquela situação, né, na frente da sua casa, abre a janela
+1:27:24
+ou passa na rua ou vai atravessar uma avenida e se depara com esse tipo de situação e aí eh acaba eh trazendo toda
+1:27:32
+essa carga eh eh emocional. Então, aíoria registra essa essa volta do do
+1:27:38
+aumento do desse número de manifestações e eh de certa forma a gente quer aqui
+1:27:44
+contribuir. Claro, a gente não veio para a nossa área técnica é muito preparada e
+1:27:49
+e claro a o gabinete, a relatoria vai fazer um trabalho muito intensivo em
+1:27:54
+cima de tudo que a gente trouxer. Nós vamos abrir, inclusive outras manifestações e outros dados eh à medida
+1:28:00
+que forem solicitados. No outro slide a gente tem evidências visuais eh a
+1:28:06
+respeito disso. Eh, e assim, não é brincadeira, existem postes que realmente estão pedindo socorro. a gente
+1:28:13
+teve teve manifesta uma manifestação em que o poste tava literalmente caindo e
+1:28:18
+as pessoas foram lá e escreveram uma placa: "Socorro, estou caindo". Eh,
+1:28:23
+então assim, a gente nota que é uma é uma questão eh eh que tá no nosso dia a
+1:28:31
+dia, independente se a gente tá num grande centro ou numa periferia, esse esse problema tenha acontecido com
+1:28:36
+frequência no Brasil. E a gente espera então que com essas essa essa iniciativa, principalmente a
+1:28:43
+continuidade da da postura da Anatel e que tem encabeçado a a solução desse problema, a gente espera que essa
+1:28:49
+situação se resolva e não fique tão enrolada quanto os cabos que estão aí, né, em cima dos portes. No próximo
+1:28:55
+slide, por favor. Arias, a gente trouxe aqui também, não se assustem, essa essa
+1:29:00
+ficou meio chocante, não quer dizer que a que a GU eh esteja ali no meio do da
+1:29:05
+Celeu, mas sim trazendo ali a solução para esse caso. A gente sabe que a a
+1:29:11
+houve ali uma certa umas questões a respeito da eh eh de algumas de alguns
+1:29:17
+aspectos, né, principalmente ali da questão da sessão do do terceiro, eh da obrigatoriedade de gestão por um
+1:29:23
+posteiro. é a questão do preço transitório e a questão do ônus unilateral, os custos de regularização
+1:29:30
+do do plano de regularização dos postes, né? E aí o ponto central da divergência,
+1:29:36
+que é a comporedade, eh a gente pode notar aí nessa matriz que a gente tem ali eh
+1:29:44
+esses três pontos principais na figura do poseiro, o curso de regularização e os prazos de identificação. E a gente
+1:29:50
+tem ali como como um insite eh chave, insite principal, que o impasse acaba
+1:29:56
+inviabilizando o cumprimento do decreto, eh, e paralisando ali a expansão de redes de fibra órtica e a resolução de
+1:30:03
+de situações, eh, específicas entre
+1:30:08
+atores. Então, a gente tem uma necessidade de alinhamento, isso envolve uma questão não só técnica, mas
+1:30:14
+econômica e jurídica. Eh, o modelo que a Arnatel enfatiza, ele
+1:30:19
+envolve a neutralidade e a competição. E o modelo que a ANEEL enfatiza é controle operacional e amorticidade.
+1:30:26
+Um outro ponto também seria ali a dimensão institucional, né, que essas divergências elas eh como eu falei, né,
+1:30:33
+não são divergências institucionais, não é não é um conflito, mas sim uma necessidade de alinhamento.
+1:30:38
+Eh, e essa, principalmente essa questão da figura do posteiro e esse modelo de governança, ela gera, na verdade, uma
+1:30:45
+uma oportunidade de melhoria regulatória na nossa ótica. Eh, próximo slide, por
+1:30:52
+favor. eh tentando numa tentativa aí de de eh
+1:30:59
+ajudar, né, as as a os reguladores a resolver essa essa questão, o setor
+1:31:05
+privado acabou construindo uma solução eh consensual, eh trazendo essa essa
+1:31:11
+resposta orgânica, essa proposta de consenso que foi eh
+1:31:16
+encaminhada aí ao nosso direto conselheiro Alexandre Freire, relator da matéria e Eh, segundo essas entidades, o
+1:31:25
+compartilhamento de postes, ela não configura ali uma relação típica do Mercado Livre por envolver uma infraestrutura essencial e uma obrigação
+1:31:32
+regulatória de sessão, razão pela qual defendem a disciplina regulatória
+1:31:37
+capaz de assegurar preços orientados a custos, incentivos adequados à regularização e condições para
+1:31:43
+reordenamento sustentável da infraestrutura. Aí, nesse contexto, essas entidades, essas sete eh eh
+1:31:50
+entidades, no caso Abramulti, Abrint, A Pronet, e Associação Neoconexis,
+1:31:55
+Internet Sul, Rede Telesul e Tcomp, eh apontaram como aspectos centrais da sua
+1:32:01
+proposta a instituição de um período transitório, com foco específico no reordenamento nesse prazo de 5 anos, uma
+1:32:07
+adoção de um preço teto que concilia a modicidade, a regularização e o financiamento do esforço transitório, a
+1:32:13
+criação de incentivos, à formalização, inclusive inclusive mediante a não incidência de cobranças retroativas nos
+1:32:19
+casos de adesão, perdão. Eh, a ampliação da capacidade física dos
+1:32:25
+postos por meio de soluções técnicas. E essas soluções já foram várias soluções foram demonstradas e elas conseguem
+1:32:32
+ampliar bastante a capacidade eh de pontos de fixação nos postes. A
+1:32:39
+possibilidade de que a gestão da infraestrutura seja desempenhada por uma estrutura vinculada ao grupo econômico da distribuidoras, sem que a existência
+1:32:44
+dessa figura seja tratada isoladamente como uma solução suficiente pro problema.
+1:32:50
+E aí essas entidades elas ressaltaram também que a controvérsia sobre a compulsoriedade ou a facultatividade
+1:32:56
+desse costeiro, ela não esgota o debate regulatório, nem enfrenta por si só as causas estruturais da desorganização dos
+1:33:03
+poches. Então para avaliar esses caminhos possíveis é necessário observar também algumas experiências, né?
+1:33:09
+Tivemos, pode passar, por favor, ainda brigada, tivemos exemplos, é claro, aqui no no país, né? como os municípios ali
+1:33:16
+de Londrina, de Gramado, tivemos experiências ali em São Paulo, em determinadas regiões, enfim, em outros
+1:33:22
+municípios. E aí nós trouxemos também, além das contribuições eh das manifestações de ouvidoria, eh um
+1:33:29
+benchmark internacional. Nós fizemos isso na segunda edição e trouxemos agora novamente esse eh o paradigma americano,
+1:33:37
+tá, doe US Code no na sessão 224, eh na qual o direito de acesso ali é uma
+1:33:45
+prerrogativa legal forte. A metodologia de preço eh focada ali na na recuperação
+1:33:51
+do custo, eh de uma forma justa e razoável. e o papel do intermediário é
+1:33:56
+um contrato bilateral direto, sem a obrigatoriedade desse intermediário.
+1:34:01
+A proposta que a gente tá discutindo aqui, né, eh temos aí o dever de CD mediado, eh, pela rei, o preço regulado
+1:34:10
+via a revisão eh tarifária periódica e a implantação do posteiro neutro. Passando
+1:34:16
+adiante, temos aí a o o modelo americano, tá? que
+1:34:21
+é dentro ali do paradigma, eh, perdão, dentro do paradigma americano, temos o
+1:34:26
+modelo californiano. Eh, e antes ele ele visava, ali tinha um
+1:34:32
+um padrão antigo com que tinha um gargalo parecido com o nosso, a qual o operador ajustava, depois passava umas
+1:34:38
+semanas, a outra ajustava, não resolvia e tal, as semanas passavam e o tempo o tempo decorria e o e o negócio não
+1:34:45
+funcionava. Nesse novo arranjo, eh, foi criado um profissional certificado que
+1:34:51
+coordena e executa todos os os rearranjos e a ordenação desses postes.
+1:34:57
+E existe ali um mecanismo de eh ou de self, que é no qual o detentor, se ele
+1:35:03
+atrasar nos prazos, gera ali um gatilho. É, ele tem ali 30 dias para resposta, 14
+1:35:08
+dias para aprovação e as operadoras elas podem contratar os empreiteiros credenciados diretamente, caso ali não
+1:35:14
+seja resolvido. No próximo slide, a gente tem ali também outros fatores que
+1:35:20
+a legislação californiana trouxe, no caso, um inventário eh digital
+1:35:26
+obrigatório, a atualização em tempo real dessas bases de dados atualizada ali mensalmente para
+1:35:32
+evitar ali a simetria de informações e entre operadores e distribuidores, a digitalização do acesso, permitindo que
+1:35:39
+as aprovações eh sejam aceleradas, a implantação de rede de fibra ótica e 5G
+1:35:45
+balizadas em dados e o e aí o o inventário ele transforma esse problema de hardware em uma solução de software.
+1:35:52
+Próximo slide a gente vê também um outro a outra um outro pilar eh do modelo
+1:35:58
+americano ou californiano, que é a precificação orientada a custos. Ele envolve uma lógica na qual ele tem esse
+1:36:05
+custo anual de propriedade, eh, no qual entra ali a depreciação, o
+1:36:11
+custo de operação e manutenção, o retorno ulatório e o custo o o toral
+1:36:16
+costo a forner. E aí a gente, eles chegaram aí nesse piso eh mínimo eh
+1:36:21
+legal paraa qual o os detentores com o ativos já conseguem ali fazer a depreciação e e os e o reordenamento dos
+1:36:29
+postes. No próximo slide, então a gente sintetiza aqui o que a gente entendeu, tá? Isso não é a proposta da ouvidoria.
+1:36:36
+a gente, como eu falei, nós não vamos fazer uma proposta, a gente tem uma síntese aqui do que a gente ouviu. E aí,
+1:36:43
+aplicando esses itens dessas propostas da área técnica, do consenso e do benchmark que a gente observou, a gente
+1:36:49
+tem uma possível eh conclusão eh na qual as contribuições passariam ali
+1:36:57
+eh por uma combinação entre a flexibilidade e o enforcement que é necessário. Então, a distribuidora ela
+1:37:03
+ela pode permane poderia permanecer na gestão. Se os indicadores falhassem, acionaria-se uma uma sessão compulsória
+1:37:11
+e aí o modelo de incentivo por performance é instituído. Mas como não
+1:37:16
+é, né, um papel de ouvidoria propor apenas apresentar ideias aqui, a gente eh traz eh pode passar, por favor,
+1:37:24
+Zarissa. a gente traz aqui eh eh essas contribuições. uma segunda etapa seria
+1:37:31
+ali eh inclusive é contida lá na proposta de consenso e o preço transitório e o reordenamento passem ali
+1:37:38
+por duas fases, no período de transição de 5 anos, com adução daquele preço com valor eh primeiramente fixado, il a
+1:37:46
+reajustes e que ele fosse inteiramente destinado eh a custear o reordenamento
+1:37:52
+massivo dos postes críticos dentro desse planejamento. É depois uma uma transição para uma
+1:37:58
+precificação estritamente orientada a custos, né, via a RTP, revisão tarifária
+1:38:03
+periódica. Eh, e aí as que levantamos também algumas questões estratégicas. O
+1:38:09
+custo de regularização, ele seria ali homogêneo no Brasil, cada região, eh, as
+1:38:15
+suas especificidades estariam contempladas. O esse preço, ele deveria ter variações regionais por decorrência
+1:38:22
+disso? haveria ali um espaço eh para descontos estruturados por volume de ocupação. Enfim, tudo isso eh certamente
+1:38:29
+vai ser abordado naí na na nas propostas e na e na eh no relatório, né, do Dr.
+1:38:37
+nosso conselheiro presidente Alexandre. No próximo slide, por favor, a gente traz aqui uma representação sobre o
+1:38:44
+plano de regularização de postos prioritários. nossa área técnica trabalhou muito bem para eh
+1:38:51
+eh colocar aqui subsídios para que isso fosse eh feito. Eh criou-se ali uma meta
+1:38:58
+regulatória na proposta na qual a organização anual obrigatória de 2 a 3%
+1:39:03
+dos postes mais críticos da base total foco nessas redes em desacordo com as
+1:39:10
+normas técnicas ou de altura. Inclusive, eu faço aqui um adendo que grande parte
+1:39:15
+dos provedores querem se regularizar, eles querem ter um um
+1:39:22
+trabalho eh facilitado, menos burocrático e tal, para que eles possam regularizar, possam pagar e possam ter
+1:39:28
+acesso à infraestrutura. Eh, e a gente tem que, nem, é claro, facilitar isso com esses agentes. A
+1:39:35
+execução, ela pode vir a ser feita de uma forma híbrida, né? eh as prestadores
+1:39:41
+de telecomunicações executariam e arcariam com os custos, na visão da NEEL, e alternativamente as cionárias,
+1:39:47
+os posteiros poderiam assumir a execução mediante negociação comercial, contemplando ali a visão da Anatel. Isso
+1:39:54
+é uma possibilidade desse modelo híbrido aí de execução. Eh, e no final a gente tem ali a transparência como arma, né,
+1:40:01
+como como um eh o desempenho da limpeza, eh, seria publicado ali mensalmente,
+1:40:07
+dando transparência a isso, gerando uma base de dados georreferenciado, eh, mapeando ali o progresso, né, em
+1:40:13
+tempo real e gerando ali dados e para que dessem esse gatilho de performance que eu comentei anteriormente. É, no
+1:40:20
+próximo slide e a gente tem ali o último pilar que é baseado aí na governança definitiva e a mitigação de eventuais
+1:40:28
+conflitos. Ali faltou um azimo. A gente tem ali a Comissão de Resolução de Conflitos CCA, que é um mecanismo de
+1:40:34
+interagências que tá na na nossa forma interagência pigente. É o mecanismo eh
+1:40:41
+que inclui ali a Anatel, ANE e também a ANP, no caso, eh mas que ele tem ali um
+1:40:47
+poder vinculante, um poder, um esforço verdadeiro para homologar as ofertas e
+1:40:52
+realizar a arbitragem técnica rápida. Isso com inspiração ali naquele modelo californiano que foi apresentado.
+1:41:00
+Eh, a padronização e oferta de referência, uma gestão contratual transparente com prazo de 30 dias para
+1:41:06
+respostas fundados eh estritamente em justificativa de engenharia e segurança e realização eh de sanções e
+1:41:13
+fiscalização cruzada entre as agências. no caso a a eh complicado. Já ia
+1:41:20
+falando, você já te expor, mas para fechar aqui a nossa apresentação, a gente tem ali esse mapa definitivo aí
+1:41:28
+dessa eh eh dessa necessidade e essa oportunidade eh de resolução dessa dessa
+1:41:34
+celebra dos poches. E aí eh a gente tem que entender que essa a crise dos poches, ela é na verdade uma agenda de
+1:41:41
+desenvolvimento, né? o tema acaba transcendendo até essa essa lógica setorial de ambas as agências. Eh, o
+1:41:48
+compartilhamento de infraestrutura é uma política pública estruturante. A velocidade dessa solução impacta
+1:41:53
+diretamente a economia digital brasileira. E aí, em síntese, o compartilhamento dos postes, eh, na
+1:41:59
+ótica da ouvidoria, a gente acredita que ela deve ser tratada como um instrumento estratégico de uma política pública. A
+1:42:05
+superação célere desse impasse regulatório é uma condição para a expansão da banda larga, inclusão digital e crescimento econômico. Quanto
+1:42:11
+mais for essa solução, maior a capacidade do nosso país em acelerar a infraestrutura digital. E aí esse tema
+1:42:18
+dos postes é, em essência, é um tema de desenvolvimento nacional. E aí, mais uma vez, eu quero agradecer a gentileza do
+1:42:26
+convite, o ao conselheiro presidente eh Alexandre Freir por ceder aqui a
+1:42:31
+ouvidoria. Agradeço também a nossa pequena, mas muito competente equipe, eh, principalmente o Marcos Vinícius
+1:42:37
+Paul e a Tamara Pinto, que ajudaram muito aqui na elaboração do relatório. E convido vocês também a darem eh
+1:42:44
+feedback, a a criticarem, a a ajudarem, né, a ouvidoria a aperfeiçoar aí o nosso
+1:42:51
+relatório. Era isso. Muito obrigado. Um abraço aí a todos. Muito obrigado. Eu gostaria de
+1:42:57
+cumprimentar a ouvidoria da Anatel na pessoa do do ouvidor Felipe Augusto de
+1:43:03
+Oliveira, pela excelência do trabalho apresentado nesta síntese executiva do
+1:43:08
+relatório sobre o compartilhamento de postes. Trata-se de um estudo notável pela profundidade analítica, Dr. Felipe,
+1:43:15
+quando pela coragem intelectual de nomear com precisão e clareza o impasse institucional que hoje ameaça a expansão
+1:43:21
+de redes de fibra ótica no Brasil. A metodologia adotada sistematizou manifestações da sociedade no Fala no
+1:43:28
+Fala BR, reuniões com principais atores do setor de telecomunicações e elétrico
+1:43:33
+e um rigoroso benchmark internacional com análise de experiências regulatórias norte-americanas em compartilhamento de
+1:43:40
+infraestrutura. Do ponto de vista regulatório, o estudo se distingue por explicitar com clareza e objetividade as
+1:43:47
+tensões estruturais que hoje afetam a política de compartilhamento de infraestrutura no Brasil. A capacidade
+1:43:53
+de ouvidoria de organizar essas divergências em uma matriz analítica consistente oferece este conselho um
+1:44:00
+instrumento valioso para a tomada de decisão informada, evidenciando que não se trata de um tema periférico, mas de
+1:44:07
+um gargalo central à expansão das redes de alta capacidade. Demais, a
+1:44:12
+incorporação de boas práticas internacionais e a análise de modelos operacionais mais eficientes reforçam o
+1:44:18
+caráter propositivo do trabalho, indicando caminhos concretos para a superação de entraves históricos. Por
+1:44:25
+fim, registro que o mérito do relatório não está apenas na qualidade do diagnóstico e é evidente, mas também na
+1:44:33
+apresentação de alternativas estruturadas para o aprimoramento da governança regulatória, que levarei em
+1:44:38
+consideração no meu relatório. Ao tratar o compartilhamento de postes como elemento crucial da infraestrutura de
+1:44:44
+conectade do país, a ouvidoria eleva o debate ao seu devido patamar
+1:44:50
+estratégico, Dr. aliando aos desafios da transformação digital e da inclusão conectada no
+1:44:55
+Brasil. Este conselho diretor reconhece a relevância do trabalho conduzido pelo pelo ouvidor Felipe Augusto Esmeral de
+1:45:02
+Oliveira e por toda a sua equipe e o recebe como subsídio qualificado para as
+1:45:08
+deliberações que impõe no fortalecimento da coordenação institucional e da promoção de um ambiente regulatório mais
+1:45:15
+eficiente, previsível, inclusive baseado em evidências. Então, ultrapassados
+1:45:21
+itens extrapautos, proponho, Dra. Letícia, aprovação da ata da reunião ordinária número 951 de 12 de março de
+1:45:28
+2026 do Conselho Diretor. E pergunto aos meus pares se tem algum comentário sobre
+1:45:35
+a referida ata. Não havendo comentários,
+1:45:41
+solicito a doutora, declaro aprovada a ata e solicito a Dra. Letícia que anuncia os itens previamente destacados
+1:45:47
+por cada conselheiro. Itens previamente destacados. Pauta do conselheiro Alexandre Freire, destaque
+1:45:53
+do item dois para retirada de pauta. Pauta do conselheiro Otávio Pieirante. Eh, destaque do item 10 pelo conselheiro
+1:46:00
+Alexandre Freire. Pauta do conselheiro Edson Holanda, destaque do item 13 para
+1:46:05
+retirada de pauta e pauta do conselheiro Nilo Pasqu Pasquali. Eh, destaque do
+1:46:11
+item 18 e pelo conselheiro Alexandre Freire. Os itens em pedido de vista 1, 2
+1:46:17
+e 3 estão altamente automaticamente destacados, sendo que em todos houve pedido de prorrogação de vista por 120
+1:46:23
+dias. Presidente, muito obrigado, dout. Letícia. Questiona aos meus pares se há mais algum item que
+1:46:30
+necessite de destaque. Não havendo
+1:46:36
+presente falar rapidamente sobre um dos itens já aprovados. Pois não, conselheiro Perante. Palavra
+1:46:42
+está com o senhor. Muito obrigado.
+1:46:48
+Eh, refiro-me ao item cinco, eh, que é o processo que trata da proposta de
+1:46:53
+simplificação e consolidação da regulamentação de remuneração de uso de redes, incluindo disposições afetas ao
+1:47:00
+serviço de comunicação multimídia. O assunto é a submissão à consulta pública de proposta de simplificação e
+1:47:05
+consolidação, incluindo disposições afetas ao serviço de comunicação multimídia. no regulamento de remuneração pelo uso de rede prestadoras
+1:47:12
+do serviço telefônico telefônico fixo comutado, aprovado pela resolução número 588 de 7 de maio de 2012 e do
+1:47:20
+regulamento de remuneração pelo uso de redes de prestadoras de serviço móvel pessoal, aprovado pela resolução número
+1:47:25
+438 de 10 de julho de 2006, objeto do item 32 da agenda regulatória para o
+1:47:30
+biênio 2025/2026. Eh, senhor presidente, senhores conselheiros, eu gostaria de registrar a
+1:47:36
+aprovação por unanimidade da consulta pública sobre a regulamentação de remuneração pelo uso de rede. Essa
+1:47:41
+revisão é importante pro setor. Proposta contribui para um ambiente regulatório mais eficiente e aderente à realidade do
+1:47:47
+setor de telecomunicações, favorecendo a interação da da agência com a sociedade. Além disso, é um trabalho que consolida
+1:47:54
+um processo regulatório gradual tecnicamente fundamentado e alinhado as transformações estruturais do setor de
+1:47:59
+telecomunicações. ao viabilizar a plena operacionalização do uso da numeração pelo inclusive em consonância com
+1:48:07
+parâmetros técnicos consagrados no âmbito da União Internacional de Telecomunicações. Parabenizo também o
+1:48:12
+conselheiro Nilo Pasqualho, que enquanto estava à frente da Superintendência de Planejamento e Regulamentação, a SPR,
+1:48:18
+juntamente com José Borde da Superintendência de Competição, SCP, lideraram este projeto. Senhor
+1:48:23
+presidente, obrigado. Muito obrigado, conselheiro Otávio
+1:48:29
+Perante. Eu peço a Dra. Letícia que anuncie os itens aprovados por unanimidade.
+1:48:37
+Itens aprovados por unanimidade. Unanimidade. Pauta do conselheiro Alexandre Freire, item 1, 3 e 4. Pauta
+1:48:44
+do conselheiro Otávio Pieirante, item 5 a 9. Item 11. Pauta do conselheiro Edson
+1:48:51
+Holanda, item 12 14 a 17. Pauta do conselheiro Nilo Pasquali. Item 19 a
+1:48:57
+item 31 e os itens em pedido de vista também foram aprovados. Presidente,
+1:49:03
+muito obrigado, Dra. Letícia. Informo a todos que as matérias aprovadas por unanimidade estarão disponíveis no site
+1:49:09
+da Napel após o término término desta reunião. E passo a palavra. Na verdade,
+1:49:15
+o conselheiro Otávio Perante se antecipou ainda h pouco, apresentou já a sua manifestação a respeito do item.
+1:49:21
+Sim. Eu peço a Dra. Letícia que anuncia o primeiro item a ser destacado.
+1:49:26
+Pauta do conselheiro Otávio Pieirante. Item relatoria número 10, processo 53500
+1:49:32
+0800 059/217. Interessado. Desktop Internet Limitada é
+1:49:38
+um recurso interposto contra a decisão da Superintendência de Controle de Obrigações consubstanciada no despacho
+1:49:44
+decisório número 545/2025, que reconheceu a procedência dos
+1:49:50
+lançamentos dos créditos tributários referentes à contribuição para o Fundo de Universalização dos Serviços de
+1:49:55
+Telecomunicações. Conselheiro Otávio. Eh, obrigado, presidente. Para o
+1:50:01
+processo informado pela Dra. Letícia, conforme a análise já previamente disponibilizada aos demais gabinetes, verificou-se a ocorrência do fato
+1:50:08
+gerador da CID FUST e a decisão recorrida porou corretamente valores devidos ao herário. Assim, propõe
+1:50:13
+conhecer e negar provimento ao recurso interposto. Obrigado, conselheiro Pierante. Peço ven
+1:50:20
+ao relator e solicito vistas do processo.
+1:50:25
+Passo a programação do item. Vistas concedidas ao próprio conselheiro em exercício da presidência, Alexandre
+1:50:31
+Freire. Ao próximo item, doutora Letícia. Pauta do conselheiro Nilo Pasquali. Item
+1:50:38
+relatoria número 18, processo 53500 0110815.
+1:50:46
+Interessado: TV Alfa Ville, sistema de televisão por assinatura limitada. é um recurso interposto contra a decisão da
+1:50:53
+Superintendência de Controle de Obrigações consubstanciada no despacho decisório número 456/225
+1:50:59
+e reconheceu a procedência dos lançamentos dos créditos tributários referente à contribuição para o fundo de
+1:51:05
+universalização do serviço de telecomunicações. Eh, conselheiro Nilo,
+1:51:11
+obrigado, Dr. Letícia. Boa tarde, conselheiros. Eh, bom, o item 18, ele é um recurso
+1:51:17
+administrativo interposto pela TV Alphavil e sistema de televisão para assinatura limitada contra uma decisão
+1:51:22
+que reconheceu a procedência do lançamento do Sid FUST, eh, bem como uma multa de ofício, ambos referentes ao
+1:51:29
+período de período dos exercícios de 2010. Eh, objetivamente,
+1:51:34
+eh, a fiscalização apurou diferença na contribuição do FUT, lavrou a respectiva notificação de lançamento. A empresa
+1:51:41
+recorrente sustentou basicamente duas teses nesse ponto. Primeiro que teriam sido incluídas indevidamente na base de
+1:51:46
+cálculo de receitas que não decorreriam da prestação de CB de Telecom. E um segundo ponto que houve um erro material
+1:51:52
+no cálculo dos redutores legais, especificamente quanto a ICMS, PISA e COFINS, o que teria inflado eh o valor
+1:51:58
+da multa aplicada eh de maneira bastante resumida. do ponto de vista processual, recurso é tempestivo e admissível.
+1:52:05
+Então, todas as condições nesses que estão estão estão corretas. Quanto ao mérito, a entendemos dois pontos
+1:52:11
+específicos com relação à inclusão na base de cálculo de receitas. Eh, o
+1:52:16
+entendimento é que foram todas incluídas da forma correta, ela recorrente entender de forma diversa. É um ponto,
+1:52:23
+inclusive, que tá em discussão em uma série de projetos de processos diferentes dentro da agência. Eh, com
+1:52:28
+relação ao erro material que a recorrente alega, esse parece cabível,
+1:52:34
+inclusive eu sugiro eh no voto que a gente dê provimento parcial quanto a essa questão em particular e corrigir a
+1:52:41
+o cálculo da multa aplicada, retirando os o semestre, o piso e confins do cálculo. Eh, de forma bastante resumida,
+1:52:48
+esse é o voto. Conselheiros. Obrigado. Devolvo a palavra. Muito obrigado, conselheiro Nilo
+1:52:55
+Pasquali. Peço venha e solicita vista do processo. Então passo a programação do
+1:53:00
+item processo em vistas com conselheiro Alexandre Freed no exercício da presidência.
+1:53:06
+Mais algum item, Dra. Letícia? Somente esses.
+1:53:12
+Ótimo. Então, finalizados os itens da pauta, eu gostaria de agradecer os meus pares, demais presentes. Encerro a
+1:53:19
+presente reunião informando que a próxima reunião ordinária do Conselho Diretor, já sob a liderança do nosso
+1:53:25
+presidente Carlos Paigor, será realizada no dia 7 de maio de 2026. Desejo boa tarde a todos e até breve. Até a próxima
+1:53:32
+reunião. Obrigado.

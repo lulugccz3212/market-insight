@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatel董事会月度会议纪要分析 2026年4月</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-dim: #64748b;
+            --border: #e8ecf1;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --radius: 14px;
+            --blue: #2563eb;
+            --blue-light: #eff6ff;
+            --green: #059669;
+            --green-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --purple: #7c3aed;
+            --purple-light: #f5f3ff;
+            --red: #dc2626;
+            --red-light: #fef2f2;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 15px;
+        }
+
+        .app { display: flex; min-height: 100vh; }
+
+        .sidebar {
+            width: 260px; flex-shrink: 0;
+            background: var(--white); border-right: 1px solid var(--border);
+            padding: 32px 20px; display: flex; flex-direction: column;
+            position: sticky; top: 0; height: 100vh; overflow-y: auto;
+        }
+        .sidebar .logo-area { margin-bottom: 36px; }
+        .sidebar .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar .logo-text { font-size: 14px; font-weight: 600; color: var(--text); }
+        .sidebar .logo-sub { font-size: 11px; color: var(--text-dim); }
+
+        .sidebar nav { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .sidebar nav a {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px; border-radius: 8px;
+            text-decoration: none; color: var(--text-dim);
+            font-size: 13px; font-weight: 500;
+            transition: all 0.15s;
+        }
+        .sidebar nav a:hover { background: var(--bg); color: var(--text); }
+        .sidebar nav a.active { background: var(--blue-light); color: var(--blue); }
+
+        .sidebar nav a .badge {
+            margin-left: auto; font-size: 10px; background: var(--border);
+            color: var(--text-dim); padding: 2px 6px; border-radius: 10px;
+            font-weight: 600;
+        }
+        .sidebar nav a.active .badge { background: var(--blue); color: #fff; }
+
+        .sidebar .footer-meta { font-size: 11px; color: var(--text-dim); padding-top: 16px; border-top: 1px solid var(--border); }
+
+        .main { flex: 1; min-width: 0; padding: 36px 40px; }
+
+        .page-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        .page-header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: var(--blue); font-weight: 600; margin-bottom: 8px;
+        }
+        .page-header h1 {
+            font-size: 28px; font-weight: 700; color: var(--text);
+            letter-spacing: -0.5px; line-height: 1.2;
+        }
+        .page-header .subtitle {
+            font-size: 14px; color: var(--text-dim); margin-top: 6px;
+        }
+
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+            margin-bottom: 36px;
+        }
+        .kpi {
+            background: var(--white); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .kpi .kpi-icon { font-size: 22px; margin-bottom: 8px; }
+        .kpi .kpi-val { font-size: 32px; font-weight: 700; color: var(--text); line-height: 1; }
+        .kpi .kpi-label { font-size: 13px; color: var(--text-dim); margin-top: 6px; }
+        .kpi .kpi-change {
+            font-size: 12px; margin-top: 4px; font-weight: 500;
+        }
+        .kpi .kpi-change.up { color: var(--green); }
+        .kpi .kpi-change.down { color: var(--red); }
+
+        .section { margin-bottom: 32px; }
+
+        .section-title {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+        }
+        .section-title .marker {
+            width: 4px; height: 20px; border-radius: 2px; flex-shrink: 0;
+        }
+        .section-title .marker.blue { background: var(--blue); }
+        .section-title .marker.green { background: var(--green); }
+        .section-title .marker.amber { background: var(--amber); }
+        .section-title .marker.purple { background: var(--purple); }
+
+        .section-title h2 {
+            font-size: 16px; font-weight: 600; color: var(--text);
+        }
+        .section-title .sub { font-size: 13px; color: var(--text-dim); }
+
+        .card-list {
+            display: grid; grid-template-columns: 1fr; gap: 8px;
+        }
+
+        .card {
+            background: var(--white); border-radius: 10px;
+            padding: 18px 22px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            display: flex; gap: 16px; align-items: flex-start;
+            text-decoration: none; color: inherit;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: #c4d0e0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+
+        .card .card-number {
+            flex-shrink: 0; text-align: center; min-width: 44px;
+        }
+        .card .card-number .num {
+            font-size: 20px; font-weight: 700; color: var(--blue); line-height: 1;
+        }
+        .card .card-number .type-label {
+            font-size: 11px; color: var(--text-dim); margin-top: 2px;
+        }
+
+        .card .card-body { flex: 1; min-width: 0; }
+
+        .card .card-body .chip-row { margin-bottom: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+        .card .card-body .chip {
+            font-size: 11px; padding: 2px 8px; border-radius: 4px;
+            font-weight: 500; display: inline-block;
+        }
+        .chip.approval { background: var(--green-light); color: var(--green); }
+        .chip.consultation { background: var(--purple-light); color: var(--purple); }
+        .chip.study { background: var(--blue-light); color: var(--blue); }
+        .chip.policy { background: var(--amber-light); color: var(--amber); }
+        .chip.report { background: #f1f5f9; color: #475569; }
+        .chip.spectrum { background: var(--amber-light); color: var(--amber); }
+        .chip.network { background: var(--blue-light); color: var(--blue); }
+        .chip.consumer { background: var(--green-light); color: var(--green); }
+        .chip.compliance { background: #f1f5f9; color: #475569; }
+        .chip.market { background: var(--purple-light); color: var(--purple); }
+        .chip.quality { background: #fce7f3; color: #be185d; }
+        .chip.security { background: var(--red-light); color: var(--red); }
+
+        .card .card-body .headline {
+            font-size: 15px; font-weight: 600; color: var(--text);
+            margin-bottom: 4px; line-height: 1.4;
+        }
+        .card .card-body .desc {
+            font-size: 13px; color: var(--text-dim); line-height: 1.5;
+        }
+        .card .card-body .conclusion {
+            font-size: 13px; color: var(--text); margin-top: 8px;
+            padding: 8px 12px; background: var(--bg); border-radius: 6px;
+            line-height: 1.5;
+        }
+        .card .card-body .conclusion strong { color: var(--blue); }
+        .card .card-body .org-unit {
+            font-size: 12px; color: var(--text-dim); margin-top: 4px;
+        }
+
+        .empty {
+            padding: 28px; text-align: center; color: var(--text-dim);
+            font-size: 13px; background: var(--white); border-radius: 10px;
+            border: 1px dashed var(--border);
+        }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .main { padding: 24px 20px; }
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">⧩</div>
+            <div class="logo-text">Market Insight</div>
+            <div class="logo-sub">巴西电信市场情报</div>
+        </div>
+        <nav>
+            <a href="#overview" class="active">会议概览</a>
+            <a href="#alexandre">Alexandre Freire <span class="badge">7</span></a>
+            <a href="#octavio">Octavio Pieranti <span class="badge">8</span></a>
+            <a href="#edson">Edson Holanda <span class="badge">7</span></a>
+            <a href="#nilo">Nilo Pasquali <span class="badge">14</span></a>
+            <a href="#ouvidoria">Ouvidoria/Consultivo <span class="badge">2</span></a>
+        </nav>
+        <div class="footer-meta">
+            战略助理<br>Claude Code · DeepSeek V4 Pro
+        </div>
+    </aside>
+
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <div class="eyebrow">Anatel Board Meeting · 巴西</div>
+                <h1>Anatel董事会月度会议纪要分析 2026年4月</h1>
+                <div class="subtitle">第952次董事会常会 · 2026年4月9日 · by 战略助理 with Claude Code + DeepSeek V4 Pro</div>
+            </div>
+        </div>
+
+        <!-- KPI -->
+        <div class="kpi-grid" id="overview">
+            <div class="kpi">
+                <div class="kpi-icon">📋</div>
+                <div class="kpi-val">38</div>
+                <div class="kpi-label">会议议题总数</div>
+                <div class="kpi-change up">含5项Extrapauta · 31项议程议题 · 2项Vista</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">✅</div>
+                <div class="kpi-val">27</div>
+                <div class="kpi-label">一致通过议题</div>
+                <div class="kpi-change up">通过率87%（排除撤回和延期）</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">👤</div>
+                <div class="kpi-val">5</div>
+                <div class="kpi-label">参与董事/负责人</div>
+                <div class="kpi-change">Alexandre Freire · Octavio Pieranti · Edson Holanda · Nilo Pasquali · Felipe Esmeraldo</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">📡</div>
+                <div class="kpi-val">3</div>
+                <div class="kpi-label">重要政策议题</div>
+                <div class="kpi-change">450MHz频谱 · 网络使用费征询 · 电线杆共享</div>
+            </div>
+        </div>
+
+        <!-- ===== 会议概述 ===== -->
+        <div class="section">
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>会议概述</h2>
+            </div>
+            <div class="card-list">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="desc">
+                            本次为Anatel董事会第952次常会，于2026年4月9日以视频会议形式召开。主席Carlos Manuel Baigorri因健康原因请假，由Conselheiro Alexandre Reis Siqueira Freire代理主席职务。与会者包括Conselheiros Edson Holanda、Octavio Penna Pieranti、Conselheiro Substituto Nilo Pasquali，以及Procurador-Geral Cássio Cavalcante Andrade、Ouvidor Substituto Felipe Augusto Esmeraldo de Oliveira和Secretária do Conselho Diretor Letícia Seabra Melo Fernandes。本次会议内容极为丰富，Extrapauta环节涵盖了450MHz频段拍卖取消、公共政策实施进展、GIRED数字化进程、GAISPI项目里程碑、电线杆共享监管等重大议题，并特别对Baigorri主席四年任期进行了致敬。议程议题共31项，以行政上诉（多为FUST税收追缴）为主，其中27项获一致通过。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== Alexandre Reis Siqueira Freire ===== -->
+        <div class="section" id="alexandre">
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>Conselheiro Alexandre Reis Siqueira Freire（代理主席）</h2>
+                <span class="sub">4项Extrapauta + 3项议程议题</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-number"><div class="num">01</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip policy">Policy</span>
+                            <span class="chip report">Report</span>
+                        </div>
+                        <div class="headline">向主席Carlos Manuel Baigorri担任Anatel主席四周年致敬</div>
+                        <div class="desc">代理主席Alexandre Freire在Baigorri主席因病缺席的情况下，发表了长篇致敬讲话，回顾了Baigorri主席四年来领导Anatel的卓越成就。他强调了Baigorri的正直品格、责任感、领导力、未来愿景，以及尤为突出的情绪平衡能力。Freire指出，真正的领导力不仅在于职位权威，更在于以身作则、倾听和凝聚共识，并特别提到Baigorri在国际上也享有盛誉——Freire每次代表Anatel出访都会被询问和称赞Baigorri主席。</div>
+                        <div class="org-unit">负责单位：Gabinete do Conselheiro Alexandre Freire</div>
+                        <div class="conclusion"><strong>结论：</strong>公开致敬Carlos Baigorri主席四年任期，强调其在任内展现的品格正直、责任担当、领导力和情绪稳定，称其为公共服务领域领导力的典范。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">02</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip study">Study</span>
+                            <span class="chip consumer">Consumer</span>
+                        </div>
+                        <div class="headline">"巴西数字技能"研究发布</div>
+                        <div class="desc">Alexandre Freire介绍了由Superintendência de Relações com Consumidores（SRC）在Cristiana Camarate领导下完成的最新研究"巴西数字技能：一种新方法"。该研究将数字技能评估指标从9项扩展至20项，按地区、社会阶层和年龄段进行细分，从信息处理、沟通、内容创作、安全和数字环境问题解决五个维度提供更精确的诊断。Freire阐述了数字排斥的三个阶段：经济排斥（Economic Divide）、可用性排斥（Usability Divide）和赋权排斥（Empowerment Divide），强调仅有网络接入而缺乏数字技能，公民仍将被排除在数字机遇之外。</div>
+                        <div class="org-unit">负责单位：Superintendência de Relações com Consumidores (SRC)</div>
+                        <div class="conclusion"><strong>结论：</strong>高度评价该研究的价值，指出这是Anatel从仅关注物理基础设施向关注数字包容全维度转型的重要标志，体现了机构在智能监管和数字公民权方面的成熟度提升。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">03</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip study">Study</span>
+                            <span class="chip policy">Policy</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">TED（去中心化执行条款）治理与透明度的全面展示</div>
+                        <div class="desc">Alexandre Freire就Centro de Altos Estudos em Comunicações Digitais e Inovação Tecnológica (Ceadi)管理的TEDs（Termos de Execução Descentralizada）进行了详细汇报。他系统解释了TED与行政合同的本质区别：TED不是传统采购合同，而是联邦实体之间的预算执行委托，其项目具有科研不确定性、实验性和渐进构建的特点。Freire详细介绍了TED的三层治理控制机制——事前审批（技术论证+工作计划审查+董事会批准）、主动监测（执行跟踪+指定监督员+现场检查权）和行政最终权力（违规迹象即停+单方解约+余额退还）。他强调所有TED项目均通过Anatel董事会审批，并已通过TCU（联邦审计法院）审查，无任何违规记录。项目涵盖IA在频谱管理和行政处罚中的应用、Web 3.0、频谱定价、未来网络、卫星与轨道管理等前沿领域。会上还演示了CADI门户网站的公开查询功能。</div>
+                        <div class="org-unit">负责单位：Centro de Altos Estudos em Comunicações Digitais e Inovação Tecnológica (Ceadi)</div>
+                        <div class="conclusion"><strong>结论：</strong>系统展示了TED的合规治理框架和透明度措施，强调全部项目均经董事会审批，无TCU审计问题，体现了Anatel以证据为基础的智能监管战略。与UNB、ITA、UFRJ、UFSC、UFG等顶尖高校合作。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">04</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip policy">Policy</span>
+                            <span class="chip consumer">Consumer</span>
+                            <span class="chip security">Security</span>
+                        </div>
+                        <div class="headline">强化社会参与：Conselho Consultivo和Ouvidoria参与重大监管议题</div>
+                        <div class="desc">Alexandre Freire报告了Anatel在加强社会参与和主动倾听方面的进展，邀请Conselho Consultivo（咨询委员会）和Ouvidoria（监察办公室）就重大社会影响议题发表意见。咨询委员会已在三项议题上提交了全体一致通过的贡献意见：①IA治理政策（PGIA）——强调透明度、人工监督、可解释性和可审计性原则；②重要连接性和社会环境可持续性计划（PCS）——提出超出互联网形式接入的实质性连接政策建议，包括数据用尽后仍可访问基本公共服务、利用履责义务促进数字包容等；③无障碍通用法规（RGA）修订——建议将无障碍政策扩展至老年人、女性和低收入群体。Ouvidoria则就电线杆共享和RGA发表了意见。</div>
+                        <div class="org-unit">负责单位：Conselho Consultivo / Ouvidoria / Gabinete do Conselheiro Alexandre Freire</div>
+                        <div class="conclusion"><strong>结论：</strong>展示了Anatel从封闭式监管向开放、合作、共识导向的监管模式转变，咨询委员会的贡献已纳入IA治理政策最终草案，将在未来数日提交董事会审议。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">01</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip consumer">Consumer</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Telefônica Brasil S.A. 行政上诉 — SCM/RGC消费者权益违规处罚</div>
+                        <div class="desc">Telefônica Brasil S.A.就Superintendência de Controle de Obrigações的处罚决定提起行政上诉，该决定认定其违反了Serviço de Comunicação Multimídia (RSCM)法规和Regulamento Geral de Direitos do Consumidor (RGC)消费者权益保护条款（Processo: 53500.061122/2021-31）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过，按照报告人Análise nº 42/2026/AF提案，维持原处罚决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">02</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip spectrum">Spectrum</span>
+                        </div>
+                        <div class="headline">EBC — 未经授权使用无线电频率处罚上诉</div>
+                        <div class="desc">Empresa Brasil de Comunicação S.A. (EBC)就未经授权使用无线电频率的处罚决定提起上诉（Processo: 53524.002645/2024-10）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>应报告人要求从议程撤回（Retirada de Pauta）。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">03</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Junio Luiz Lirio Luz — 未经授权使用无线电频率与未认证设备处罚上诉</div>
+                        <div class="desc">个人用户就未经授权使用无线电频率和使用未通过Anatel认证的设备所受到的处罚提起上诉（Processo: 53524.000178/2025-74）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过，按照报告人Análise nº 44/2026/AF提案，驳回上诉，维持处罚。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">04</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">Vogel Soluções em Telecomunicações e Informática S.A. — FUST税收追缴上诉（2015年度）</div>
+                        <div class="desc">Vogel Soluções就2015年度FUST（电信服务普及基金）税收追缴提起行政上诉（Processo: 53500.027802/2016-68）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过，按照报告人Análise nº 45/2026/AF提案，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Octavio Penna Pieranti ===== -->
+        <div class="section" id="octavio">
+            <div class="section-title">
+                <span class="marker green"></span>
+                <h2>Conselheiro Octavio Penna Pieranti</h2>
+                <span class="sub">2项Extrapauta + 7项议程议题</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-number"><div class="num">01</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip policy">Policy</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">450 MHz频段近期拍卖计划取消及监管议程移除</div>
+                        <div class="desc">Octavio Pieranti报告了董事会以全体一致方式（Circuito Deliberativo）决定取消450 MHz频段的近期拍卖计划，并将其从监管议程中移除。该决定基于技术领域的深入研究——全球范围内兼容该频段的移动终端设备极为有限，无法支撑实际运营。同时，电力和电信行业企业及代表机构均表态反对该频段拍卖，因为450 MHz频段已被电力行业广泛用于特定应用（如智能电网）。Pieranti强调此决定体现了Anatel"倾听、反思、对话"的监管姿态，为行业提供了监管稳定性，并为新投资打开了可能性。此外，Edson Holanda在Extrapauta环节对此进行了补充说明，指出需要构建一个为电力等行业提供法定保护（如次级使用权或优先权甚至一级授权）的监管框架。</div>
+                        <div class="org-unit">负责单位：Gabinete do Conselheiro Octavio Pieranti / Área Técnica</div>
+                        <div class="conclusion"><strong>结论：</strong>全体一致取消450 MHz频段短期拍卖，从监管议程中移除。将评估建立针对该频段现有使用者（特别是电力行业）的监管稳定框架。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">02</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip policy">Policy</span>
+                            <span class="chip network">Network</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">GT-IPP公共政策实施工作组进展汇报 & GIRED电视数字化及4G扩展进展</div>
+                        <div class="desc">Pieranti作为GT-IPP（公共政策实施工作组）和GIRED（电视频道再分配和数字化实施组）的主席，汇报了两组最新进展。<br><br><strong>GT-IPP方面：</strong>已完成38项由Anatel实施的公共政策（通过70多项工具和行动）的梳理，并发布了五项具体成果：①到2035年14,664个地区将实现移动网络覆盖；②到2034年7,400公里公路将实现移动网络覆盖；③到2035年1,032个地区实现backhaul部署；④21,163个数字电视频道纳入基本广播计划（远超模拟电视时代的约14,000个）；⑤Anatel直接部署了606个数字电视站。GT-IPP还将就"重要连接性和社会环境可持续性计划(PCS)"发表意见。<br><br><strong>GIRED方面：</strong>4G小型地区拍卖项目（235个地区）几乎完成：第1批已100%完成，第2批78%完成，第3批98%完成——已有218个地区实现4G覆盖。TV 3.0方面，巴西利亚实验站即将在未来几周内开始运营（天线和核心设备已安装，等待发射机到位）。Programa Brasil Digital在3月份新增7个台站（累计10个），覆盖38个市、120万人。4月计划在13个市（含Amazonas州10个市）新增26个数字电视站——Amazonas将成为巴西首个实现公共传播全覆盖的州。</div>
+                        <div class="org-unit">负责单位：GT-IPP / GIRED / Seja Digital</div>
+                        <div class="conclusion"><strong>结论：</strong>GT-IPP系统梳理了Anatel在公共政策实施中的实质性贡献；GIRED的4G小型地区项目和数字电视扩展项目接近完成里程碑，Amazonas州即将成为首个公共传播全覆盖州。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">05</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip consultation">Public Consultation</span>
+                            <span class="chip network">Network</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">网络使用费监管简化与整合 — 公众咨询</div>
+                        <div class="desc">提案对固定电话网络使用费法规（Resolução nº 588/2012）和移动个人服务网络使用费法规（Resolução nº 438/2006）进行简化和整合，并将Serviço de Comunicação Multimídia (SCM)纳入统一监管框架。这是2025/2026监管议程第32项。该修订旨在适应固定电话和移动网络融合的趋势，促进编号资源在SCM中的全面运营使用，与国际电信联盟（UIT）技术参数保持一致。（Processo: 53500.083769/2025-47）</div>
+                        <div class="org-unit">负责单位：Superintendência de Planejamento e Regulamentação (SPR) / Superintendência de Competição (SCP)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 23/2026/OP，批准开展为期45天的公众咨询。此项工作由时任SPR负责人的Nilo Pasquali和SCP的José Borde共同领导开展。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">06</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">Claro S.A. — 移动个人服务（SMP）无线电频率使用授权延期</div>
+                        <div class="desc">Claro S.A.申请延长其SMP（Serviço Móvel Pessoal）业务相关无线电频率使用授权的期限（Processo: 53504.005072/2023-33）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Outorga e Recursos à Prestação (SOR)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 27/2026/OP，批准Claro的SMP无线电频率使用授权延期。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">07</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Big Telco Telecomunicações Ltda. — 法律和合同义务违规处罚上诉</div>
+                        <div class="desc">Big Telco就违规处罚决定提起上诉，因上诉超过法定期限，下级决定不予受理（Processo: 53500.000026/2023-88）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 28/2026/OP，因上诉逾期维持原决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">08</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Datora Telecomunicações Ltda. — FUST税收追缴上诉（2010年度）</div>
+                        <div class="desc">Datora Telecomunicações就2010年度FUST税收追缴提起行政上诉（Processo: 53500.018283/2014-85）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 31/2026/OP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">09</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Empresa de Táxis Catumbi Ltda. — FUST税收追缴上诉（2012年度）</div>
+                        <div class="desc">出租车公司就2012年度FUST税收追缴提起行政上诉（Processo: 53500.206021/2015-57）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 30/2026/OP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">10</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">Desktop Internet Ltda. — FUST税收追缴上诉（2016年度）</div>
+                        <div class="desc">Desktop Internet就2016年度FUST税收追缴提起行政上诉（Processo: 53500.080059/2017-55）。报告人提交了Análise nº 26/2026/OP。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>Alexandre Freire申请了Vista（审阅期），该议题被推迟审议。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">11</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Compugraf Telecom Ltda. — FUST税收追缴上诉（2016年度）</div>
+                        <div class="desc">Compugraf Telecom就2016年度FUST税收追缴提起行政上诉（Processo: 53500.079957/2017-61）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 35/2026/OP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Edson Holanda ===== -->
+        <div class="section" id="edson">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>Conselheiro Edson Holanda</h2>
+                <span class="sub">1项Extrapauta + 6项议程议题</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-number"><div class="num">01</div><div class="type-label">Extrapauta</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip network">Network</span>
+                            <span class="chip policy">Policy</span>
+                        </div>
+                        <div class="headline">450MHz频段监管框架澄清 & GAISPI天线安装历史纪录 & PAIS Norte Conectado Infovias进展</div>
+                        <div class="desc">Edson Holanda就三个重要议题进行了汇报：<br><br><strong>①450MHz频段：</strong>对取消拍卖决定表示认同，澄清原提案并非强制拍卖而是评估。他强调需构建正式监管框架（次级使用、优先权或一级授权），为该频段的现有使用者（尤其是电力、矿业等关键行业）提供稳定性保障。他以Vale在Carajás矿区大量使用450MHz频段为例说明其重要性。<br><br><strong>②GAISPI/ Brasil Antenado：</strong>2026年2月创下历史纪录——安装33,200面抛物面天线，这是GAISPI成立以来的单月最高纪录（平均约29,000-30,000面/月），旨在解决3,625-3,700 MHz频段5G干扰问题。<br><br><strong>③PAIS Norte Conectado：</strong>Infovias 2、3、4已完成光缆铺设阶段，总计超过2,600公里光缆，连接3个州22个地区，部分已提前投入使用，潜在受益人群超过200万公民。Infovia 2预计2026年上半年交付，将额外覆盖40万公民。项目还将惠及300多所公共机构，包括28个卫生单位、16个司法单位、20个市政厅、14个军事单位、206所学校、9所大学。特别提到巴西最大的原住民村落Belém dos Solimões（约5,000名原住民）也将受益。</div>
+                        <div class="org-unit">负责单位：GAISPI / EAF (Entidade Administradora da Faixa) / Ministério das Comunicações</div>
+                        <div class="conclusion"><strong>结论：</strong>450MHz议题需构建全面监管框架；Brasil Antenado 2月创纪录安装33,200面天线；Norte Conectado光缆项目进展顺利，Infovias 2-4即将交付，显著提升巴西北部地区连通性。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">12</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip market">Market</span>
+                        </div>
+                        <div class="headline">Claro S.A. — SMP合同费用追缴上诉（2017/2018双年度）</div>
+                        <div class="desc">Claro S.A.就SMP授权合同第3.2条款规定的合同费用追缴提起上诉，涉及2017/2018双年度，原应于2018年4月30日缴纳（Processo: 53500.005086/2018-20）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 28/2026/EH，将报告期限延长120天。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">13</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Inorpel Indústria Nordestina de Produtos Elétricos Ltda. — CFRP税收追缴上诉（2012年度）</div>
+                        <div class="desc">Inorpel就2012年度CFRP（公共广播发展贡献税）税收追缴提起行政上诉（Processo: 53500.001149/2013-64）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>应报告人要求从议程撤回（Retirada de Pauta）。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">14</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Eletronet S.A. — FUST税收追缴上诉（2011年度）</div>
+                        <div class="desc">Eletronet就2011年度FUST税收追缴提起行政上诉（Processo: 53500.011449/2015-13）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 16/2026/EH，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">15</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Works Construção e Serviços Ltda. — TFF/CFRP税收追缴上诉（2023年度）</div>
+                        <div class="desc">Works Construção就2023年度TFF（运营监管税）和CFRP税收追缴提起行政上诉（Processo: 53504.005345/2023-40）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 22/2026/EH，维持税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">16</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">GS Tecnologia Ltda. — TFF税收追缴上诉（2011-2012年度）</div>
+                        <div class="desc">GS Tecnologia就2011和2012年度TFF（运营监管税）税收追缴提起行政上诉（Processo: 53500.012021/2012-45）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 29/2026/EH，维持TFF税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">17</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Algar Telecom S.A. — FUST税收追缴依职权复审（2014年度）</div>
+                        <div class="desc">对Algar Telecom 2014年度FUST税收追缴决定（Acórdão nº 226/2025）进行依职权复审，因需重新分析已认定的税收债务（Processo: 53524.004135/2017-58）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 30/2026/EH，批准依职权复审提案。</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Nilo Pasquali ===== -->
+        <div class="section" id="nilo">
+            <div class="section-title">
+                <span class="marker purple"></span>
+                <h2>Conselheiro Substituto Nilo Pasquali</h2>
+                <span class="sub">14项议程议题</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-number"><div class="num">18</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">TV Alphaville Sistema de Televisão por Assinatura Ltda. — FUST税收追缴上诉（2010年度）</div>
+                        <div class="desc">TV Alphaville就2010年度FUST税收追缴提起上诉。Nilo Pasquali在其Análise nº 15/2026/NP中认为，上诉理由中关于ICMS/PIS/COFINS的抵扣计算存在实质错误，建议对罚款金额进行部分修正，但在应纳税基数方面维持原决定。（Processo: 53500.011081/2015-93）</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>Alexandre Freire申请了Vista（审阅期），该议题被推迟审议。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">19</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Ligga Telecomunicações S.A. — FUST税收追缴上诉（2019年度）</div>
+                        <div class="desc">Ligga Telecomunicações就2019年度FUST税收追缴提起行政上诉（Processo: 53516.000134/2021-10）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 8/2026/NP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">20</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Omnilink Tecnologia S.A. — CFRP税收追缴上诉（2016年度）</div>
+                        <div class="desc">Omnilink Tecnologia就2016年度CFRP（公共广播发展贡献税）税收追缴提起行政上诉（Processo: 53500.024016/2016-17）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 1/2026/NP，维持CFRP税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">21</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip spectrum">Spectrum</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Oseias Campanha — 未经授权使用无线电频率与未认证设备处罚上诉</div>
+                        <div class="desc">个人用户就未经授权使用无线电频率和使用未认证设备所受到的处罚提起上诉（Processo: 53545.000711/2024-79）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 26/2026/NP，驳回上诉，维持处罚。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">22</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Telefônica Brasil S.A. — FUST税收追缴上诉（2005-2006年度）</div>
+                        <div class="desc">Telefônica Brasil就2005和2006年度FUST税收追缴提起行政上诉及依职权上诉（Processo: 53508.015099/2009-46）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Administração e Finanças (SAF)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 19/2026/NP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">23</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Porto Seguro Telecomunicações Ltda. — CFRP税收追缴上诉（2015-2016年度）</div>
+                        <div class="desc">Porto Seguro Telecomunicações就2015和2016年度CFRP税收追缴提起行政上诉（Processo: 53500.001216/2020-70）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 3/2026/NP，维持CFRP税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">24</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">SKY Serviços de Banda Larga Ltda. — FUST税收追缴上诉（2010年度）</div>
+                        <div class="desc">SKY Serviços de Banda Larga就2010年度FUST税收追缴提起行政上诉（Processo: 53500.017360/2014-80）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Administração e Finanças (SAF)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 12/2026/NP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">25</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Control Service do Brasil EIRELI — FUST税收追缴上诉（2012年度）</div>
+                        <div class="desc">Control Service do Brasil就2012年度FUST税收追缴提起行政上诉（Processo: 53500.003689/2016-25）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 11/2026/NP，维持FUST税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">26</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Oi S.A. — TFF税收追缴上诉（2021年度）</div>
+                        <div class="desc">Oi S.A.就2021年度TFF（运营监管税）税收追缴提起行政上诉（Processo: 53500.029458/2021-17）。</div>
+                        <div class="org-unit">负责单位：Gerência Regional no Estado de Minas Gerais (GR04)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 10/2026/NP，维持TFF税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">27</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Claro S.A. — CFRP税收追缴上诉（2009年度）</div>
+                        <div class="desc">Claro S.A.就2009年度CFRP（公共广播发展贡献税）税收追缴提起行政上诉（Processo: 53500.024795/2014-81）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 29/2026/NP，维持CFRP税收追缴决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">28</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip approval">Approval</span>
+                            <span class="chip compliance">Compliance</span>
+                            <span class="chip consumer">Consumer</span>
+                        </div>
+                        <div class="headline">Telefônica Brasil S.A. — TAC履约违规程序（PADIC）</div>
+                        <div class="desc">针对Telefônica Brasil S.A.在TAC（行为调整协议） nº 1/2022项下的履行期限违规启动的PADIC程序。该TAC于2022年2月28日签署（Processo: 53500.046715/2025-09）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 13/2026/NP，维持PADIC决定。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">29</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip consumer">Consumer</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">SKY Serviços de Banda Larga Ltda. — RGC消费者权益违规处罚上诉（第1案）</div>
+                        <div class="desc">SKY就违反RGC（消费者权益保护通用法规）的处罚决定提起上诉（Processo: 53500.013672/2019-29）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 20/2026/NP，将报告期限延长120天。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">30</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip consumer">Consumer</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">SKY Serviços de Banda Larga Ltda. — RGC消费者权益违规处罚上诉（第2案）</div>
+                        <div class="desc">SKY就另一项违反RGC（消费者权益保护通用法规）的处罚决定提起上诉（Processo: 53500.071713/2021-16）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Controle de Obrigações (SCO)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 7/2026/NP，将报告期限延长120天。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">31</div><div class="type-label">议程</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip policy">Policy</span>
+                            <span class="chip compliance">Compliance</span>
+                        </div>
+                        <div class="headline">Conexis Brasil Digital — 申请撤销RGST法规条款</div>
+                        <div class="desc">Conexis Brasil Digital（巴西电信和移动服务企业全国工会）申请撤销Resolução Anatel nº 777/2025批准的Regulamento Geral dos Serviços de Telecomunicações (RGST)中的某一条款（Processo: 53500.089101/2025-11）。</div>
+                        <div class="org-unit">负责单位：Superintendência de Planejamento e Regulamentação (SPR)</div>
+                        <div class="conclusion"><strong>结论：</strong>一致通过Análise nº 14/2026/NP，将报告期限延长120天。</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== Ouvidoria e Conselho Consultivo ===== -->
+        <div class="section" id="ouvidoria">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>Ouvidoria & Conselho Consultivo</h2>
+                <span class="sub">2项重要贡献</span>
+            </div>
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-number"><div class="num">01</div><div class="type-label">Ouvidoria</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip network">Network</span>
+                            <span class="chip policy">Policy</span>
+                            <span class="chip market">Market</span>
+                            <span class="chip consumer">Consumer</span>
+                        </div>
+                        <div class="headline">电线杆共享监管 — Ouvidoria综合执行报告与国际基准分析</div>
+                        <div class="desc">Ouvidor Substituto Felipe Augusto Esmeraldo de Oliveira就电线杆共享（Compartilhamento de Postes）议题向董事会提交了综合报告。报告基于三个支柱构建了完整的政策建议框架：<br><br><strong>①问题诊断——"公地悲剧"：</strong>将电线杆乱象定义为经济学经典问题"公地悲剧"（Garrett Hardin, 1968），即私人获益、社会承担成本。电力分销商追求安全和电费适度性，电信运营商追求快速扩张和成本可预测性，缺乏协调导致无序占用和投资不足。<br><br><strong>②Ouvidoria数据：</strong>基于Fala.BR平台的消费者投诉数据分析，2026年截至3月已收到9起相关投诉（按比例可能超过往年）。投诉涉及断线、废弃电缆、交通事故、视觉污染、维护缺失、电缆盗窃等。<br><br><strong>③解决方案框架：</strong>行业联合提案（Abramulti、Abrint、NeoConexis、Internet Sul、Rede Telesul、Tcomp）——5年过渡期+价额上限+合规激励（不合规历史免追溯追偿）+物理扩容；美国/加州模式基准——双边合同（无强制posteiro中介）、成本导向定价、加州CPUC模型（认证专业人员协调+30天响应/14天审批触发机制+数字清单）；混合治理建议——分销商保留管理权，若绩效指标不达标则触发强制共享，过渡期5年（固定价→RTP成本价），年度清理2-3%最严重电线杆。<br><br>Alexandre Freire（该议题报告人）高度评价报告质量，称其具有"分析深度和知识勇气"，将作为其最终报告的"宝贵决策工具"。</div>
+                        <div class="org-unit">负责单位：Ouvidoria da Anatel</div>
+                        <div class="conclusion"><strong>结论：</strong>Ouvidoria报告系统分析了电线杆共享的监管僵局，提出了结合行业共识和国际最佳实践的混合治理方案。报告被纳入Alexandre Freire的电线杆监管修订审议。</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-number"><div class="num">02</div><div class="type-label">Conselho Consultivo</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip policy">Policy</span>
+                            <span class="chip security">Security</span>
+                            <span class="chip consumer">Consumer</span>
+                        </div>
+                        <div class="headline">Conselho Consultivo在AI治理、重要连接性和无障碍法规三大议题上的贡献</div>
+                        <div class="desc">在Alexandre Freire的主动邀请下，Conselho Consultivo（咨询委员会）全体一致通过的方式就三项重大议题提交了技术贡献：<br><br><strong>①IA治理政策（PGIA）：</strong>强化基于原则的AI治理模型——透明度、人工监督、可解释性、可审计性。禁止AI决策完全取代人工权威，倡导负责任的创新。已纳入IA.Lab最终草案。<br><br><strong>②重要连接性和社会环境可持续性计划（PCS）：</strong>提出超越正式接入的实质连接政策——数据用尽后仍保留基本公共服务（健康、教育、政务）访问通道、利用履责义务促进数字包容、研究广告对数据消费的影响、推动设备循环经济。<br><br><strong>③无障碍通用法规（RGA）修订：</strong>将无障碍政策受益面从残障人士扩展至老年人、女性和低收入群体。鼓励提供无障碍低成本设备、强化SIC（中间通信服务）和简明语言沟通工具。</div>
+                        <div class="org-unit">负责单位：Conselho Consultivo da Anatel</div>
+                        <div class="conclusion"><strong>结论：</strong>咨询委员会的贡献体现了Anatel从封闭监管向开放、参与式监管的转型。三项议题的意见均已纳入相关法规和政策的修订进程，AI治理政策即将提交董事会审议。</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+
+<script>
+(function() {
+    const navLinks = document.querySelectorAll('.sidebar nav a');
+    const sections = {};
+    navLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = document.querySelector(href);
+            if (target) sections[href] = target;
+        }
+    });
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || !href.startsWith('#')) return;
+            const target = document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            navLinks.forEach(function(l) { l.classList.remove('active'); });
+            this.classList.add('active');
+        });
+    });
+
+    if (window.IntersectionObserver) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('active');
+                        if (l.getAttribute('href') === '#' + entry.target.id) {
+                            l.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+
+        Object.values(sections).forEach(function(el) { observer.observe(el); });
+    }
+})();
+</script>
+</body>
+</html>
