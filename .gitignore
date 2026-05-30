@@ -1,0 +1,26 @@
+# Claude Code - local settings (personal config)
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive data files
+*.pem
+*.key
+secrets/

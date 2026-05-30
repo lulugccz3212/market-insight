@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巴西电信市场一周动态 2026年5月25日 ~ 2026年5月29日</title>
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card: #131a2b;
+            --card-hover: #182032;
+            --border: #1e2d45;
+            --text: #c8d6e5;
+            --text-dim: #6b7d95;
+            --accent: #00d4aa;
+            --accent2: #4da3ff;
+            --tag-bg: #1a2740;
+            --tag-text: #8ea4c8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* 顶部导航条 */
+        .topbar {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 16px 32px;
+            border-bottom: 1px solid var(--border);
+            background: rgba(19,26,43,0.8);
+            backdrop-filter: blur(12px);
+            position: sticky; top: 0; z-index: 10;
+        }
+        .topbar .logo {
+            font-size: 14px; font-weight: 600; color: var(--accent);
+            letter-spacing: 0.5px;
+        }
+        .topbar .meta { font-size: 12px; color: var(--text-dim); }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 40px 24px; }
+
+        /* Header */
+        .header {
+            text-align: center; padding: 48px 0 20px;
+        }
+        .header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 2px;
+            color: var(--accent); margin-bottom: 12px;
+        }
+        .header h1 {
+            font-size: 30px; font-weight: 700; color: #fff;
+            letter-spacing: -0.5px; margin-bottom: 8px;
+        }
+        .header .date {
+            font-size: 14px; color: var(--text-dim);
+        }
+        .header .divider {
+            width: 60px; height: 3px; background: var(--accent);
+            margin: 20px auto 0; border-radius: 2px;
+        }
+
+        /* 统计卡片行 */
+        .stats-row {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+            margin-bottom: 36px;
+        }
+        .stat-card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 10px; padding: 20px; text-align: center;
+        }
+        .stat-card .num {
+            font-size: 28px; font-weight: 700; color: #fff;
+        }
+        .stat-card .label { font-size: 12px; color: var(--text-dim); margin-top: 4px; }
+        .stat-card.accent .num { color: var(--accent); }
+        .stat-card.accent2 .num { color: var(--accent2); }
+
+        /* Section */
+        .section { margin-bottom: 28px; }
+
+        .section-header {
+            display: flex; align-items: center; gap: 12px;
+            margin-bottom: 18px; padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-header .dot {
+            width: 8px; height: 8px; border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .section-header .dot.reg { background: var(--accent2); }
+        .section-header .dot.client { background: var(--accent); }
+        .section-header .dot.event { background: #f0a050; }
+        .section-header .dot.consult { background: #c084fc; }
+
+        .section-header h2 {
+            font-size: 17px; font-weight: 600; color: #e8edf5;
+            letter-spacing: -0.3px;
+        }
+        .section-header .count {
+            font-size: 12px; color: var(--text-dim); margin-left: auto;
+        }
+
+        /* 新闻条目 */
+        .news-list { display: flex; flex-direction: column; gap: 2px; }
+
+        .news-item {
+            display: flex; align-items: flex-start; gap: 16px;
+            padding: 16px 20px; border-radius: 8px;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+            cursor: pointer;
+            text-decoration: none; color: inherit;
+        }
+        .news-item:hover {
+            background: var(--card-hover);
+            border-color: var(--border);
+        }
+
+        .news-item .date-col {
+            flex-shrink: 0; width: 48px; text-align: center;
+        }
+        .news-item .date-col .day {
+            font-size: 20px; font-weight: 700; color: #fff; line-height: 1;
+        }
+        .news-item .date-col .month {
+            font-size: 11px; color: var(--text-dim); margin-top: 2px;
+        }
+
+        .news-item .content-col { flex: 1; min-width: 0; }
+        .news-item .content-col .tags { margin-bottom: 6px; }
+        .news-item .content-col .tag {
+            display: inline-block; font-size: 11px; padding: 2px 8px;
+            border-radius: 3px; background: var(--tag-bg); color: var(--tag-text);
+            margin-right: 6px; font-weight: 500;
+        }
+        .news-item .content-col .tag.source {
+            background: rgba(0,212,170,0.10); color: var(--accent);
+        }
+
+        .news-item .content-col .title {
+            font-size: 15px; font-weight: 600; color: #e8edf5;
+            margin-bottom: 4px; line-height: 1.4;
+        }
+        .news-item:hover .content-col .title { color: #fff; }
+
+        .news-item .content-col .summary {
+            font-size: 13px; color: var(--text-dim); line-height: 1.5;
+        }
+        .news-item .content-col .summary.is-link {
+            color: var(--accent2); font-size: 12px; margin-top: 4px;
+        }
+
+        /* 空状态 */
+        .empty-note {
+            padding: 28px 20px; text-align: center; color: var(--text-dim);
+            font-size: 13px; border: 1px dashed var(--border); border-radius: 8px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center; padding: 32px 0;
+            font-size: 12px; color: var(--text-dim);
+            border-top: 1px solid var(--border); margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .stats-row { grid-template-columns: repeat(2, 1fr); }
+            .header h1 { font-size: 22px; }
+            .news-item { padding: 14px 12px; }
+            .news-item .date-col { width: 40px; }
+            .news-item .date-col .day { font-size: 17px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbar">
+    <span class="logo">◆ BRAZIL TELECOM WEEKLY</span>
+    <span class="meta">战略助理 — Claude Code · DeepSeek V4 Pro</span>
+</div>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="eyebrow">Market Intelligence Report</div>
+        <h1>巴西电信市场一周动态</h1>
+        <div class="date">2026年5月25日 ~ 2026年5月29日</div>
+        <div class="divider"></div>
+    </div>
+
+    <!-- 统计概览 -->
+    <div class="stats-row">
+        <div class="stat-card accent">
+            <div class="num">9</div>
+            <div class="label">监管动态</div>
+        </div>
+        <div class="stat-card accent2">
+            <div class="num">11</div>
+            <div class="label">客户动态</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">8</div>
+            <div class="label">关键事件</div>
+        </div>
+        <div class="stat-card">
+            <div class="num">3</div>
+            <div class="label">公开征询</div>
+        </div>
+    </div>
+
+    <!-- ============ 监管机构动态 ============ -->
+    <div class="section">
+        <div class="section-header">
+            <span class="dot reg"></span>
+            <h2>监管机构动态</h2>
+            <span class="count">9 条</span>
+        </div>
+        <div class="news-list">
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">28</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">Anatel</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Anatel批准Claro收购Desktop</div>
+                    <div class="summary">
+                        Anatel为Claro收购区域宽带运营商Desktop的交易亮了绿灯，该交易将进一步巩固Claro在巴西宽带市场的地位。
+                    </div>
+                </div>
+            </a>
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">28</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">Anatel</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Anatel将重新评估网络安全产品清单</div>
+                    <div class="summary">
+                        Anatel宣布将重新评估其要求满足网络安全规定的电信产品清单，以适应不断演变的网络安全威胁格局。
+                    </div>
+                </div>
+            </a>
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">27</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">Anatel</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Anatel延长滥用电话打击措施至2028年</div>
+                    <div class="summary">
+                        Anatel决定将针对滥用电话（robocall）的预防措施延长至2028年，原措施将于5月31日到期。
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- ============ 关键客户动态 ============ -->
+    <div class="section">
+        <div class="section-header">
+            <span class="dot client"></span>
+            <h2>关键客户动态</h2>
+            <span class="count">11 条</span>
+        </div>
+        <div class="news-list">
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">28</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">Claro</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Anatel批准Claro收购Desktop</div>
+                    <div class="summary">
+                        Anatel为Claro收购宽带运营商Desktop的交易开放绿灯，该收购将进一步扩大Claro在巴西固定宽带市场的覆盖范围和用户基础。
+                    </div>
+                </div>
+            </a>
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">27</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">VIVO</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Telefónica 2025年对巴西GDP贡献超过940亿雷亚尔</div>
+                    <div class="summary">
+                        Telefónica集团（VIVO母公司）发布数据显示，2025年其对巴西国内生产总值的总贡献超过940亿雷亚尔。
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- ============ 关键事件动态 ============ -->
+    <div class="section">
+        <div class="section-header">
+            <span class="dot event"></span>
+            <h2>关键事件动态</h2>
+            <span class="count">8 条</span>
+        </div>
+        <div class="news-list">
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">28</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">AI法案</span>
+                        <span class="tag source">Teletime</span>
+                    </div>
+                    <div class="title">Motta预计AI法案6月投票，拒绝推迟至2027年</div>
+                    <div class="summary">
+                        国会议员Motta表示预计人工智能法律框架法案将于6月进行投票，并明确拒绝将辩论推迟到2027年的提议。
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- ============ Anatel公开征询 ============ -->
+    <div class="section">
+        <div class="section-header">
+            <span class="dot consult"></span>
+            <h2>Anatel公开征询</h2>
+            <span class="count">3 条</span>
+        </div>
+        <div class="news-list">
+
+            <a class="news-item" href="#" target="_blank">
+                <div class="date-col">
+                    <div class="day">27</div>
+                    <div class="month">5月</div>
+                </div>
+                <div class="content-col">
+                    <div class="tags">
+                        <span class="tag">Consulta Pública</span>
+                        <span class="tag source">Anatel</span>
+                    </div>
+                    <div class="title">海底电缆监管框架公众咨询</div>
+                    <div class="summary">
+                        Anatel就海底电缆的监管框架启动公众咨询，旨在填补该领域的规范性空白。
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        Market Intelligence · 巴西电信市场周报 · 战略助理生成
+    </div>
+
+</div>
+</body>
+</html>

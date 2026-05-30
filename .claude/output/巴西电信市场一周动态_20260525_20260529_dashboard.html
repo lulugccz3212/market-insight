@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巴西电信市场一周动态 2026年5月25日 ~ 2026年5月29日</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-dim: #64748b;
+            --border: #e8ecf1;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --radius: 14px;
+            --blue: #2563eb;
+            --blue-light: #eff6ff;
+            --green: #059669;
+            --green-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --purple: #7c3aed;
+            --purple-light: #f5f3ff;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 15px;
+        }
+
+        .app { display: flex; min-height: 100vh; }
+
+        .sidebar {
+            width: 240px; flex-shrink: 0;
+            background: var(--white); border-right: 1px solid var(--border);
+            padding: 32px 20px; display: flex; flex-direction: column;
+            position: sticky; top: 0; height: 100vh;
+        }
+        .sidebar .logo-area { margin-bottom: 36px; }
+        .sidebar .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar .logo-text { font-size: 14px; font-weight: 600; color: var(--text); }
+        .sidebar .logo-sub { font-size: 11px; color: var(--text-dim); }
+
+        .sidebar nav { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .sidebar nav a {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px; border-radius: 8px;
+            text-decoration: none; color: var(--text-dim);
+            font-size: 13px; font-weight: 500;
+            transition: all 0.15s;
+        }
+        .sidebar nav a:hover { background: var(--bg); color: var(--text); }
+        .sidebar nav a.active { background: var(--blue-light); color: var(--blue); }
+
+        .sidebar nav a .badge {
+            margin-left: auto; font-size: 10px; background: var(--border);
+            color: var(--text-dim); padding: 2px 6px; border-radius: 10px;
+            font-weight: 600;
+        }
+        .sidebar nav a.active .badge { background: var(--blue); color: #fff; }
+
+        .sidebar .footer-meta { font-size: 11px; color: var(--text-dim); padding-top: 16px; border-top: 1px solid var(--border); }
+
+        .main { flex: 1; min-width: 0; padding: 36px 40px; }
+
+        .page-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        .page-header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: var(--blue); font-weight: 600; margin-bottom: 8px;
+        }
+        .page-header h1 {
+            font-size: 28px; font-weight: 700; color: var(--text);
+            letter-spacing: -0.5px; line-height: 1.2;
+        }
+        .page-header .subtitle {
+            font-size: 14px; color: var(--text-dim); margin-top: 6px;
+        }
+
+        .header-actions { display: flex; gap: 8px; }
+        .btn {
+            padding: 8px 16px; border-radius: 8px; font-size: 13px;
+            font-weight: 500; border: 1px solid var(--border);
+            background: var(--white); color: var(--text);
+            cursor: pointer; text-decoration: none; display: inline-flex;
+            align-items: center; gap: 6px;
+        }
+        .btn.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+            margin-bottom: 36px;
+        }
+        .kpi {
+            background: var(--white); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .kpi .kpi-icon { font-size: 22px; margin-bottom: 8px; }
+        .kpi .kpi-val { font-size: 32px; font-weight: 700; color: var(--text); line-height: 1; }
+        .kpi .kpi-label { font-size: 13px; color: var(--text-dim); margin-top: 6px; }
+        .kpi .kpi-change { font-size: 12px; margin-top: 4px; font-weight: 500; }
+        .kpi .kpi-change.up { color: var(--green); }
+
+        .section { margin-bottom: 32px; }
+
+        .section-title {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+        }
+        .section-title .marker {
+            width: 4px; height: 20px; border-radius: 2px; flex-shrink: 0;
+        }
+        .section-title .marker.blue { background: var(--blue); }
+        .section-title .marker.green { background: var(--green); }
+        .section-title .marker.amber { background: var(--amber); }
+        .section-title .marker.purple { background: var(--purple); }
+
+        .section-title h2 {
+            font-size: 16px; font-weight: 600; color: var(--text);
+        }
+        .section-title .sub { font-size: 13px; color: var(--text-dim); }
+
+        .card-list {
+            display: grid; grid-template-columns: 1fr; gap: 8px;
+        }
+
+        .card {
+            background: var(--white); border-radius: 10px;
+            padding: 18px 22px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            display: flex; gap: 16px; align-items: flex-start;
+            text-decoration: none; color: inherit;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: #c4d0e0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+
+        .card .card-date {
+            flex-shrink: 0; text-align: center; min-width: 44px;
+        }
+        .card .card-date .mday {
+            font-size: 20px; font-weight: 700; color: var(--text); line-height: 1;
+        }
+        .card .card-date .mon {
+            font-size: 11px; color: var(--text-dim); margin-top: 2px;
+        }
+
+        .card .card-body { flex: 1; min-width: 0; }
+
+        .card .card-body .chip-row { margin-bottom: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+        .card .card-body .chip {
+            font-size: 11px; padding: 2px 8px; border-radius: 4px;
+            font-weight: 500; display: inline-block;
+        }
+        .chip.anatel { background: var(--blue-light); color: var(--blue); }
+        .chip.mcom { background: #fef3c7; color: #92400e; }
+        .chip.vivo { background: #fce7f3; color: #be185d; }
+        .chip.claro { background: #fee2e2; color: #b91c1c; }
+        .chip.tim { background: var(--blue-light); color: #1d4ed8; }
+        .chip.unifique { background: var(--green-light); color: var(--green); }
+        .chip.generic { background: #f1f5f9; color: #475569; }
+        .chip.spectrum { background: #fef3c7; color: #92400e; }
+        .chip.ai { background: var(--purple-light); color: var(--purple); }
+        .chip.infra { background: #e0f2fe; color: #0369a1; }
+
+        .card .card-body .headline {
+            font-size: 15px; font-weight: 600; color: var(--text);
+            margin-bottom: 4px; line-height: 1.4;
+        }
+        .card .card-body .desc {
+            font-size: 13px; color: var(--text-dim); line-height: 1.5;
+        }
+        .card .card-body .link-hint {
+            font-size: 12px; color: var(--blue); margin-top: 6px;
+            font-weight: 500;
+        }
+
+        .empty {
+            padding: 28px; text-align: center; color: var(--text-dim);
+            font-size: 13px; background: var(--white); border-radius: 10px;
+            border: 1px dashed var(--border);
+        }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .main { padding: 24px 20px; }
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">⧩</div>
+            <div class="logo-text">Market Insight</div>
+            <div class="logo-sub">巴西电信市场情报</div>
+        </div>
+        <nav>
+            <a href="#overview" class="active">周报总览 <span class="badge">27</span></a>
+            <a href="#regulator">监管动态 <span class="badge">15</span></a>
+            <a href="#clients">客户动态 <span class="badge">5</span></a>
+            <a href="#events">关键事件 <span class="badge">6</span></a>
+            <a href="#consultations">公开征询 <span class="badge">1</span></a>
+        </nav>
+        <div class="footer-meta">
+            战略助理<br>Claude Code · DeepSeek V4 Pro
+        </div>
+    </aside>
+
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <div class="eyebrow">Weekly Intelligence · 巴西</div>
+                <h1>巴西电信市场一周动态</h1>
+                <div class="subtitle">报告周期：2026年5月25日 — 2026年5月29日  ·  by 战略助理 @Claude Code / DeepSeek V4 Pro</div>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="btn">📥 导出 PDF</a>
+            </div>
+        </div>
+
+        <!-- KPI 指标 -->
+        <div class="kpi-grid" id="overview">
+            <div class="kpi">
+                <div class="kpi-icon">🏛️</div>
+                <div class="kpi-val">15</div>
+                <div class="kpi-label">监管机构动态</div>
+                <div class="kpi-change up">Anatel ×9 · MCom ×6</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">🏢</div>
+                <div class="kpi-val">5</div>
+                <div class="kpi-label">关键客户动态</div>
+                <div class="kpi-change up">Claro ×2 · VIVO ×1 · TIM ×1 · Unifique ×1</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">⚡</div>
+                <div class="kpi-val">6</div>
+                <div class="kpi-label">关键事件动态</div>
+                <div class="kpi-change">700MHz · AI法案 · Redata · 数据中心</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">📋</div>
+                <div class="kpi-val">1</div>
+                <div class="kpi-label">公开征询</div>
+                <div class="kpi-change">CP 22 · 广播基本计划</div>
+            </div>
+        </div>
+
+        <!-- ===== 监管机构动态 ===== -->
+        <div class="section" id="regulator">
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>监管机构动态</h2>
+                <span class="sub">15 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="https://teletime.com.br/29/05/2026/anatel-oi-garantias/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span></div>
+                        <div class="headline">Anatel在国会听证会上就Oi担保金去向提出质询</div>
+                        <div class="desc">Anatel代表出席国会听证会，就Oi破产案中的财务担保金去向提出质疑，院长Baigorri出席作证。众议院劳动委员会决定就Oi员工欠薪问题向法官和CNJ提出交涉。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/29/05/2026/anatel-ligga-brasil-tecpar/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span></div>
+                        <div class="headline">Anatel批准Brasil TecPar收购Ligga宽带资产</div>
+                        <div class="desc">Anatel正式批准Brasil TecPar收购区域运营商Ligga的宽带资产，这是继Ligga股东会批准后交易落地的关键一步，体现了巴西电信市场持续整合的趋势。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/29/05/2026/anatel-amplia-prazo-consulta-redes/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span></div>
+                        <div class="headline">Anatel应运营商要求延长网络使用费公众咨询期限至6月22日</div>
+                        <div class="desc">Anatel决定将网络使用费规则的公众咨询期限延长20天，以响应运营商要求更多时间评估新规则的技术、法律和运营影响的请求。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/29/05/2026/brasil-e-24o-em-ranking-de-esim-regulacao-e-entrave-aponta-relatorio/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip generic">eSIM</span></div>
+                        <div class="headline">巴西eSIM普及率全球排名第24位，监管被认为是主要障碍</div>
+                        <div class="desc">最新报告显示巴西在全球eSIM普及率排名中仅位列第24位，报告指出当前监管框架是eSIM技术在巴西推广的主要障碍。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/anatel-da-sinal-verde-para-compra-da-desktop-pela-claro/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip claro">Claro</span></div>
+                        <div class="headline">Anatel批准Claro收购Desktop</div>
+                        <div class="desc">Anatel为Claro收购区域宽带运营商Desktop的交易亮了绿灯，要求Claro重新组织接入网络以使用单一互连点，进一步巩固其在巴西固定宽带市场的竞争地位。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/anatel-ia-comercio-eletronico/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip ai">AI</span></div>
+                        <div class="headline">Anatel将使用AI监控电商平台非法电信产品销售</div>
+                        <div class="desc">Anatel宣布计划部署人工智能技术，加强对Mercado Livre、Amazon等电商平台上未经认证的电信产品的监控和执法力度，打击非法设备流通。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/anatel-produtos-ciberseguranca/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip generic">网络安全</span></div>
+                        <div class="headline">Anatel将重新评估网络安全产品清单</div>
+                        <div class="desc">Anatel宣布将重新评估需要满足网络安全强制性要求的电信设备产品清单，以适应不断演变的网络安全威胁格局，与Anatel被指定为国家网络安全机构的角色密切相关。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/robocall-anatel-2028/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span></div>
+                        <div class="headline">Anatel延长滥用电话(robocall)打击措施至2028年</div>
+                        <div class="desc">Anatel决定将针对滥用电话的预防性措施延长至2028年，原措施将于5月31日到期。此次延期旨在持续遏制骚扰性自动呼叫行为，保护消费者权益。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/anatel-aguarda-aneel-para-retomar-regulamento-dos-postes-aneel-e-simpatica-a-um-marco-legal/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip generic">基础设施</span></div>
+                        <div class="headline">Anatel等待Aneel以恢复电杆共址法规讨论</div>
+                        <div class="desc">Anatel表示正在等待Aneel的协调以恢复电杆共址法规的制定工作。Aneel方面倾向于通过立法框架而非持续的监管拼凑来解决电杆使用问题。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://convergenciadigital.com.br/governo/chinesa-spacesail-vai-concorrer-com-starlink-no-brasil-ainda-em-2026/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span><span class="chip generic">卫星互联网</span></div>
+                        <div class="headline">中国SpaceSail确认将在2026年内进入巴西，与Starlink展开竞争</div>
+                        <div class="desc">中国卫星互联网企业SpaceSail向通信部长确认了在巴西启动运营的计划。该公司拥有最多324颗卫星的运营权（有效期至2031年7月），将直接与Starlink在巴西卫星宽带市场展开竞争。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://convergenciadigital.com.br/governo/mcom-vai-ao-banco-dos-brics-pedir-financiamento-para-tv-3-0-e-correios/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span></div>
+                        <div class="headline">MCom向金砖银行寻求TV 3.0和Correios项目融资</div>
+                        <div class="desc">通信部长Frederico Filho在上海与新开发银行（NDB）行长Dilma Rousseff会面，为巴西TV 3.0数字电视标准推广和Correios现代化项目寻求融资支持。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://convergenciadigital.com.br/telecom/norte-conectado-infovias-no-amapa-e-em-roraima-serao-entregues-na-1a-quinzena-de-junho/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span><span class="chip infra">基础设施</span></div>
+                        <div class="headline">Norte Conectado项目infovias 03和04将于6月上半月交付</div>
+                        <div class="desc">EAF CEO确认位于Amapá和Roraima的光纤线路将于6月上半月交付。Norte Conectado项目将在亚马逊地区部署超过1.3万公里河底光缆，连接超过750万人。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://convergenciadigital.com.br/governo/aprender-conectado-entrega-23-mil-escolas-com-internet/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span></div>
+                        <div class="headline">Aprender Conectado项目已为2.3万所学校提供互联网连接</div>
+                        <div class="desc">Aprender Conectado学校连接项目已为巴西约2.3万所学校提供互联网接入，项目目标覆盖全国约4万所偏远地区学校，推动教育数字化包容。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/governo-fase-extra-eace/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span></div>
+                        <div class="headline">政府计划Eace额外阶段，再连接8000所学校</div>
+                        <div class="desc">巴西政府宣布计划推出Eace（学校连接战略）的额外阶段，目标是将另外8000所公立学校纳入互联网连接覆盖范围，进一步缩小数字鸿沟。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/governo-rebate-tcu-banda-larga-escolar/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip mcom">MCom</span></div>
+                        <div class="headline">政府回应TCU关于学校宽带连接不平等风险的质疑</div>
+                        <div class="desc">巴西政府就联邦审计法院（TCU）提出的学校宽带连接项目中存在地区不平等风险的问题作出正式回应，为其学校连接计划的实施策略进行辩护。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- ===== 关键客户动态 ===== -->
+        <div class="section" id="clients">
+            <div class="section-title">
+                <span class="marker green"></span>
+                <h2>关键客户动态</h2>
+                <span class="sub">5 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/fair-share-claro-acusa-plataformas/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip claro">Claro</span><span class="chip generic">Fair Share</span></div>
+                        <div class="headline">Claro批评互联网平台支持的Fair Share法案会"僵化"商业协议</div>
+                        <div class="desc">Claro公开批评由大型互联网平台支持的Fair Share法案，认为该提案将僵化电信运营商与数字平台之间的商业协议，警告"僵化互联网是一个严重错误，将给国家带来沉重代价"。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://convergenciadigital.com.br/telecom/abrigo-amigo-claro-passa-a-funcionar-em-10-cidades-brasileiras/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip claro">Claro</span></div>
+                        <div class="headline">Claro与Eletromidia将Abrigo Amigo项目扩展至10个城市</div>
+                        <div class="desc">Claro与Eletromidia宣布将"友庇护所"公益项目扩展至库里蒂巴和贝洛奥里藏特，新增150个公交候车亭庇护所，使该公益网络覆盖巴西10个城市。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/tim-entorno-df/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip tim">TIM</span></div>
+                        <div class="headline">TIM将网络现代化扩展至联邦区周边城市</div>
+                        <div class="desc">TIM持续推进网络基础设施升级，将其移动网络现代化项目扩展至巴西利亚联邦区周边的多个城市（Entorno do DF），提升当地4G/5G网络覆盖和服务质量。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/telefonica-pib-brasil/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip vivo">VIVO</span></div>
+                        <div class="headline">Telefónica 2025年对巴西GDP贡献超过940亿雷亚尔</div>
+                        <div class="desc">Telefónica集团（VIVO母公司）发布经济影响报告显示，2025年其对巴西国内生产总值的总贡献超过940亿雷亚尔，体现了该公司在巴西数字经济中的重要战略地位。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/unifique-compra-provedor-em-santa-catarina-por-r-63-milhoes/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip unifique">Unifique</span></div>
+                        <div class="headline">Unifique以630万雷亚尔收购圣卡塔琳娜州ISP</div>
+                        <div class="desc">巴西南部区域运营商Unifique以630万雷亚尔的价格收购了圣卡塔琳娜州的一家互联网服务提供商，继续推进其在南部市场的整合战略。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="empty" style="margin-top: 12px;">本周未检索到 Algar、Brisanet、Amazonia、iez 的相关新闻动态。</div>
+        </div>
+
+        <!-- ===== 关键事件动态 ===== -->
+        <div class="section" id="events">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>关键事件动态</h2>
+                <span class="sub">6 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="https://teletime.com.br/29/05/2026/700-mhz-termos/" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip spectrum">700MHz</span><span class="chip spectrum">频谱拍卖</span></div>
+                        <div class="headline">700MHz拍卖授权条款正式公布</div>
+                        <div class="desc">Anatel正式公布了700MHz频段频谱拍卖的授权条款，为拍卖中标企业颁发正式使用许可，标志着700MHz频谱分配进入实质性执行阶段。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/28/05/2026/motta-votacao-pl-da-ia-junho/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip ai">AI法案</span></div>
+                        <div class="headline">Motta预计AI法案6月投票，拒绝推迟至2027年</div>
+                        <div class="desc">巴西众议院议长Hugo Motta表示预计人工智能法律框架法案将于6月进行投票，并明确拒绝将辩论推迟到2027年。报告人需在6月9日前提交法案报告，立法紧迫性凸显。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://dplnews.com/ascenty-us-12-bilhao-expansao-data-centers-ia-brasil/" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip infra">数据中心</span><span class="chip ai">AI基础设施</span></div>
+                        <div class="headline">Ascenty宣布投资12亿美元扩展巴西AI数据中心</div>
+                        <div class="desc">Ascenty（Digital Realty与Brookfield合资企业）宣布将投资12亿美元扩展其面向AI工作负载的数据中心基础设施，进一步巩固巴西作为拉美数据中心枢纽的地位。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/27/05/2026/brasil-precisa-do-redata-se-quiser-duplicar-data-centers-diz-ascenty/" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip generic">Redata</span><span class="chip infra">数据中心</span></div>
+                        <div class="headline">Ascenty：巴西需要Redata计划才能翻倍数据中心容量</div>
+                        <div class="desc">Ascenty高管表示如果巴西希望将数据中心容量翻倍，Redata计划至关重要。电信和数字基础设施行业呼吁国会在本学年内就Redata法案进行投票。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://teletime.com.br/26/05/2026/os-espectros-da-competicao/" target="_blank">
+                    <div class="card-date"><div class="mday">26</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip spectrum">700MHz</span><span class="chip spectrum">频谱竞争</span></div>
+                        <div class="headline">频谱竞争分析：700MHz拍卖释放扩大移动竞争信号</div>
+                        <div class="desc">分析文章指出当前700MHz频谱拍卖规则表明监管层认为"亟需扩大移动市场竞争"。频谱资源的合理分配对于打破巴西移动市场集中度、促进竞争至关重要。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="https://dplnews.com/ia-centros-de-datos-cables-submarinos-cambian-escala-regulatoria-alexandre-freire/" target="_blank">
+                    <div class="card-date"><div class="mday">26</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip infra">海底电缆</span><span class="chip ai">AI</span></div>
+                        <div class="headline">前Anatel委员Freire：AI、数据中心和海底电缆正在改变监管格局</div>
+                        <div class="desc">前Anatel委员Alexandre Freire在接受DPL News专访时指出，人工智能、数据中心和海底电缆等新兴领域正在从根本上改变电信监管的规模和维度，呼吁建立适应数字基础设施新形势的监管框架。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="empty" style="margin-top: 12px;">本周未检索到 U6G、850MHz、RQUAL、FUST、FISTEL、FUNTTEL、5G Obligation 的相关新闻动态。Quality Seals 相关内容体现在网络安全监管动态中。</div>
+        </div>
+
+        <!-- ===== 本周Anatel公开征询 ===== -->
+        <div class="section" id="consultations">
+            <div class="section-title">
+                <span class="marker purple"></span>
+                <h2>本周Anatel公开征询</h2>
+                <span class="sub">1 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="https://apps.anatel.gov.br/ParticipaAnatel/" target="_blank">
+                    <div class="card-date"><div class="mday">25</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip generic">CP nº 22 · 广播</span></div>
+                        <div class="headline">广播基本计划修订提案 — 本周发布</div>
+                        <div class="desc">Anatel于5月25日发布第22号公众咨询，就巴西广播基本计划（Planos Básicos de Radiodifusão）修订提案公开征求意见。状态：进行中（Aberta），由ORER2负责。为本周（5/25-5/29）唯一新发布的公开征询。</div>
+                        <div class="link-hint">→ 查看详情 (Participa Anatel)</div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div style="margin-top: 12px; padding: 14px 18px; background: var(--green-light); border-radius: 8px; font-size: 13px; color: #065f46;">
+                ✅ <strong>数据来源：</strong>直接访问 Anatel 公开征询门户（apps.anatel.gov.br/ParticipaAnatel）获取，本周（5/25-5/29）新发布公开征询。
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+<script>
+(function() {
+    const navLinks = document.querySelectorAll('.sidebar nav a');
+    const sections = {};
+    navLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = document.querySelector(href);
+            if (target) sections[href] = target;
+        }
+    });
+
+    /* Click: smooth scroll + update active state */
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || !href.startsWith('#')) return;
+            const target = document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            navLinks.forEach(function(l) { l.classList.remove('active'); });
+            this.classList.add('active');
+        });
+    });
+
+    /* IntersectionObserver: auto-update active state on scroll */
+    if (window.IntersectionObserver) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('active');
+                        if (l.getAttribute('href') === '#' + entry.target.id) {
+                            l.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+
+        Object.values(sections).forEach(function(el) { observer.observe(el); });
+    }
+})();
+</script>
+</html>

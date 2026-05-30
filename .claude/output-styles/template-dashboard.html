@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巴西电信市场一周动态 2026年5月25日 ~ 2026年5月29日</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-dim: #64748b;
+            --border: #e8ecf1;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --radius: 14px;
+            --blue: #2563eb;
+            --blue-light: #eff6ff;
+            --green: #059669;
+            --green-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --purple: #7c3aed;
+            --purple-light: #f5f3ff;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 15px;
+        }
+
+        /* ====== 布局 ====== */
+        .app { display: flex; min-height: 100vh; }
+
+        /* 侧边栏 */
+        .sidebar {
+            width: 240px; flex-shrink: 0;
+            background: var(--white); border-right: 1px solid var(--border);
+            padding: 32px 20px; display: flex; flex-direction: column;
+            position: sticky; top: 0; height: 100vh;
+        }
+        .sidebar .logo-area { margin-bottom: 36px; }
+        .sidebar .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar .logo-text { font-size: 14px; font-weight: 600; color: var(--text); }
+        .sidebar .logo-sub { font-size: 11px; color: var(--text-dim); }
+
+        .sidebar nav { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .sidebar nav a {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px; border-radius: 8px;
+            text-decoration: none; color: var(--text-dim);
+            font-size: 13px; font-weight: 500;
+            transition: all 0.15s;
+        }
+        .sidebar nav a:hover { background: var(--bg); color: var(--text); }
+        .sidebar nav a.active { background: var(--blue-light); color: var(--blue); }
+
+        .sidebar nav a .badge {
+            margin-left: auto; font-size: 10px; background: var(--border);
+            color: var(--text-dim); padding: 2px 6px; border-radius: 10px;
+            font-weight: 600;
+        }
+        .sidebar nav a.active .badge { background: var(--blue); color: #fff; }
+
+        .sidebar .footer-meta { font-size: 11px; color: var(--text-dim); padding-top: 16px; border-top: 1px solid var(--border); }
+
+        /* 主内容 */
+        .main { flex: 1; min-width: 0; padding: 36px 40px; }
+
+        /* Header */
+        .page-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        .page-header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: var(--blue); font-weight: 600; margin-bottom: 8px;
+        }
+        .page-header h1 {
+            font-size: 28px; font-weight: 700; color: var(--text);
+            letter-spacing: -0.5px; line-height: 1.2;
+        }
+        .page-header .subtitle {
+            font-size: 14px; color: var(--text-dim); margin-top: 6px;
+        }
+
+        .header-actions { display: flex; gap: 8px; }
+        .btn {
+            padding: 8px 16px; border-radius: 8px; font-size: 13px;
+            font-weight: 500; border: 1px solid var(--border);
+            background: var(--white); color: var(--text);
+            cursor: pointer; text-decoration: none; display: inline-flex;
+            align-items: center; gap: 6px;
+        }
+        .btn.primary { background: var(--blue); color: #fff; border-color: var(--blue); }
+
+        /* 指标卡片 */
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+            margin-bottom: 36px;
+        }
+        .kpi {
+            background: var(--white); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .kpi .kpi-icon { font-size: 22px; margin-bottom: 8px; }
+        .kpi .kpi-val { font-size: 32px; font-weight: 700; color: var(--text); line-height: 1; }
+        .kpi .kpi-label { font-size: 13px; color: var(--text-dim); margin-top: 6px; }
+        .kpi .kpi-change {
+            font-size: 12px; margin-top: 4px; font-weight: 500;
+        }
+        .kpi .kpi-change.up { color: var(--green); }
+        .kpi .kpi-change.down { color: #dc2626; }
+
+        /* Section */
+        .section { margin-bottom: 32px; }
+
+        .section-title {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+        }
+        .section-title .marker {
+            width: 4px; height: 20px; border-radius: 2px; flex-shrink: 0;
+        }
+        .section-title .marker.blue { background: var(--blue); }
+        .section-title .marker.green { background: var(--green); }
+        .section-title .marker.amber { background: var(--amber); }
+        .section-title .marker.purple { background: var(--purple); }
+
+        .section-title h2 {
+            font-size: 16px; font-weight: 600; color: var(--text);
+        }
+        .section-title .sub { font-size: 13px; color: var(--text-dim); }
+
+        /* 卡片列表 */
+        .card-list {
+            display: grid; grid-template-columns: 1fr; gap: 8px;
+        }
+
+        .card {
+            background: var(--white); border-radius: 10px;
+            padding: 18px 22px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            display: flex; gap: 16px; align-items: flex-start;
+            text-decoration: none; color: inherit;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: #c4d0e0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+
+        .card .card-date {
+            flex-shrink: 0; text-align: center; min-width: 44px;
+        }
+        .card .card-date .mday {
+            font-size: 20px; font-weight: 700; color: var(--text); line-height: 1;
+        }
+        .card .card-date .mon {
+            font-size: 11px; color: var(--text-dim); margin-top: 2px;
+        }
+
+        .card .card-body { flex: 1; min-width: 0; }
+
+        .card .card-body .chip-row { margin-bottom: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+        .card .card-body .chip {
+            font-size: 11px; padding: 2px 8px; border-radius: 4px;
+            font-weight: 500; display: inline-block;
+        }
+        .chip.anatel { background: var(--blue-light); color: var(--blue); }
+        .chip.mcom { background: #fef3c7; color: #92400e; }
+        .chip.vivo { background: #fce7f3; color: #be185d; }
+        .chip.claro { background: #fee2e2; color: #b91c1c; }
+        .chip.tim { background: var(--blue-light); color: #1d4ed8; }
+        .chip.generic { background: #f1f5f9; color: #475569; }
+
+        .card .card-body .headline {
+            font-size: 15px; font-weight: 600; color: var(--text);
+            margin-bottom: 4px; line-height: 1.4;
+        }
+        .card .card-body .desc {
+            font-size: 13px; color: var(--text-dim); line-height: 1.5;
+        }
+        .card .card-body .link-hint {
+            font-size: 12px; color: var(--blue); margin-top: 6px;
+            font-weight: 500;
+        }
+
+        /* 空状态 */
+        .empty {
+            padding: 28px; text-align: center; color: var(--text-dim);
+            font-size: 13px; background: var(--white); border-radius: 10px;
+            border: 1px dashed var(--border);
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .main { padding: 24px 20px; }
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app">
+
+    <!-- 侧边导航 -->
+    <aside class="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">⧩</div>
+            <div class="logo-text">Market Insight</div>
+            <div class="logo-sub">巴西电信市场情报</div>
+        </div>
+        <nav>
+            <a href="#overview" class="active">周报总览 <span class="badge">31</span></a>
+            <a href="#regulator">监管动态 <span class="badge">9</span></a>
+            <a href="#clients">客户动态 <span class="badge">11</span></a>
+            <a href="#events">关键事件 <span class="badge">8</span></a>
+            <a href="#consultations">公开征询 <span class="badge">3</span></a>
+        </nav>
+        <div class="footer-meta">
+            战略助理<br>Claude Code · DeepSeek V4 Pro
+        </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <div class="eyebrow">Weekly Intelligence · 巴西</div>
+                <h1>巴西电信市场一周动态</h1>
+                <div class="subtitle">报告周期：2026年5月25日 — 2026年5月29日</div>
+            </div>
+            <div class="header-actions">
+                <a href="#" class="btn">📥 导出 PDF</a>
+            </div>
+        </div>
+
+        <!-- KPI 指标 -->
+        <div class="kpi-grid" id="overview">
+            <div class="kpi">
+                <div class="kpi-icon">🏛️</div>
+                <div class="kpi-val">9</div>
+                <div class="kpi-label">监管机构动态</div>
+                <div class="kpi-change up">Anatel ×6 · MCom ×3</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">🏢</div>
+                <div class="kpi-val">11</div>
+                <div class="kpi-label">关键客户动态</div>
+                <div class="kpi-change up">Claro ×3 · TIM ×2 · VIVO ×2</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">⚡</div>
+                <div class="kpi-val">8</div>
+                <div class="kpi-label">关键事件动态</div>
+                <div class="kpi-change">850MHz · AI · 网络安全</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-icon">📋</div>
+                <div class="kpi-val">3</div>
+                <div class="kpi-label">公开征询</div>
+                <div class="kpi-change">海底电缆 · 频谱</div>
+            </div>
+        </div>
+
+        <!-- ===== 监管机构动态 ===== -->
+        <div class="section" id="regulator">
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>监管机构动态</h2>
+                <span class="sub">9 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip anatel">Anatel</span>
+                        </div>
+                        <div class="headline">Anatel批准Claro收购Desktop</div>
+                        <div class="desc">Anatel为Claro收购区域宽带运营商Desktop的交易亮了绿灯，该交易将进一步巩固Claro在巴西宽带市场的地位。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip anatel">Anatel</span>
+                        </div>
+                        <div class="headline">Anatel将使用AI监控电商平台非法产品销售</div>
+                        <div class="desc">Anatel计划部署人工智能技术，加强对电商平台上未经认证的电信产品的监控和执法力度。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip anatel">Anatel</span>
+                        </div>
+                        <div class="headline">Anatel延长滥用电话打击措施至2028年</div>
+                        <div class="desc">Anatel决定将针对滥用电话（robocall）的预防措施延长至2028年，原措施将于5月31日到期。该措施旨在遏制骚扰性自动呼叫行为。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- ===== 关键客户动态 ===== -->
+        <div class="section" id="clients">
+            <div class="section-title">
+                <span class="marker green"></span>
+                <h2>关键客户动态</h2>
+                <span class="sub">11 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip claro">Claro</span>
+                        </div>
+                        <div class="headline">Anatel批准Claro收购Desktop</div>
+                        <div class="desc">Anatel为Claro收购宽带运营商Desktop的交易开放绿灯，该收购将进一步扩大Claro在巴西固定宽带市场的覆盖范围和用户基础。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">27</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip vivo">VIVO</span>
+                        </div>
+                        <div class="headline">Telefónica 2025年对巴西GDP贡献超过940亿雷亚尔</div>
+                        <div class="desc">Telefónica集团（VIVO母公司）发布数据显示，2025年其对巴西国内生产总值的总贡献超过940亿雷亚尔。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip tim">TIM</span>
+                        </div>
+                        <div class="headline">TIM将网络现代化扩展至联邦区周边城市</div>
+                        <div class="desc">TIM持续推进网络基础设施升级，将其网络现代化项目扩展至巴西利亚联邦区周边的多个城市。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- ===== 关键事件动态 ===== -->
+        <div class="section" id="events">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>关键事件动态</h2>
+                <span class="sub">8 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">28</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip generic">AI法案</span>
+                            <span class="chip generic">网络安全</span>
+                        </div>
+                        <div class="headline">Motta预计AI法案6月投票，拒绝推迟至2027年</div>
+                        <div class="desc">国会议员Motta表示预计人工智能法律框架法案将于6月进行投票，并明确拒绝将辩论推迟到2027年的提议，强调立法的紧迫性。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <!-- ===== 本周Anatel公开征询 ===== -->
+        <div class="section" id="consultations">
+            <div class="section-title">
+                <span class="marker purple"></span>
+                <h2>本周Anatel公开征询</h2>
+                <span class="sub">3 条</span>
+            </div>
+            <div class="card-list">
+
+                <a class="card" href="#" target="_blank">
+                    <div class="card-date"><div class="mday">29</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row"><span class="chip anatel">Anatel</span><span class="chip generic">网络使用费</span></div>
+                        <div class="headline">网络使用费规则公众咨询</div>
+                        <div class="desc">Anatel就运营商间网络使用费规则开展公众咨询，涉及运营商间网络互用支付规则。</div>
+                        <div class="link-hint">→ 阅读原文</div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+<script>
+(function() {
+    const navLinks = document.querySelectorAll('.sidebar nav a');
+    const sections = {};
+    navLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = document.querySelector(href);
+            if (target) sections[href] = target;
+        }
+    });
+
+    /* Click: smooth scroll + update active state */
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || !href.startsWith('#')) return;
+            const target = document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            navLinks.forEach(function(l) { l.classList.remove('active'); });
+            this.classList.add('active');
+        });
+    });
+
+    /* IntersectionObserver: auto-update active state on scroll */
+    if (window.IntersectionObserver) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('active');
+                        if (l.getAttribute('href') === '#' + entry.target.id) {
+                            l.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+
+        Object.values(sections).forEach(function(el) { observer.observe(el); });
+    }
+})();
+</script>
+</html>
