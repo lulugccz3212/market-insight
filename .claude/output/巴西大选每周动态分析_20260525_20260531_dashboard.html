@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>巴西大选每周动态分析 2026年5月25日 ~ 2026年5月31日</title>
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --white: #ffffff;
+            --text: #1e293b;
+            --text-dim: #64748b;
+            --border: #e8ecf1;
+            --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+            --radius: 14px;
+            --blue: #2563eb;
+            --blue-light: #eff6ff;
+            --green: #059669;
+            --green-light: #ecfdf5;
+            --amber: #d97706;
+            --amber-light: #fffbeb;
+            --red: #dc2626;
+            --red-light: #fef2f2;
+            --purple: #7c3aed;
+            --purple-light: #f5f3ff;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            font-size: 15px;
+        }
+
+        .app { display: flex; min-height: 100vh; }
+
+        .sidebar {
+            width: 240px; flex-shrink: 0;
+            background: var(--white); border-right: 1px solid var(--border);
+            padding: 32px 20px; display: flex; flex-direction: column;
+            position: sticky; top: 0; height: 100vh;
+        }
+        .sidebar .logo-area { margin-bottom: 36px; }
+        .sidebar .logo-icon {
+            width: 36px; height: 36px; border-radius: 10px;
+            background: linear-gradient(135deg, #2563eb, #7c3aed);
+            display: flex; align-items: center; justify-content: center;
+            color: #fff; font-weight: 700; font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .sidebar .logo-text { font-size: 14px; font-weight: 600; color: var(--text); }
+        .sidebar .logo-sub { font-size: 11px; color: var(--text-dim); }
+
+        .sidebar nav { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+        .sidebar nav a {
+            display: flex; align-items: center; gap: 10px;
+            padding: 10px 12px; border-radius: 8px;
+            text-decoration: none; color: var(--text-dim);
+            font-size: 13px; font-weight: 500;
+            transition: all 0.15s;
+        }
+        .sidebar nav a:hover { background: var(--bg); color: var(--text); }
+        .sidebar nav a.active { background: var(--blue-light); color: var(--blue); }
+
+        .sidebar nav a .badge {
+            margin-left: auto; font-size: 10px; background: var(--border);
+            color: var(--text-dim); padding: 2px 6px; border-radius: 10px;
+            font-weight: 600;
+        }
+        .sidebar nav a.active .badge { background: var(--blue); color: #fff; }
+
+        .sidebar .footer-meta { font-size: 11px; color: var(--text-dim); padding-top: 16px; border-top: 1px solid var(--border); }
+
+        .main { flex: 1; min-width: 0; padding: 36px 40px; }
+
+        .page-header {
+            display: flex; align-items: flex-start; justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        .page-header .eyebrow {
+            font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px;
+            color: var(--blue); font-weight: 600; margin-bottom: 8px;
+        }
+        .page-header h1 {
+            font-size: 28px; font-weight: 700; color: var(--text);
+            letter-spacing: -0.5px; line-height: 1.2;
+        }
+        .page-header .subtitle {
+            font-size: 14px; color: var(--text-dim); margin-top: 6px;
+        }
+
+        .kpi-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+            margin-bottom: 36px;
+        }
+        .kpi {
+            background: var(--white); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .kpi .kpi-icon { font-size: 22px; margin-bottom: 8px; }
+        .kpi .kpi-val { font-size: 32px; font-weight: 700; color: var(--text); line-height: 1; }
+        .kpi .kpi-label { font-size: 13px; color: var(--text-dim); margin-top: 6px; }
+        .kpi .kpi-change {
+            font-size: 12px; margin-top: 4px; font-weight: 500;
+        }
+        .kpi .kpi-change.up { color: var(--green); }
+        .kpi .kpi-change.down { color: var(--red); }
+        .kpi .kpi-change.neutral { color: var(--text-dim); }
+
+        .section { margin-bottom: 32px; }
+
+        .section-title {
+            display: flex; align-items: center; gap: 10px; margin-bottom: 16px;
+        }
+        .section-title .marker {
+            width: 4px; height: 20px; border-radius: 2px; flex-shrink: 0;
+        }
+        .section-title .marker.blue { background: var(--blue); }
+        .section-title .marker.green { background: var(--green); }
+        .section-title .marker.amber { background: var(--amber); }
+        .section-title .marker.purple { background: var(--purple); }
+        .section-title .marker.red { background: var(--red); }
+
+        .section-title h2 {
+            font-size: 16px; font-weight: 600; color: var(--text);
+        }
+        .section-title .sub { font-size: 13px; color: var(--text-dim); }
+
+        .card-list { display: grid; grid-template-columns: 1fr; gap: 8px; }
+
+        .card {
+            background: var(--white); border-radius: 10px;
+            padding: 18px 22px; box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            display: flex; gap: 16px; align-items: flex-start;
+            text-decoration: none; color: inherit;
+            transition: all 0.2s;
+        }
+        .card:hover {
+            border-color: #c4d0e0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transform: translateY(-1px);
+        }
+
+        .card .card-date { flex-shrink: 0; text-align: center; min-width: 44px; }
+        .card .card-date .mday { font-size: 20px; font-weight: 700; color: var(--text); line-height: 1; }
+        .card .card-date .mon { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+        .card .card-body { flex: 1; min-width: 0; }
+        .card .card-body .chip-row { margin-bottom: 6px; display: flex; flex-wrap: wrap; gap: 6px; }
+        .card .card-body .chip {
+            font-size: 11px; padding: 2px 8px; border-radius: 4px;
+            font-weight: 500; display: inline-block;
+        }
+        .chip.left { background: #fce7f3; color: #be185d; }
+        .chip.right { background: #e2e8f0; color: #334155; }
+        .chip.huawei { background: #fee2e2; color: #b91c1c; }
+        .chip.poll { background: var(--blue-light); color: var(--blue); }
+        .chip.impact-pos { background: var(--green-light); color: #065f46; }
+        .chip.impact-neg { background: var(--red-light); color: #991b1b; }
+        .chip.impact-neu { background: #f1f5f9; color: #475569; }
+        .chip.impact-unc { background: var(--amber-light); color: #92400e; }
+        .chip.economy { background: #e0e7ff; color: #3730a3; }
+        .chip.security { background: #fee2e2; color: #991b1b; }
+        .chip.foreign { background: #d1fae5; color: #065f46; }
+        .chip.tech { background: #cffafe; color: #155e75; }
+        .chip.social { background: #f3e8ff; color: #6b21a8; }
+
+        .card .card-body .headline {
+            font-size: 15px; font-weight: 600; color: var(--text);
+            margin-bottom: 4px; line-height: 1.4;
+        }
+        .card .card-body .desc {
+            font-size: 13px; color: var(--text-dim); line-height: 1.5;
+        }
+        .card .card-body .link-hint {
+            font-size: 12px; color: var(--blue); margin-top: 6px; font-weight: 500;
+        }
+
+        /* 影响分析盒子 */
+        .impact-box {
+            background: var(--white); border-radius: 10px;
+            padding: 22px 26px; box-shadow: var(--shadow);
+            border: 1px solid var(--border); margin-bottom: 12px;
+        }
+        .impact-box .impact-header {
+            display: flex; align-items: center; gap: 12px; margin-bottom: 12px;
+        }
+        .impact-box .impact-title { font-size: 16px; font-weight: 700; color: var(--text); flex: 1; }
+        .impact-rating {
+            padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600;
+        }
+        .impact-rating.positive { background: var(--green-light); color: #065f46; }
+        .impact-rating.negative { background: var(--red-light); color: #991b1b; }
+        .impact-rating.neutral { background: #f1f5f9; color: #475569; }
+        .impact-rating.uncertain { background: var(--amber-light); color: #92400e; }
+
+        .impact-box .analysis-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+        .impact-box .analysis-item h4 { font-size: 12px; color: var(--text-dim); margin-bottom: 4px; }
+        .impact-box .analysis-item p { font-size: 13px; color: var(--text); line-height: 1.5; }
+
+        .summary-box {
+            background: linear-gradient(135deg, #eff6ff, #f5f3ff);
+            border-radius: var(--radius); padding: 24px 28px;
+            border: 1px solid #dbeafe;
+        }
+        .summary-box h3 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 12px; }
+        .summary-box ul { padding-left: 20px; }
+        .summary-box ul li { font-size: 14px; color: var(--text); margin-bottom: 8px; line-height: 1.6; }
+        .summary-box ul li strong { color: var(--blue); }
+
+        .trend-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+        .trend-table th, .trend-table td { padding: 10px 14px; text-align: center; font-size: 13px; }
+        .trend-table th { background: var(--bg); color: var(--text-dim); font-weight: 600; }
+        .trend-table td { border-bottom: 1px solid var(--border); }
+        .trend-table .highlight { font-weight: 700; color: var(--blue); }
+
+        .empty {
+            padding: 28px; text-align: center; color: var(--text-dim);
+            font-size: 13px; background: var(--white); border-radius: 10px;
+            border: 1px dashed var(--border);
+        }
+
+        .note-box {
+            background: var(--amber-light); border: 1px solid #fcd34d; border-radius: 8px;
+            padding: 12px 16px; margin-bottom: 16px; font-size: 13px; color: #92400e;
+        }
+
+        @media (max-width: 900px) {
+            .sidebar { display: none; }
+            .main { padding: 24px 20px; }
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .page-header h1 { font-size: 22px; }
+            .impact-box .analysis-row { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+        <div class="logo-area">
+            <div class="logo-icon">⚡</div>
+            <div class="logo-text">Market Insight</div>
+            <div class="logo-sub">巴西大选与政策情报</div>
+        </div>
+        <nav>
+            <a href="#overview" class="active">选情概览 <span class="badge">4</span></a>
+            <a href="#left">左派政策动态 <span class="badge">3</span></a>
+            <a href="#right">右派政策动态 <span class="badge">4</span></a>
+            <a href="#huawei">华为影响分析 <span class="badge">4</span></a>
+            <a href="#summary">总结与展望</a>
+        </nav>
+        <div class="footer-meta">
+            战略助理<br>Claude Code · DeepSeek V4 Pro
+        </div>
+    </aside>
+
+    <main class="main">
+
+        <div class="page-header">
+            <div>
+                <div class="eyebrow">Weekly Intelligence · 巴西大选</div>
+                <h1>巴西大选每周动态分析</h1>
+                <div class="subtitle">报告周期：2026年5月25日 — 2026年5月31日 &nbsp;·&nbsp; by 战略助理 with Claude Code + DeepSeek V4 Pro</div>
+            </div>
+        </div>
+
+        <!-- ===== 选情概览 ===== -->
+        <div class="section" id="overview">
+            <div class="kpi-grid">
+                <div class="kpi">
+                    <div class="kpi-icon">🔴</div>
+                    <div class="kpi-val">40%</div>
+                    <div class="kpi-label">Lula (PT) 第一轮平均支持率</div>
+                    <div class="kpi-change up">领先优势约5-9个百分点</div>
+                </div>
+                <div class="kpi">
+                    <div class="kpi-icon">🔵</div>
+                    <div class="kpi-val">33%</div>
+                    <div class="kpi-label">Flávio Bolsonaro (PL) 第一轮平均支持率</div>
+                    <div class="kpi-change neutral">民调: 31%-35%</div>
+                </div>
+                <div class="kpi">
+                    <div class="kpi-icon">🗳️</div>
+                    <div class="kpi-val">47-43</div>
+                    <div class="kpi-label">第二轮模拟对决</div>
+                    <div class="kpi-change neutral">Lula领先4个百分点 · 接近误差范围</div>
+                </div>
+                <div class="kpi">
+                    <div class="kpi-icon">📊</div>
+                    <div class="kpi-val">2,004</div>
+                    <div class="kpi-label">最新民调样本量 (Datafolha 5/22)</div>
+                    <div class="kpi-change neutral">±2pp 误差 · 95% 置信度</div>
+                </div>
+            </div>
+
+            <div class="note-box">
+                📌 <strong>关键背景：</strong>巴西2026年总统大选定于10月4日举行（如有第二轮则为10月25日）。各党需在8月15日前正式注册候选人。目前选举格局已基本成型：左派以现任总统Lula (PT) 为核心寻求连任，右派以参议员Flávio Bolsonaro (PL) 为主力挑战。前总统Jair Bolsonaro因TSE裁定在2030年前无被选举资格。圣保罗州长Tarcísio de Freitas (Republicanos) 已正式宣布竞选连任州长，退出总统竞选。
+            </div>
+
+            <div class="section-title">
+                <span class="marker blue"></span>
+                <h2>最新民调趋势 (2026年5月)</h2>
+                <span class="sub">三大民调机构最新数据</span>
+            </div>
+
+            <table class="trend-table">
+                <thead>
+                    <tr>
+                        <th>民调机构</th>
+                        <th>发布日期</th>
+                        <th>样本量</th>
+                        <th>Lula (PT)</th>
+                        <th>Flávio (PL)</th>
+                        <th>Zema (Novo)</th>
+                        <th>Caiado (União)</th>
+                        <th>误差范围</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Datafolha</strong></td>
+                        <td>5月22日</td>
+                        <td>2,004</td>
+                        <td class="highlight">40%</td>
+                        <td>31%</td>
+                        <td>3%</td>
+                        <td>3%</td>
+                        <td>±2pp</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Datafolha</strong></td>
+                        <td>5月16日</td>
+                        <td>2,004</td>
+                        <td class="highlight">38%</td>
+                        <td>35%</td>
+                        <td>3%</td>
+                        <td>3%</td>
+                        <td>±2pp</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Genial/Quaest</strong></td>
+                        <td>5月13日</td>
+                        <td>11,646</td>
+                        <td class="highlight">39%</td>
+                        <td>33%</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>±2-3pp</td>
+                    </tr>
+                    <tr>
+                        <td><strong>AtlasIntel</strong></td>
+                        <td>5月 (最新)</td>
+                        <td>5,032</td>
+                        <td>领先</td>
+                        <td>追赶</td>
+                        <td>—</td>
+                        <td>—</td>
+                        <td>—</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="margin-top:12px;font-size:13px;color:var(--text-dim);">
+                <strong>趋势分析：</strong>Lula在5月民调中稳定保持领先，第一轮投票意向在38%-40%之间。Flávio Bolsonaro在31%-35%之间波动。值得注意的是，5月22日Datafolha显示Lula领先扩大至9个百分点（40% vs 31%），而5月16日仅领先3个百分点（38% vs 35%），反映出竞选动态的高度波动。第二轮模拟中Lula以47%对43%领先Flávio，优势为4个百分点——处于误差范围的边缘。与4月Datafolha（Lula 39%, Flávio 35%）相比，Lula的领先优势有所扩大。
+            </p>
+
+            <p style="font-size:13px;color:var(--text-dim); margin-top:8px;">
+                <strong>其他候选人形势：</strong>Romeu Zema (Novo, 米纳斯吉拉斯州长) 和 Ronaldo Caiado (União Brasil) 各获约3%支持率，远落后于两位领跑者。目前选战已基本形成"Lula vs Flávio"的两极格局，小党派候选人争取突破3%门槛以获得辩论资格。
+            </p>
+        </div>
+
+        <!-- ===== 左派政策动态 ===== -->
+        <div class="section" id="left">
+            <div class="section-title">
+                <span class="marker green"></span>
+                <h2>左派政策动态</h2>
+                <span class="sub">Lula (PT) 阵营最新竞选主张</span>
+            </div>
+
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">26</div><div class="mon">4月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip left">左派·PT</span>
+                            <span class="chip economy">经济</span>
+                            <span class="chip social">社会</span>
+                        </div>
+                        <div class="headline">PT发布2026竞选纲领：以Lula连任为核心，提出一揽子结构性改革方案</div>
+                        <div class="desc">在4月24-26日举行的PT第8次全国代表大会上，党派通过了以Lula连任为核心的竞选宣言。核心主张包括：将个税起征点提高至月收入5,000雷亚尔（已立法通过）；推进6x1工作制改革为5x2（缩减每周工作时间）；强化Petrobras、Banco do Brasil、Caixa等国有战略企业作为国家发展工具；以"穷人对特权阶层"的新叙事框架对抗国会，将国会塑造为"人民的敌人"。该宣言特别强调恢复巴西在国际舞台上的地位和主权。</div>
+                        <div class="link-hint">→ 来源: G1 (g1.globo.com), Fundação Perseu Abramo</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">2</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip left">左派·PT</span>
+                            <span class="chip security">公共安全</span>
+                        </div>
+                        <div class="headline">Lula推动公共安全PEC，将安全议题纳入竞选议程</div>
+                        <div class="desc">Folha de S.Paulo报道，Lula正推动一项关于公共安全的宪法修正案（PEC），旨在重新划分联邦、州和市三级政府在公共安全领域的职责。安全议题被视为2026年大选的核心战场之一，Lula试图通过该PEC回应右派对犯罪问题的攻击，展示其执政能力。</div>
+                        <div class="link-hint">→ 来源: Folha de S.Paulo (folha.uol.com.br) - 5月2日</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">—</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip left">左派·外交</span>
+                            <span class="chip foreign">外交</span>
+                            <span class="chip tech">科技</span>
+                        </div>
+                        <div class="headline">Lula持续强化中巴战略伙伴关系，华为合作成为竞选中的隐性资产</div>
+                        <div class="desc">Lula政府在2024-2026年间持续深化中巴关系：与中国签署15项政府间协议和30余项企业间协议，涵盖5G、网络安全、数字经济、人工智能和半导体领域。Lula亲自访问华为上海研发中心，寻求5G/6G投资合作。Telebras与华为卫星通信签署谅解备忘录。与右派候选人可能的亲美政策取向相比，Lula的对华友好政策实际上有利于华为在巴西的长期发展。但在竞选言论中，Lula阵营未直接将以华为议题作为选举卖点，而是强调"技术主权"和"多元伙伴关系"的更广泛叙事。</div>
+                        <div class="link-hint">→ 来源: CSIS, Estadão, VEJA</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== 右派政策动态 ===== -->
+        <div class="section" id="right">
+            <div class="section-title">
+                <span class="marker amber"></span>
+                <h2>右派政策动态</h2>
+                <span class="sub">Flávio Bolsonaro (PL) 阵营最新竞选主张</span>
+            </div>
+
+            <div class="card-list">
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">25</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip right">右派·PL</span>
+                            <span class="chip economy">竞选策略</span>
+                        </div>
+                        <div class="headline">Flávio Bolsonaro竞选举措重大调整：加速发布执政纲领，试图"翻过新的一页"</div>
+                        <div class="desc">Valor Econômico 5月25日报道，Flávio Bolsonaro竞选团队正在重新审视策略并加速执政纲领的发布。他被建议尽快公布经济政策发言人，以回应市场对政策模糊性的担忧。此前因与Banco Master的Daniel Vorcaro的争议关系（O Globo 5月20日报道），Flávio竞选形象受损，团队希望通过加快政策发布来扭转局面。Flávio计划任命一名与市场沟通的对话者和一名负责健康政策的发言人。</div>
+                        <div class="link-hint">→ 来源: Valor Econômico (valor.globo.com) - 5月25日</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">20</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip right">右派·PL</span>
+                            <span class="chip security">公共安全</span>
+                            <span class="chip economy">经济</span>
+                        </div>
+                        <div class="headline">Flávio公布"八点施政纲领"：经济自由化与安全强硬路线并重</div>
+                        <div class="desc">Flávio Bolsonaro正式提出了覆盖八个领域的施政纲领：(1) 经济——大规模私有化、削减开支、逆转Lula税改、将部委从38个缩减；(2) 基础设施——私人铁路建设，连接中西部至北部港口；(3) 公共安全——增建监狱、加重刑罚、放宽枪支管制、降低刑事责任年龄；(4) 外交——亲以色列、务实谈判路线，其弟Eduardo Bolsonaro可能出任国际投资特使；(5) 政治改革——废除总统连任制度、恢复私人竞选融资；(6-8) 教育、福利与政府通讯——已列入但尚未公布具体方案。他同时承诺赦免2023年1月8日事件的被定罪者。</div>
+                        <div class="link-hint">→ 来源: Rio Times Online, VEJA, O Globo, Folha de S.Paulo</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">9</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip right">右派·PL</span>
+                            <span class="chip economy">政治改革</span>
+                        </div>
+                        <div class="headline">Flávio提出"8年执政期"构想，此前曾主张废除连任制</div>
+                        <div class="desc">Folha报道，Flávio在5月9日的讲话中提及"长达8年的执政期"构想，这与他2月份提出的废除总统连任制的PEC提案形成矛盾。其废除连任的提案旨在吸引各州州长和等待竞选总统的政治力量支持，但"8年执政"的表述被对手解读为暴露了其真正的政治野心。这种矛盾表态引发了对其政策连贯性的质疑。</div>
+                        <div class="link-hint">→ 来源: Folha de S.Paulo - 5月9日</div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-date"><div class="mday">—</div><div class="mon">5月</div></div>
+                    <div class="card-body">
+                        <div class="chip-row">
+                            <span class="chip right">右派·外交</span>
+                            <span class="chip foreign">外交</span>
+                            <span class="chip tech">科技/电信</span>
+                        </div>
+                        <div class="headline">右派阵营尚未提出明确的科技/电信政策，华为议题处于政策真空</div>
+                        <div class="desc">截至5月底，Flávio Bolsonaro及其竞选团队尚未公布任何关于电信基础设施、5G/6G政策、科技发展或对华技术合作的具体政策立场。其外交政策强调亲以色列和美国盟友关系，经济团队由市场派经济学家Adolfo Sachsida领衔。考虑到其父亲Jair Bolsonaro执政期间曾试图在5G领域限制华为（最终在运营商压力下未实施禁令），市场预期Flávio若当选可能面临来自美国的更大压力以限制中国电信设备。但目前这只是推断，并非既定政策。这种"政策真空"本身就是华为在巴西面临的重要不确定性因素。</div>
+                        <div class="link-hint">→ 来源: Rio Times Online, Gazeta do Povo, 综合分析</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== 华为影响分析 ===== -->
+        <div class="section" id="huawei">
+            <div class="section-title">
+                <span class="marker red"></span>
+                <h2>华为影响分析</h2>
+                <span class="sub">竞选政策对华为在巴西业务的影响评估</span>
+            </div>
+
+            <p style="font-size:14px; color:var(--text-dim); margin-bottom:16px;">
+                <strong>背景：</strong>华为在巴西经营已超过26年，其设备覆盖巴西2G到5G所有代际的移动网络，与VIVO、Claro、TIM等所有主要运营商建立了深度合作关系。华为在圣保罗州Jundiaí设有制造工厂，计划在Lula政府下进一步扩产。巴西5G频谱拍卖已于2021年完成，华为设备已大规模部署。以下分析基于本周及近期竞选动态中涉及的与华为相关的政策方向。
+            </p>
+
+            <!-- 影响项 1 -->
+            <div class="impact-box">
+                <div class="impact-header">
+                    <div class="impact-title">🔴 Lula政府延续 → 华为在巴西的政策环境</div>
+                    <span class="impact-rating positive">🟢 正面影响 · 高置信度</span>
+                </div>
+                <p style="font-size:14px;color:var(--text);margin-bottom:12px;">Lula连任将延续当前对华为友好的政策环境。Lula在2024年访华期间亲自访问华为上海研发中心，寻求5G/6G投资和技术合作。在其任内，中巴签署了15项政府间协议和30余项企业间协议，涵盖数字经济、5G、网络安全和半导体。巴西国家电信公司Telebras与华为签署了卫星通信合作备忘录。华为计划在2026年扩大Jundiaí工厂，生产5G天线和移动网络设备。</p>
+                <div class="analysis-row">
+                    <div class="analysis-item">
+                        <h4>直接影响</h4>
+                        <p>华为作为巴西运营商5G设备的首选供应商地位稳固。Anatel在Lula政府下保持了技术中立立场，未设置针对中国供应商的歧视性规则。中巴半导体合作（Ceitec）为华为提供了产业链深度绑定机会。</p>
+                    </div>
+                    <div class="analysis-item">
+                        <h4>间接影响</h4>
+                        <p>通过BRICS、G20等多边框架，中巴战略伙伴关系持续深化。但需注意：过度依赖中国技术合作可能引发美国国会反弹，影响巴西获取美国技术和投资。Lula需要在"大国平衡"中维持微妙均势。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 影响项 2 -->
+            <div class="impact-box">
+                <div class="impact-header">
+                    <div class="impact-title">🔵 右派Flávio Bolsonaro当选 → 华为在巴西的政策环境</div>
+                    <span class="impact-rating negative">🔴 负面影响 · 中置信度</span>
+                </div>
+                <p style="font-size:14px;color:var(--text);margin-bottom:12px;">Flávio Bolsonaro若当选，预计将重新调整巴西对华技术政策。其父亲的执政记录显示：Jair Bolsonaro政府曾试图通过行政令限制华为参与巴西5G网络（2020-2021年），虽最终因运营商强烈反对而作罢，但已加入美国"清洁网络"（Clean Network）倡议。Flávio的外交政策明确偏向以色列和美国盟友体系，其经济顾问Adolfo Sachsida是芝加哥学派自由市场经济学家，一般倾向与西方经济体深度整合。</p>
+                <div class="analysis-row">
+                    <div class="analysis-item">
+                        <h4>直接影响</h4>
+                        <p>Flávio尚未提出具体的华为/电信政策，但风险在于：美国压力重启"清洁网络"要求；重新审查现有华为设备的安全性；在6G标准制定中排除中国供应商；通过Anatel设置新的"可信供应商"认证门槛。不过，废除现有华为基础设施的巨额成本（巴西运营商已大规模部署华为5G设备）构成强大的"现状惯性"，全面禁令可能性较低。</p>
+                    </div>
+                    <div class="analysis-item">
+                        <h4>间接影响</h4>
+                        <p>中巴外交关系降温将减少华为获取巴西政府采购合同和政府支持项目的机会。美国可能以"限制华为"为条件换取贸易优惠或技术合作。但巴西农产品出口对中国市场的深度依赖（中国是巴西最大贸易伙伴）将限制任何政府采取极端反华政策的意愿。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 影响项 3 -->
+            <div class="impact-box">
+                <div class="impact-header">
+                    <div class="impact-title">🌍 国际趋势对华为巴西业务的外部影响</div>
+                    <span class="impact-rating uncertain">⚪ 不确定 · 需持续关注</span>
+                </div>
+                <p style="font-size:14px;color:var(--text);margin-bottom:12px;">2026年全球电信供应链地缘政治格局正在加速演变，对巴西产生直接传导效应。</p>
+                <div class="analysis-row">
+                    <div class="analysis-item">
+                        <h4>风险端</h4>
+                        <p>(1) 欧盟委员会2026年1月提出逐步淘汰华为/ZTE等"高风险供应商"的路线图，该政策框架可能被巴西右派引用作为政策模板。(2) 美国大选结果：无论谁当选，对华技术脱钩是两党共识，但Trump若重返白宫可能采取更强硬的单边施压。(3) 华为5月25日宣布芯片设计突破（UOL报道），显示其在美国制裁下的生存能力，但也可能引发美国更严厉的次级制裁威胁。</p>
+                    </div>
+                    <div class="analysis-item">
+                        <h4>机遇端</h4>
+                        <p>(1) 华为在巴西已深耕26年，构建了完整的本地制造和服务生态，更换成本极高。(2) 巴西运营商（VIVO、Claro、TIM）从商业角度强烈偏好华为设备的性价比，构成强大的政策游说力量。(3) 中国在巴西5G Advanced（2026年商用）和未来6G标准中的技术领先地位，使完全排斥华为在技术上不现实。(4) BRICS机制为中巴技术合作提供制度保障。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 影响项 4 -->
+            <div class="impact-box">
+                <div class="impact-header">
+                    <div class="impact-title">📋 本周新出现的政策信号与华为关联评估</div>
+                    <span class="impact-rating neutral">🟡 中性 · 当前无重大新信号</span>
+                </div>
+                <p style="font-size:14px;color:var(--text);margin-bottom:12px;">本周（5月25日-31日）竞选动态中，未出现直接针对华为或中国电信设备的新政策声明。但以下间接信号值得关注：</p>
+                <table class="trend-table" style="margin-top:8px;">
+                    <thead>
+                        <tr><th>信号</th><th>来源</th><th>对华为影响</th><th>评级</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Flávio竞选团队重组、加速政策发布</td>
+                            <td>Valor 5/25</td>
+                            <td>即将公布的完整执政纲领中可能包含科技/电信政策，需密切关注</td>
+                            <td>⚪ 待观察</td>
+                        </tr>
+                        <tr>
+                            <td>华为芯片设计突破（美国制裁下）</td>
+                            <td>UOL 5/25</td>
+                            <td>展示技术韧性，增强巴西客户信心；但也可能招致美国更强硬反应</td>
+                            <td>🟢 偏正面</td>
+                        </tr>
+                        <tr>
+                            <td>欧盟提出逐步淘汰华为/ZTE设备路线图</td>
+                            <td>Valor 1/20</td>
+                            <td>为巴西右派提供政策模板，长期风险上升</td>
+                            <td>🔴 偏负面</td>
+                        </tr>
+                        <tr>
+                            <td>Lula民调领先优势扩大</td>
+                            <td>Datafolha 5/22</td>
+                            <td>若Lula连任概率上升，华为在巴西的政策环境预期改善</td>
+                            <td>🟢 偏正面</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- 华为影响总览 -->
+            <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap:12px; margin-top:16px;">
+                <div class="kpi" style="padding:16px 20px;">
+                    <div style="font-size:18px;font-weight:700;color:#065f46;">🟢 正面因素</div>
+                    <ul style="margin-top:8px;padding-left:16px;font-size:12px;color:var(--text-dim);line-height:1.8;">
+                        <li>Lula连任概率较高，政策延续性强</li>
+                        <li>华为26年本地深耕，运营商高度依赖</li>
+                        <li>中国最大贸易伙伴地位不可替代</li>
+                        <li>华为芯片突破增强技术可信度</li>
+                        <li>5G设备已大规模部署，替换成本极高</li>
+                    </ul>
+                </div>
+                <div class="kpi" style="padding:16px 20px;">
+                    <div style="font-size:18px;font-weight:700;color:#991b1b;">🔴 负面因素</div>
+                    <ul style="margin-top:8px;padding-left:16px;font-size:12px;color:var(--text-dim);line-height:1.8;">
+                        <li>右派若执政可能恢复亲美限制政策</li>
+                        <li>欧盟"去华为化"路线图提供政策模板</li>
+                        <li>美国对华技术脱钩压力持续存在</li>
+                        <li>Flávio外交政策偏向美国/以色列阵营</li>
+                        <li>6G标准制定可能在地缘政治中分裂</li>
+                    </ul>
+                </div>
+                <div class="kpi" style="padding:16px 20px;">
+                    <div style="font-size:18px;font-weight:700;color:#92400e;">⚪ 关键不确定性</div>
+                    <ul style="margin-top:8px;padding-left:16px;font-size:12px;color:var(--text-dim);line-height:1.8;">
+                        <li>Flávio尚未公布具体的科技/电信政策</li>
+                        <li>2026美国大选结果对巴西政策的影响</li>
+                        <li>巴西运营商的政治游说能力</li>
+                        <li>Anatel在政权更迭中的独立性</li>
+                        <li>中国对巴西的反制能力(农产品进口)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== 总结与展望 ===== -->
+        <div class="section" id="summary">
+            <div class="section-title">
+                <span class="marker purple"></span>
+                <h2>总结与展望</h2>
+                <span class="sub">本周关键要点与下周关注方向</span>
+            </div>
+
+            <div class="summary-box">
+                <h3>📌 本周五大关键要点</h3>
+                <ul>
+                    <li><strong>选情格局稳定但波动加剧：</strong>Lula以约40%的第一轮支持率保持领先，Flávio在31%-35%之间。5月22日Datafolha显示Lula优势扩大至9个百分点，但此前的5月16日仅领先3个百分点——双方差距在误差范围边缘波动，选战仍高度不确定。第二轮Lula以47%对43%领先。</li>
+                    <li><strong>右派竞选策略调整：</strong>Flávio Bolsonaro竞选团队在经历Master事件冲击后紧急调整策略，加速政策纲领公布，准备任命经济发言人。其八点施政纲领以经济自由化、安全强硬和亲美外交为核心，但科技/电信政策仍为空白。</li>
+                    <li><strong>左派政策路线清晰但创新有限：</strong>PT以Lula连任为核心，延续"社会包容+国家主导发展"的经典路线。个税减免、工作制改革、强化国企等政策已基本定型，竞选期间预计不会有重大新政策转向。在对华/华为问题上，维持现有的开放合作立场。</li>
+                    <li><strong>华为面临"不对称政策风险"：</strong>Lula连任情景下华为环境稳定偏正面；但若右派执政，华为面临的政策不确定性显著上升。不过，华为在巴西的深度嵌入（26年经营、运营商全面依赖、本地制造）构成强大的"现状保护"。极端情景（全面禁令）的概率较低，但渐进式限制（认证壁垒、政府采购排除）的可能性不容忽视。</li>
+                    <li><strong>国际因素放大不确定性：</strong>欧盟"去华为化"路线图、美国大选、中美科技战升级等外部因素，将在2026年下半年与巴西大选周期重叠。巴西作为全球南方领袖和BRICS核心成员，其电信政策选择具有超越国内政治的全球影响。</li>
+                </ul>
+            </div>
+
+            <div style="margin-top:20px; display:grid; grid-template-columns: 1fr 1fr; gap:16px;">
+                <div style="background:var(--white);border-radius:10px;padding:20px 22px;box-shadow:var(--shadow);border:1px solid var(--border);">
+                    <h4 style="font-size:14px;font-weight:700;color:var(--blue);margin-bottom:10px;">🔭 下周关注重点 (6月1日-6日)</h4>
+                    <ul style="padding-left:16px;font-size:13px;color:var(--text);line-height:1.8;">
+                        <li>Flávio竞选团队预计加速公布经济团队名单</li>
+                        <li>Datafolha 6月新一轮民调预计发布</li>
+                        <li>国会AI法案（PL 2338/2023）预计6月投票——可能影响科技监管环境</li>
+                        <li>关注Anatel是否有新的频谱或设备认证政策公告</li>
+                        <li>巴西各州州级选举动态对总统选情的传导影响</li>
+                    </ul>
+                </div>
+                <div style="background:var(--white);border-radius:10px;padding:20px 22px;box-shadow:var(--shadow);border:1px solid var(--border);">
+                    <h4 style="font-size:14px;font-weight:700;color:var(--amber);margin-bottom:10px;">⚠️ 华为风险提示与建议关注方向</h4>
+                    <ul style="padding-left:16px;font-size:13px;color:var(--text);line-height:1.8;">
+                        <li><strong>短期（1-3个月）：</strong>跟踪Flávio完整执政纲领中的科技/电信政策部分</li>
+                        <li><strong>中期（至10月大选）：</strong>关注美国对巴西选举的政治干预和施压程度</li>
+                        <li><strong>结构性风险：</strong>6G标准制定（2026-2027）中的地缘政治分裂是华为最大的中长期风险</li>
+                        <li><strong>对冲策略：</strong>华为应加速本地化制造和研发投资，强化在巴西的"本地企业"形象</li>
+                        <li><strong>政策沟通：</strong>建议与左右两派竞选团队均建立沟通渠道，避免成为单一政党的"议题俘虏"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+<script>
+(function() {
+    const navLinks = document.querySelectorAll('.sidebar nav a');
+    const sections = {};
+    navLinks.forEach(function(link) {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            const target = document.querySelector(href);
+            if (target) sections[href] = target;
+        }
+    });
+
+    navLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (!href || !href.startsWith('#')) return;
+            const target = document.querySelector(href);
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            navLinks.forEach(function(l) { l.classList.remove('active'); });
+            this.classList.add('active');
+        });
+    });
+
+    if (window.IntersectionObserver) {
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    navLinks.forEach(function(l) {
+                        l.classList.remove('active');
+                        if (l.getAttribute('href') === '#' + entry.target.id) {
+                            l.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, { rootMargin: '-20% 0px -70% 0px' });
+        Object.values(sections).forEach(function(el) { observer.observe(el); });
+    }
+})();
+</script>
+</html>
