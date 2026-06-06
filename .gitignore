@@ -1,6 +1,8 @@
 # Claude Code - local settings (personal config)
 .claude/settings.local.json
 .claude/tmp/
+Local_Reports/
+.claude/output/
 
 # Python
 __pycache__/
